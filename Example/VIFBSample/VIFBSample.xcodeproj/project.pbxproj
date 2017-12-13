@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0B0103E4C857AC37C839BE1 /* Pods_VIFBSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCE493E2F6B94545F102BB /* Pods_VIFBSample.framework */; };
+		F230C40F1F99F6D1005CE051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C40E1F99F6D1005CE051 /* AppDelegate.m */; };
+		F230C4121F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C4111F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m */; };
+		F230C4151F99F6D1005CE051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F230C4131F99F6D1005CE051 /* Main.storyboard */; };
+		F230C4171F99F6D1005CE051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F230C4161F99F6D1005CE051 /* Assets.xcassets */; };
+		F230C41A1F99F6D1005CE051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F230C4181F99F6D1005CE051 /* LaunchScreen.storyboard */; };
+		F230C41D1F99F6D1005CE051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C41C1F99F6D1005CE051 /* main.m */; };
+		F230C4301F9A34DF005CE051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F230C4291F9A34D9005CE051 /* Images.xcassets */; };
+		F230C4311F9A34E5005CE051 /* FacebookVIInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C42C1F9A34D9005CE051 /* FacebookVIInterstitialAdapter.m */; };
+		F230C4321F9A34E5005CE051 /* FacebookVIInlineAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C42D1F9A34DA005CE051 /* FacebookVIInlineAdapter.m */; };
+		F230C4351F9A35C2005CE051 /* FBInterstitialMediationControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230C4341F9A35C2005CE051 /* FBInterstitialMediationControllerSwift.swift */; };
+		F230C43C1F9A3696005CE051 /* FBInlineMediationControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230C43A1F9A3695005CE051 /* FBInlineMediationControllerSwift.swift */; };
+		F230C43D1F9A3696005CE051 /* FBInlineMediationControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C43B1F9A3695005CE051 /* FBInlineMediationControllerObjC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DFCE493E2F6B94545F102BB /* Pods_VIFBSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIFBSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E16A392ACEB5BD9F0D6FCA /* Pods-VIFBSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample.release.xcconfig"; sourceTree = "<group>"; };
+		B0F6E3D7556585C20D8BA037 /* Pods-VIFBSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample.debug.xcconfig"; sourceTree = "<group>"; };
+		F230C40A1F99F6D1005CE051 /* VIFBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIFBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F230C40D1F99F6D1005CE051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F230C40E1F99F6D1005CE051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F230C4101F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBInterstitialMediationControllerObjC.h; sourceTree = "<group>"; };
+		F230C4111F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBInterstitialMediationControllerObjC.m; sourceTree = "<group>"; };
+		F230C4141F99F6D1005CE051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F230C4161F99F6D1005CE051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F230C4191F99F6D1005CE051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F230C41B1F99F6D1005CE051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F230C41C1F99F6D1005CE051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F230C4291F9A34D9005CE051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F230C42B1F9A34D9005CE051 /* FacebookVIInlineProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookVIInlineProtocols.h; sourceTree = "<group>"; };
+		F230C42C1F9A34D9005CE051 /* FacebookVIInterstitialAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookVIInterstitialAdapter.m; sourceTree = "<group>"; };
+		F230C42D1F9A34DA005CE051 /* FacebookVIInlineAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookVIInlineAdapter.m; sourceTree = "<group>"; };
+		F230C42E1F9A34DA005CE051 /* FacebookVIInterstitialAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookVIInterstitialAdapter.h; sourceTree = "<group>"; };
+		F230C42F1F9A34DA005CE051 /* FacebookVIInlineAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookVIInlineAdapter.h; sourceTree = "<group>"; };
+		F230C4331F9A35C1005CE051 /* VIFBSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIFBSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		F230C4341F9A35C2005CE051 /* FBInterstitialMediationControllerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBInterstitialMediationControllerSwift.swift; sourceTree = "<group>"; };
+		F230C4391F9A3695005CE051 /* FBInlineMediationControllerObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInlineMediationControllerObjC.h; sourceTree = "<group>"; };
+		F230C43A1F9A3695005CE051 /* FBInlineMediationControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBInlineMediationControllerSwift.swift; sourceTree = "<group>"; };
+		F230C43B1F9A3695005CE051 /* FBInlineMediationControllerObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBInlineMediationControllerObjC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F230C4071F99F6D1005CE051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B0103E4C857AC37C839BE1 /* Pods_VIFBSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1524ECC3088AFA10B2D964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DFCE493E2F6B94545F102BB /* Pods_VIFBSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F230C4011F99F6D1005CE051 = {
+			isa = PBXGroup;
+			children = (
+				F230C40C1F99F6D1005CE051 /* VIFBSample */,
+				F230C40B1F99F6D1005CE051 /* Products */,
+				F9B48B450081007A65C068FD /* Pods */,
+				5F1524ECC3088AFA10B2D964 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F230C40B1F99F6D1005CE051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F230C40A1F99F6D1005CE051 /* VIFBSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F230C40C1F99F6D1005CE051 /* VIFBSample */ = {
+			isa = PBXGroup;
+			children = (
+				F230C4271F9A34D9005CE051 /* FacebookVIMediation */,
+				F230C40D1F99F6D1005CE051 /* AppDelegate.h */,
+				F230C40E1F99F6D1005CE051 /* AppDelegate.m */,
+				F230C4241F99F967005CE051 /* Inline */,
+				F230C4231F99F903005CE051 /* Interstitial */,
+				F230C4131F99F6D1005CE051 /* Main.storyboard */,
+				F230C4161F99F6D1005CE051 /* Assets.xcassets */,
+				F230C4181F99F6D1005CE051 /* LaunchScreen.storyboard */,
+				F230C4331F9A35C1005CE051 /* VIFBSample-Bridging-Header.h */,
+				F230C41B1F99F6D1005CE051 /* Info.plist */,
+				F230C41C1F99F6D1005CE051 /* main.m */,
+			);
+			path = VIFBSample;
+			sourceTree = "<group>";
+		};
+		F230C4231F99F903005CE051 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				F230C4101F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.h */,
+				F230C4111F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m */,
+				F230C4341F9A35C2005CE051 /* FBInterstitialMediationControllerSwift.swift */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		F230C4241F99F967005CE051 /* Inline */ = {
+			isa = PBXGroup;
+			children = (
+				F230C4391F9A3695005CE051 /* FBInlineMediationControllerObjC.h */,
+				F230C43B1F9A3695005CE051 /* FBInlineMediationControllerObjC.m */,
+				F230C43A1F9A3695005CE051 /* FBInlineMediationControllerSwift.swift */,
+			);
+			path = Inline;
+			sourceTree = "<group>";
+		};
+		F230C4271F9A34D9005CE051 /* FacebookVIMediation */ = {
+			isa = PBXGroup;
+			children = (
+				F230C4281F9A34D9005CE051 /* Resources */,
+				F230C42A1F9A34D9005CE051 /* Source */,
+			);
+			path = FacebookVIMediation;
+			sourceTree = "<group>";
+		};
+		F230C4281F9A34D9005CE051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F230C4291F9A34D9005CE051 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F230C42A1F9A34D9005CE051 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F230C42F1F9A34DA005CE051 /* FacebookVIInlineAdapter.h */,
+				F230C42D1F9A34DA005CE051 /* FacebookVIInlineAdapter.m */,
+				F230C42B1F9A34D9005CE051 /* FacebookVIInlineProtocols.h */,
+				F230C42E1F9A34DA005CE051 /* FacebookVIInterstitialAdapter.h */,
+				F230C42C1F9A34D9005CE051 /* FacebookVIInterstitialAdapter.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F9B48B450081007A65C068FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F6E3D7556585C20D8BA037 /* Pods-VIFBSample.debug.xcconfig */,
+				22E16A392ACEB5BD9F0D6FCA /* Pods-VIFBSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F230C4091F99F6D1005CE051 /* VIFBSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F230C4201F99F6D1005CE051 /* Build configuration list for PBXNativeTarget "VIFBSample" */;
+			buildPhases = (
+				8FB357CCF02C680FC7693BFB /* [CP] Check Pods Manifest.lock */,
+				F230C4061F99F6D1005CE051 /* Sources */,
+				F230C4071F99F6D1005CE051 /* Frameworks */,
+				F230C4081F99F6D1005CE051 /* Resources */,
+				9DAE7A97B14B7AB7965CED88 /* [CP] Embed Pods Frameworks */,
+				0D06A95633E688881A15DBE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIFBSample;
+			productName = VIFBSample;
+			productReference = F230C40A1F99F6D1005CE051 /* VIFBSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F230C4021F99F6D1005CE051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Vitalii Cherepakha";
+				TargetAttributes = {
+					F230C4091F99F6D1005CE051 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F230C4051F99F6D1005CE051 /* Build configuration list for PBXProject "VIFBSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F230C4011F99F6D1005CE051;
+			productRefGroup = F230C40B1F99F6D1005CE051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F230C4091F99F6D1005CE051 /* VIFBSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F230C4081F99F6D1005CE051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230C41A1F99F6D1005CE051 /* LaunchScreen.storyboard in Resources */,
+				F230C4301F9A34DF005CE051 /* Images.xcassets in Resources */,
+				F230C4171F99F6D1005CE051 /* Assets.xcassets in Resources */,
+				F230C4151F99F6D1005CE051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D06A95633E688881A15DBE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB357CCF02C680FC7693BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIFBSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAE7A97B14B7AB7965CED88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample-frameworks.sh",
+				"${PODS_ROOT}/VISDK/VISDK/VISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F230C4061F99F6D1005CE051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230C4351F9A35C2005CE051 /* FBInterstitialMediationControllerSwift.swift in Sources */,
+				F230C4321F9A34E5005CE051 /* FacebookVIInlineAdapter.m in Sources */,
+				F230C43D1F9A3696005CE051 /* FBInlineMediationControllerObjC.m in Sources */,
+				F230C4311F9A34E5005CE051 /* FacebookVIInterstitialAdapter.m in Sources */,
+				F230C4121F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m in Sources */,
+				F230C41D1F99F6D1005CE051 /* main.m in Sources */,
+				F230C40F1F99F6D1005CE051 /* AppDelegate.m in Sources */,
+				F230C43C1F9A3696005CE051 /* FBInlineMediationControllerSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F230C4131F99F6D1005CE051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F230C4141F99F6D1005CE051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F230C4181F99F6D1005CE051 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F230C4191F99F6D1005CE051 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F230C41E1F99F6D1005CE051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F230C41F1F99F6D1005CE051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F230C4211F99F6D1005CE051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F6E3D7556585C20D8BA037 /* Pods-VIFBSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF65X7VRCE;
+				INFOPLIST_FILE = VIFBSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vi.VIFBSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VIFBSample/VIFBSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F230C4221F99F6D1005CE051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E16A392ACEB5BD9F0D6FCA /* Pods-VIFBSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF65X7VRCE;
+				INFOPLIST_FILE = VIFBSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vi.VIFBSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VIFBSample/VIFBSample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F230C4051F99F6D1005CE051 /* Build configuration list for PBXProject "VIFBSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F230C41E1F99F6D1005CE051 /* Debug */,
+				F230C41F1F99F6D1005CE051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F230C4201F99F6D1005CE051 /* Build configuration list for PBXNativeTarget "VIFBSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F230C4211F99F6D1005CE051 /* Debug */,
+				F230C4221F99F6D1005CE051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F230C4021F99F6D1005CE051 /* Project object */;
+}
