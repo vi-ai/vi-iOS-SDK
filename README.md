@@ -3,7 +3,7 @@
 [![CI Status](http://img.shields.io/travis/Maksym Kravchenko/VISDK.svg?style=flat)](https://travis-ci.org/Maksym Kravchenko/VISDK)
 [![Version](https://img.shields.io/cocoapods/v/VISDK.svg?style=flat)](http://cocoapods.org/pods/VISDK)
 [![License](https://img.shields.io/cocoapods/l/VISDK.svg?style=flat)](http://cocoapods.org/pods/VISDK)
-[![Platform](https://img.shields.io/cocoapods/p/VISDK.svg?style=flat)](http://cocoapods.org/pods/VISDK)
+[![Platform](https://img.shields.io/cocoapods/p/VISDK.svg?style=flat)](https://github.com/maksymkravchenko/Spec)
 
 ## Example
 

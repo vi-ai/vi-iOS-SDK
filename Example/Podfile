@@ -2,26 +2,26 @@
  platform :ios, '9.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
-# source 'https://github.com/maksymkravchenko/vi.git'
+source 'https://github.com/maksymkravchenko/Spec.git'
 workspace 'Samples.xcworkspace'
 
 target 'VIAdMobSample' do
     use_frameworks!
     project 'VIAdMobSample/VIAdMobSample.xcodeproj'
     pod 'Google-Mobile-Ads-SDK'
-    pod 'VISDK', :git => 'https://github.com/maksymkravchenko/vi.git'
+    pod 'VISDK' #, :git => 'https://github.com/maksymkravchenko/vi.git'
 end
 
 target 'VIMopubSample' do
     use_frameworks!
     project 'VIMopubSample/VIMopubSample.xcodeproj'
     pod 'mopub-ios-sdk'
-    pod 'VISDK', :git => 'https://github.com/maksymkravchenko/vi.git'
+    pod 'VISDK' #, :git => 'https://github.com/maksymkravchenko/vi.git'
 end
 
 target 'VIFBSample' do
     use_frameworks!
     project 'VIFBSample/VIFBSample.xcodeproj'
     pod 'FBAudienceNetwork', '~> 4.25.0'
-    pod 'VISDK', :git => 'https://github.com/maksymkravchenko/vi.git'
+    pod 'VISDK' #, :git => 'https://github.com/maksymkravchenko/vi.git'
 end
