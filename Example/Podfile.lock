@@ -1,31 +1,3 @@
-PODS:
-  - FBAudienceNetwork (4.25.0)
-  - Google-Mobile-Ads-SDK (7.24.1)
-  - mopub-ios-sdk (4.17.0):
-    - mopub-ios-sdk/MoPubSDK (= 4.17.0)
-  - mopub-ios-sdk/Avid (4.17.0):
-    - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (4.17.0)
-  - mopub-ios-sdk/Moat (4.17.0):
-    - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (4.17.0):
-    - mopub-ios-sdk/Avid
-    - mopub-ios-sdk/Core
-    - mopub-ios-sdk/Moat
-  - VISDK (1.4.27)
-
-DEPENDENCIES:
-  - FBAudienceNetwork (~> 4.25.0)
-  - Google-Mobile-Ads-SDK
-  - mopub-ios-sdk
-  - VISDK
-
-SPEC CHECKSUMS:
-  FBAudienceNetwork: b0e2a46cca38ca0d17d8aebcc4765d628203ee9b
-  Google-Mobile-Ads-SDK: ed8004a7265b424568dc84f3d2bbe3ea3fff958f
-  mopub-ios-sdk: f8a9967568143275bec47bbe810c241170825adf
-  VISDK: 5253c9e8f51bf4efa1c508f6d34bb443e950ed11
-
-PODFILE CHECKSUM: 09da5db8de13957e6850c8fd01fbe47b1fd77b50
+PODFILE CHECKSUM: eb4fff5f197771fe1d4c15901389fe842e21cb7b
 
 COCOAPODS: 1.3.1

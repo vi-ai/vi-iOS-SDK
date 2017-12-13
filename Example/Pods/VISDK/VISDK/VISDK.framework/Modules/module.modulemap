@@ -1,6 +1,0 @@
-framework module VISDK {
-  umbrella header "VISDK.h"
-
-  export *
-  module * { export * }
-}
