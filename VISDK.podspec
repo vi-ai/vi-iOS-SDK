@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint VISDK.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'VISDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of VISDK.'
+  s.version          = '1.5.0'
+  s.summary          = 'Add in-app video advertisement with VISDK'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = 'Add in-app video advertisement with VISDK. Use it carefully and enjoy.'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Maksym Kravchenko/VISDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Maksym Kravchenko' => 'mk@vi.ai' }
-  s.source           = { :git => 'https://github.com/Maksym Kravchenko/VISDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'VISDK' => 'nl@vi.com' }
+  s.source           = { :git => 'https://github.com/maksymkravchenko/vi.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'VISDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'VISDK' => ['VISDK/Assets/*.png']
-  # }
+s.vendored_frameworks = 'VISDK/VISDK.framework'
+s.source_files = 'VISDK/VISDK.framework/Headers/*.h'
+s.public_header_files = 'VISDK/VISDK.framework/Headers/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

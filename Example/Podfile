@@ -1,11 +1,27 @@
-use_frameworks!
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
 
-target 'VISDK_Example' do
-  pod 'VISDK', :path => '../'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/maksymkravchenko/vi.git'
+workspace 'Samples.xcworkspace'
 
-  target 'VISDK_Tests' do
-    inherit! :search_paths
+target 'VIAdMobSample' do
+    use_frameworks!
+    project 'VIAdMobSample/VIAdMobSample.xcodeproj'
+    pod 'Google-Mobile-Ads-SDK'
+    pod 'VISDK'
+end
 
-    
-  end
+target 'VIMopubSample' do
+    use_frameworks!
+    project 'VIMopubSample/VIMopubSample.xcodeproj'
+    pod 'mopub-ios-sdk'
+    pod 'VISDK'
+end
+
+target 'VIFBSample' do
+    use_frameworks!
+    project 'VIFBSample/VIFBSample.xcodeproj'
+    pod 'FBAudienceNetwork', '~> 4.25.0'
+    pod 'VISDK'
 end
