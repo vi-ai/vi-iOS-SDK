@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VISDK_Example' do
+  pod 'VISDK', :path => '../'
+
+  target 'VISDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
