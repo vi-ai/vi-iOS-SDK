@@ -86,6 +86,9 @@
     self = [super init];
     if (self != nil)
     {
+#ifdef DEBUG
+        [FBAdSettings addTestDevice:[FBAdSettings testDeviceHash]];
+#endif
         self.status = MediatorStateIdle;
         self.placementID = placementID;
         self.startsWhenReady = NO;
