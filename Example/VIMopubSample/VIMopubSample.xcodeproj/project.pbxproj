@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2232F5DCA169E2FD29F82E2E /* Pods_VIMopubSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3CD0EC2496A11074F1123D /* Pods_VIMopubSampleTests.framework */; };
+		3F8708481FE3B0C900078CA1 /* VIMopubAdapterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8708471FE3B0C900078CA1 /* VIMopubAdapterSpec.swift */; };
 		757761B5BB42065FFE2F558D /* Pods_VIMopubSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC8C7E59D7D663A7D434634 /* Pods_VIMopubSample.framework */; };
 		F230C3E51F99DF41005CE051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C3E41F99DF41005CE051 /* AppDelegate.m */; };
 		F230C3E81F99DF41005CE051 /* MopubMediationControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C3E71F99DF41005CE051 /* MopubMediationControllerObjC.m */; };
@@ -18,9 +20,25 @@
 		F230C4001F99F052005CE051 /* MopubMediationControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230C3FF1F99F052005CE051 /* MopubMediationControllerSwift.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F87084A1FE3B0C900078CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F230C3D81F99DF41005CE051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F230C3DF1F99DF41005CE051;
+			remoteInfo = VIMopubSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		168DB40554B9227D9D1BC12D /* Pods-VIMopubSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIMopubSampleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIMopubSampleTests/Pods-VIMopubSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8708451FE3B0C900078CA1 /* VIMopubSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIMopubSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8708471FE3B0C900078CA1 /* VIMopubAdapterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIMopubAdapterSpec.swift; sourceTree = "<group>"; };
+		3F8708491FE3B0C900078CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C02447C16A668C5062309CB /* Pods-VIMopubSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIMopubSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIMopubSample/Pods-VIMopubSample.release.xcconfig"; sourceTree = "<group>"; };
+		63DCF0AD3A08A67921867C82 /* Pods-VIMopubSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIMopubSampleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIMopubSampleTests/Pods-VIMopubSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7908DB10B36E59AE9D94C79F /* Pods-VIMopubSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIMopubSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIMopubSample/Pods-VIMopubSample.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3CD0EC2496A11074F1123D /* Pods_VIMopubSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIMopubSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC8C7E59D7D663A7D434634 /* Pods_VIMopubSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIMopubSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230C3E01F99DF41005CE051 /* VIMopubSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIMopubSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230C3E31F99DF41005CE051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +57,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F8708421FE3B0C900078CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2232F5DCA169E2FD29F82E2E /* Pods_VIMopubSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F230C3DD1F99DF41005CE051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,8 +80,18 @@
 			isa = PBXGroup;
 			children = (
 				BDC8C7E59D7D663A7D434634 /* Pods_VIMopubSample.framework */,
+				8F3CD0EC2496A11074F1123D /* Pods_VIMopubSampleTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F8708461FE3B0C900078CA1 /* VIMopubSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8708471FE3B0C900078CA1 /* VIMopubAdapterSpec.swift */,
+				3F8708491FE3B0C900078CA1 /* Info.plist */,
+			);
+			path = VIMopubSampleTests;
 			sourceTree = "<group>";
 		};
 		5783F3B92298AA5ACCD3AE83 /* Pods */ = {
@@ -63,6 +99,8 @@
 			children = (
 				7908DB10B36E59AE9D94C79F /* Pods-VIMopubSample.debug.xcconfig */,
 				5C02447C16A668C5062309CB /* Pods-VIMopubSample.release.xcconfig */,
+				168DB40554B9227D9D1BC12D /* Pods-VIMopubSampleTests.debug.xcconfig */,
+				63DCF0AD3A08A67921867C82 /* Pods-VIMopubSampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -71,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F230C3E21F99DF41005CE051 /* VIMopubSample */,
+				3F8708461FE3B0C900078CA1 /* VIMopubSampleTests */,
 				F230C3E11F99DF41005CE051 /* Products */,
 				5783F3B92298AA5ACCD3AE83 /* Pods */,
 				0C2BFE82E20C2EEE3289089A /* Frameworks */,
@@ -81,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F230C3E01F99DF41005CE051 /* VIMopubSample.app */,
+				3F8708451FE3B0C900078CA1 /* VIMopubSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +164,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F8708441FE3B0C900078CA1 /* VIMopubSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87084E1FE3B0C900078CA1 /* Build configuration list for PBXNativeTarget "VIMopubSampleTests" */;
+			buildPhases = (
+				E7A9102BA2E5774A58C93599 /* [CP] Check Pods Manifest.lock */,
+				3F8708411FE3B0C900078CA1 /* Sources */,
+				3F8708421FE3B0C900078CA1 /* Frameworks */,
+				3F8708431FE3B0C900078CA1 /* Resources */,
+				11FE85468AD9ABEA16F5FCCB /* [CP] Embed Pods Frameworks */,
+				C5DD654D0E5125DDF4226E95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F87084B1FE3B0C900078CA1 /* PBXTargetDependency */,
+			);
+			name = VIMopubSampleTests;
+			productName = VIMopubSampleTests;
+			productReference = 3F8708451FE3B0C900078CA1 /* VIMopubSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F230C3DF1F99DF41005CE051 /* VIMopubSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F230C3F61F99DF41005CE051 /* Build configuration list for PBXNativeTarget "VIMopubSample" */;
@@ -150,9 +211,15 @@
 		F230C3D81F99DF41005CE051 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Vitalii Cherepakha";
 				TargetAttributes = {
+					3F8708441FE3B0C900078CA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F230C3DF1F99DF41005CE051;
+					};
 					F230C3DF1F99DF41005CE051 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -174,11 +241,19 @@
 			projectRoot = "";
 			targets = (
 				F230C3DF1F99DF41005CE051 /* VIMopubSample */,
+				3F8708441FE3B0C900078CA1 /* VIMopubSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F8708431FE3B0C900078CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F230C3DE1F99DF41005CE051 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +267,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11FE85468AD9ABEA16F5FCCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-VIMopubSampleTests/Pods-VIMopubSampleTests-frameworks.sh",
+				"${PODS_ROOT}/VISDK/VISDK/VISDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIMopubSampleTests/Pods-VIMopubSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1FC18EC9B85858AA5230DBAE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,9 +342,50 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIMopubSample/Pods-VIMopubSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C5DD654D0E5125DDF4226E95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIMopubSampleTests/Pods-VIMopubSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A9102BA2E5774A58C93599 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIMopubSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F8708411FE3B0C900078CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8708481FE3B0C900078CA1 /* VIMopubAdapterSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F230C3DC1F99DF41005CE051 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +399,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F87084B1FE3B0C900078CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F230C3DF1F99DF41005CE051 /* VIMopubSample */;
+			targetProxy = 3F87084A1FE3B0C900078CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F230C3E91F99DF41005CE051 /* Main.storyboard */ = {
@@ -282,6 +428,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F87084C1FE3B0C900078CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168DB40554B9227D9D1BC12D /* Pods-VIMopubSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIMopubSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vi.VISDK.VIMopubSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIMopubSample.app/VIMopubSample";
+			};
+			name = Debug;
+		};
+		3F87084D1FE3B0C900078CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DCF0AD3A08A67921867C82 /* Pods-VIMopubSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIMopubSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vi.VISDK.VIMopubSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIMopubSample.app/VIMopubSample";
+			};
+			name = Release;
+		};
 		F230C3F41F99DF41005CE051 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -426,6 +609,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F87084E1FE3B0C900078CA1 /* Build configuration list for PBXNativeTarget "VIMopubSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87084C1FE3B0C900078CA1 /* Debug */,
+				3F87084D1FE3B0C900078CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F230C3DB1F99DF41005CE051 /* Build configuration list for PBXProject "VIMopubSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:VIFBSample/VIFBSample.xcodeproj">
+      location = "group:VIMopubSample/VIMopubSample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:VIMopubSample/VIMopubSample.xcodeproj">
+      location = "group:VIFBSample/VIFBSample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:VIAdMobSample/VIAdMobSample.xcodeproj">

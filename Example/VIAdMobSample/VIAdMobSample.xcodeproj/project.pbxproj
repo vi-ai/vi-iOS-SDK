@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		280B1F9B835B00E3B4FC00EE /* Pods_VIAdMobSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DE7027E7E8A40617CBE403 /* Pods_VIAdMobSample.framework */; };
+		3F8708561FE3B0FF00078CA1 /* VIAdMobAdapterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8708551FE3B0FF00078CA1 /* VIAdMobAdapterSpec.swift */; };
+		987B8736293FF9C1FA997728 /* Pods_VIAdMobSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A4EA07DF8F2F76990FCD5 /* Pods_VIAdMobSampleTests.framework */; };
 		F230C3D61F98E4FB005CE051 /* AdMobVIInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B7D5E81F98B8F30097D404 /* AdMobVIInterstitialAdapter.m */; };
 		F238BA4A1F98C9B3000DBDFC /* AdMobMediationControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238BA491F98C9B3000DBDFC /* AdMobMediationControllerSwift.swift */; };
 		F2B7D5CC1F98B8BA0097D404 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B7D5CB1F98B8BA0097D404 /* AppDelegate.m */; };
@@ -18,9 +20,25 @@
 		F2B7D5DA1F98B8BA0097D404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B7D5D91F98B8BA0097D404 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F8708581FE3B0FF00078CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B7D5BF1F98B8BA0097D404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B7D5C61F98B8BA0097D404;
+			remoteInfo = VIAdMobSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2DE94C6E94210BECDCA6342E /* Pods-VIAdMobSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIAdMobSampleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIAdMobSampleTests/Pods-VIAdMobSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8708531FE3B0FE00078CA1 /* VIAdMobSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIAdMobSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8708551FE3B0FF00078CA1 /* VIAdMobAdapterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIAdMobAdapterSpec.swift; sourceTree = "<group>"; };
+		3F8708571FE3B0FF00078CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461A7EC9C045265564D18289 /* Pods-VIAdMobSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIAdMobSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIAdMobSample/Pods-VIAdMobSample.release.xcconfig"; sourceTree = "<group>"; };
+		5A9A4EA07DF8F2F76990FCD5 /* Pods_VIAdMobSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIAdMobSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DE7027E7E8A40617CBE403 /* Pods_VIAdMobSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIAdMobSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D6D3224FDFB1BDA4AB4574 /* Pods-VIAdMobSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIAdMobSampleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIAdMobSampleTests/Pods-VIAdMobSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B86F69D18C3063EBC05A7C7A /* Pods-VIAdMobSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIAdMobSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIAdMobSample/Pods-VIAdMobSample.debug.xcconfig"; sourceTree = "<group>"; };
 		F238BA481F98C9B2000DBDFC /* VIAdMobSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIAdMobSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		F238BA491F98C9B3000DBDFC /* AdMobMediationControllerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobMediationControllerSwift.swift; sourceTree = "<group>"; };
@@ -39,6 +57,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F8708501FE3B0FE00078CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B8736293FF9C1FA997728 /* Pods_VIAdMobSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2B7D5C41F98B8BA0097D404 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,11 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8708541FE3B0FF00078CA1 /* VIAdMobSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8708551FE3B0FF00078CA1 /* VIAdMobAdapterSpec.swift */,
+				3F8708571FE3B0FF00078CA1 /* Info.plist */,
+			);
+			path = VIAdMobSampleTests;
+			sourceTree = "<group>";
+		};
 		8632ECF3A5CF74A57C380FD4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				B86F69D18C3063EBC05A7C7A /* Pods-VIAdMobSample.debug.xcconfig */,
 				461A7EC9C045265564D18289 /* Pods-VIAdMobSample.release.xcconfig */,
+				2DE94C6E94210BECDCA6342E /* Pods-VIAdMobSampleTests.debug.xcconfig */,
+				B2D6D3224FDFB1BDA4AB4574 /* Pods-VIAdMobSampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -63,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				92DE7027E7E8A40617CBE403 /* Pods_VIAdMobSample.framework */,
+				5A9A4EA07DF8F2F76990FCD5 /* Pods_VIAdMobSampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F2B7D5C91F98B8BA0097D404 /* VIAdMobSample */,
+				3F8708541FE3B0FF00078CA1 /* VIAdMobSampleTests */,
 				F2B7D5C81F98B8BA0097D404 /* Products */,
 				8632ECF3A5CF74A57C380FD4 /* Pods */,
 				EB49E119E6CDCFB9DB789FC9 /* Frameworks */,
@@ -81,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F2B7D5C71F98B8BA0097D404 /* VIAdMobSample.app */,
+				3F8708531FE3B0FE00078CA1 /* VIAdMobSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +164,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F8708521FE3B0FE00078CA1 /* VIAdMobSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87085C1FE3B0FF00078CA1 /* Build configuration list for PBXNativeTarget "VIAdMobSampleTests" */;
+			buildPhases = (
+				06C2CD210150AF8D82A9DE87 /* [CP] Check Pods Manifest.lock */,
+				3F87084F1FE3B0FE00078CA1 /* Sources */,
+				3F8708501FE3B0FE00078CA1 /* Frameworks */,
+				3F8708511FE3B0FE00078CA1 /* Resources */,
+				4937FBE424F11F5C2887D8E5 /* [CP] Embed Pods Frameworks */,
+				D3AF0FEAC95115FFEF91AB8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8708591FE3B0FF00078CA1 /* PBXTargetDependency */,
+			);
+			name = VIAdMobSampleTests;
+			productName = VIAdMobSampleTests;
+			productReference = 3F8708531FE3B0FE00078CA1 /* VIAdMobSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F2B7D5C61F98B8BA0097D404 /* VIAdMobSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B7D5DD1F98B8BA0097D404 /* Build configuration list for PBXNativeTarget "VIAdMobSample" */;
@@ -150,9 +211,15 @@
 		F2B7D5BF1F98B8BA0097D404 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Vitalii Cherepakha";
 				TargetAttributes = {
+					3F8708521FE3B0FE00078CA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2B7D5C61F98B8BA0097D404;
+					};
 					F2B7D5C61F98B8BA0097D404 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -174,11 +241,19 @@
 			projectRoot = "";
 			targets = (
 				F2B7D5C61F98B8BA0097D404 /* VIAdMobSample */,
+				3F8708521FE3B0FE00078CA1 /* VIAdMobSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F8708511FE3B0FE00078CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2B7D5C51F98B8BA0097D404 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +267,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06C2CD210150AF8D82A9DE87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIAdMobSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		16FE5F86679E451FE025AA38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +318,28 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIAdMobSample/Pods-VIAdMobSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4937FBE424F11F5C2887D8E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-VIAdMobSampleTests/Pods-VIAdMobSampleTests-frameworks.sh",
+				"${PODS_ROOT}/VISDK/VISDK/VISDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIAdMobSampleTests/Pods-VIAdMobSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		56C11A50CD5E0776C6A1E539 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,9 +358,32 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIAdMobSample/Pods-VIAdMobSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D3AF0FEAC95115FFEF91AB8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIAdMobSampleTests/Pods-VIAdMobSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F87084F1FE3B0FE00078CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8708561FE3B0FF00078CA1 /* VIAdMobAdapterSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2B7D5C31F98B8BA0097D404 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +397,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8708591FE3B0FF00078CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B7D5C61F98B8BA0097D404 /* VIAdMobSample */;
+			targetProxy = 3F8708581FE3B0FF00078CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F2B7D5D01F98B8BA0097D404 /* Main.storyboard */ = {
@@ -280,6 +426,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F87085A1FE3B0FF00078CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE94C6E94210BECDCA6342E /* Pods-VIAdMobSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIAdMobSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vi.VISDK.VIAdMobSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIAdMobSample.app/VIAdMobSample";
+			};
+			name = Debug;
+		};
+		3F87085B1FE3B0FF00078CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D6D3224FDFB1BDA4AB4574 /* Pods-VIAdMobSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIAdMobSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vi.VISDK.VIAdMobSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIAdMobSample.app/VIAdMobSample";
+			};
+			name = Release;
+		};
 		F2B7D5DB1F98B8BA0097D404 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,6 +607,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F87085C1FE3B0FF00078CA1 /* Build configuration list for PBXNativeTarget "VIAdMobSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87085A1FE3B0FF00078CA1 /* Debug */,
+				3F87085B1FE3B0FF00078CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F2B7D5C21F98B8BA0097D404 /* Build configuration list for PBXProject "VIAdMobSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
