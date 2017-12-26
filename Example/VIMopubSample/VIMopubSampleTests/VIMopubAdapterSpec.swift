@@ -90,7 +90,7 @@ class VIMopubAdapterSpec: QuickSpec {
         
         context("Just adapter") {
             beforeEach {
-                self.adapter = AdMobVIInterstitialAdapter(placementID: "ca-app-pub-4499248058256064/8430446295")
+                self.adapter = MopubVIInterstitialAdapter(placementID: "ca-app-pub-4499248058256064/8430446295")
             }
             
             describe("Init") {
@@ -121,13 +121,13 @@ class VIMopubAdapterSpec: QuickSpec {
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
         
-        let adapter = MopubVIInterstitialAdapter(placementID: "e90aa8b06e3c473aa0ba70ebfc8c5c89")
+        let adapter = MopubVIInterstitialAdapter(placementID: faulty ? "" : "e90aa8b06e3c473aa0ba70ebfc8c5c89")
         result?.registerMediation?(adapter)
         return result
     }
 }
 
-extension VIAdMobAdapterSpec: VIAdDelegate {
+extension VIMopubAdapterSpec: VIAdDelegate {
     func adDidReceiveError(_ error: Error) {
         self.error = error
     }
