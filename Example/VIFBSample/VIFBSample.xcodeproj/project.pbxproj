@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F87083A1FE3B03600078CA1 /* VIFBSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8708391FE3B03600078CA1 /* VIFBSampleTests.swift */; };
-		D08F5EA0CA8A9D9C8830D09A /* Pods_VIFBSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA25A05B85677C3E24628ED /* Pods_VIFBSampleTests.framework */; };
+		3F4963F71FE41D7D00589653 /* VIFBInlineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4963F61FE41D7D00589653 /* VIFBInlineSpec.swift */; };
+		3F4963FF1FE41DC600589653 /* VIFBInterstitialSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4963FE1FE41DC600589653 /* VIFBInterstitialSpec.swift */; };
+		A97DF2C03D6D22C4C5637257 /* Pods_VIFBSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4033C0D713F4570BA4F4B67 /* Pods_VIFBSampleTests.framework */; };
 		E0B0103E4C857AC37C839BE1 /* Pods_VIFBSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCE493E2F6B94545F102BB /* Pods_VIFBSample.framework */; };
 		F230C40F1F99F6D1005CE051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C40E1F99F6D1005CE051 /* AppDelegate.m */; };
 		F230C4121F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = F230C4111F99F6D1005CE051 /* FBInterstitialMediationControllerObjC.m */; };
@@ -25,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F87083C1FE3B03600078CA1 /* PBXContainerItemProxy */ = {
+		3F4963F91FE41D7D00589653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F230C4021F99F6D1005CE051 /* Project object */;
 			proxyType = 1;
@@ -37,13 +38,14 @@
 /* Begin PBXFileReference section */
 		0DFCE493E2F6B94545F102BB /* Pods_VIFBSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIFBSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E16A392ACEB5BD9F0D6FCA /* Pods-VIFBSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample.release.xcconfig"; sourceTree = "<group>"; };
-		3F8708371FE3B03600078CA1 /* VIFBSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIFBSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F8708391FE3B03600078CA1 /* VIFBSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIFBSampleTests.swift; sourceTree = "<group>"; };
-		3F87083B1FE3B03600078CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77A18701A2D3A9C5B4E2F802 /* Pods-VIFBSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSampleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSampleTests/Pods-VIFBSampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		7EA25A05B85677C3E24628ED /* Pods_VIFBSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIFBSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4963F41FE41D7D00589653 /* VIFBSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIFBSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4963F61FE41D7D00589653 /* VIFBInlineSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIFBInlineSpec.swift; sourceTree = "<group>"; };
+		3F4963F81FE41D7D00589653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4963FE1FE41DC600589653 /* VIFBInterstitialSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIFBInterstitialSpec.swift; sourceTree = "<group>"; };
+		A4033C0D713F4570BA4F4B67 /* Pods_VIFBSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIFBSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F6E3D7556585C20D8BA037 /* Pods-VIFBSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample.debug.xcconfig"; sourceTree = "<group>"; };
-		C7CE0ADEF7D3702DF2FE16A0 /* Pods-VIFBSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSampleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSampleTests/Pods-VIFBSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C05070C209D47E1FF7B52E8B /* Pods-VIFBSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSampleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSampleTests/Pods-VIFBSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C07D25F61CECB5AFCAE7688A /* Pods-VIFBSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIFBSampleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VIFBSampleTests/Pods-VIFBSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F230C40A1F99F6D1005CE051 /* VIFBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIFBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230C40D1F99F6D1005CE051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F230C40E1F99F6D1005CE051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,11 +70,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F8708341FE3B03600078CA1 /* Frameworks */ = {
+		3F4963F11FE41D7D00589653 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08F5EA0CA8A9D9C8830D09A /* Pods_VIFBSampleTests.framework in Frameworks */,
+				A97DF2C03D6D22C4C5637257 /* Pods_VIFBSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +89,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F8708381FE3B03600078CA1 /* VIFBSampleTests */ = {
+		3F4963F51FE41D7D00589653 /* VIFBSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F8708391FE3B03600078CA1 /* VIFBSampleTests.swift */,
-				3F87083B1FE3B03600078CA1 /* Info.plist */,
+				3F4963F61FE41D7D00589653 /* VIFBInlineSpec.swift */,
+				3F4963FE1FE41DC600589653 /* VIFBInterstitialSpec.swift */,
+				3F4963F81FE41D7D00589653 /* Info.plist */,
 			);
 			path = VIFBSampleTests;
 			sourceTree = "<group>";
@@ -100,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0DFCE493E2F6B94545F102BB /* Pods_VIFBSample.framework */,
-				7EA25A05B85677C3E24628ED /* Pods_VIFBSampleTests.framework */,
+				A4033C0D713F4570BA4F4B67 /* Pods_VIFBSampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F230C40C1F99F6D1005CE051 /* VIFBSample */,
-				3F8708381FE3B03600078CA1 /* VIFBSampleTests */,
+				3F4963F51FE41D7D00589653 /* VIFBSampleTests */,
 				F230C40B1F99F6D1005CE051 /* Products */,
 				F9B48B450081007A65C068FD /* Pods */,
 				5F1524ECC3088AFA10B2D964 /* Frameworks */,
@@ -120,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				F230C40A1F99F6D1005CE051 /* VIFBSample.app */,
-				3F8708371FE3B03600078CA1 /* VIFBSampleTests.xctest */,
+				3F4963F41FE41D7D00589653 /* VIFBSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,9 +186,9 @@
 		F230C42A1F9A34D9005CE051 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F230C42B1F9A34D9005CE051 /* FacebookVIInlineProtocols.h */,
 				F230C42F1F9A34DA005CE051 /* FacebookVIInlineAdapter.h */,
 				F230C42D1F9A34DA005CE051 /* FacebookVIInlineAdapter.m */,
-				F230C42B1F9A34D9005CE051 /* FacebookVIInlineProtocols.h */,
 				F230C42E1F9A34DA005CE051 /* FacebookVIInterstitialAdapter.h */,
 				F230C42C1F9A34D9005CE051 /* FacebookVIInterstitialAdapter.m */,
 			);
@@ -197,8 +200,8 @@
 			children = (
 				B0F6E3D7556585C20D8BA037 /* Pods-VIFBSample.debug.xcconfig */,
 				22E16A392ACEB5BD9F0D6FCA /* Pods-VIFBSample.release.xcconfig */,
-				C7CE0ADEF7D3702DF2FE16A0 /* Pods-VIFBSampleTests.debug.xcconfig */,
-				77A18701A2D3A9C5B4E2F802 /* Pods-VIFBSampleTests.release.xcconfig */,
+				C05070C209D47E1FF7B52E8B /* Pods-VIFBSampleTests.debug.xcconfig */,
+				C07D25F61CECB5AFCAE7688A /* Pods-VIFBSampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -206,25 +209,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F8708361FE3B03600078CA1 /* VIFBSampleTests */ = {
+		3F4963F31FE41D7D00589653 /* VIFBSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8708401FE3B03600078CA1 /* Build configuration list for PBXNativeTarget "VIFBSampleTests" */;
+			buildConfigurationList = 3F4963FD1FE41D7D00589653 /* Build configuration list for PBXNativeTarget "VIFBSampleTests" */;
 			buildPhases = (
-				84663BB00A90F621DE79E595 /* [CP] Check Pods Manifest.lock */,
-				3F8708331FE3B03600078CA1 /* Sources */,
-				3F8708341FE3B03600078CA1 /* Frameworks */,
-				3F8708351FE3B03600078CA1 /* Resources */,
-				6A22A082DE68DB3C1338438F /* [CP] Embed Pods Frameworks */,
-				E20EA48AEF1365920397F54B /* [CP] Copy Pods Resources */,
+				F19E6C3664A2C310C9B2168D /* [CP] Check Pods Manifest.lock */,
+				3F4963F01FE41D7D00589653 /* Sources */,
+				3F4963F11FE41D7D00589653 /* Frameworks */,
+				3F4963F21FE41D7D00589653 /* Resources */,
+				75D8C9AB205FB16DA75394B2 /* [CP] Embed Pods Frameworks */,
+				B95119E7D16879079AB931AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F87083D1FE3B03600078CA1 /* PBXTargetDependency */,
+				3F4963FA1FE41D7D00589653 /* PBXTargetDependency */,
 			);
 			name = VIFBSampleTests;
 			productName = VIFBSampleTests;
-			productReference = 3F8708371FE3B03600078CA1 /* VIFBSampleTests.xctest */;
+			productReference = 3F4963F41FE41D7D00589653 /* VIFBSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F230C4091F99F6D1005CE051 /* VIFBSample */ = {
@@ -257,7 +260,7 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Vitalii Cherepakha";
 				TargetAttributes = {
-					3F8708361FE3B03600078CA1 = {
+					3F4963F31FE41D7D00589653 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F230C4091F99F6D1005CE051;
@@ -283,13 +286,13 @@
 			projectRoot = "";
 			targets = (
 				F230C4091F99F6D1005CE051 /* VIFBSample */,
-				3F8708361FE3B03600078CA1 /* VIFBSampleTests */,
+				3F4963F31FE41D7D00589653 /* VIFBSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F8708351FE3B03600078CA1 /* Resources */ = {
+		3F4963F21FE41D7D00589653 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +328,7 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A22A082DE68DB3C1338438F /* [CP] Embed Pods Frameworks */ = {
+		75D8C9AB205FB16DA75394B2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,24 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSampleTests/Pods-VIFBSampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84663BB00A90F621DE79E595 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VIFBSampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8FB357CCF02C680FC7693BFB /* [CP] Check Pods Manifest.lock */ = {
@@ -401,7 +386,7 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSample/Pods-VIFBSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E20EA48AEF1365920397F54B /* [CP] Copy Pods Resources */ = {
+		B95119E7D16879079AB931AC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,14 +401,33 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VIFBSampleTests/Pods-VIFBSampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F19E6C3664A2C310C9B2168D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIFBSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F8708331FE3B03600078CA1 /* Sources */ = {
+		3F4963F01FE41D7D00589653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F87083A1FE3B03600078CA1 /* VIFBSampleTests.swift in Sources */,
+				3F4963F71FE41D7D00589653 /* VIFBInlineSpec.swift in Sources */,
+				3F4963FF1FE41DC600589653 /* VIFBInterstitialSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,10 +449,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F87083D1FE3B03600078CA1 /* PBXTargetDependency */ = {
+		3F4963FA1FE41D7D00589653 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F230C4091F99F6D1005CE051 /* VIFBSample */;
-			targetProxy = 3F87083C1FE3B03600078CA1 /* PBXContainerItemProxy */;
+			targetProxy = 3F4963F91FE41D7D00589653 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,9 +476,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F87083E1FE3B03600078CA1 /* Debug */ = {
+		3F4963FB1FE41D7D00589653 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7CE0ADEF7D3702DF2FE16A0 /* Pods-VIFBSampleTests.debug.xcconfig */;
+			baseConfigurationReference = C05070C209D47E1FF7B52E8B /* Pods-VIFBSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,9 +495,9 @@
 			};
 			name = Debug;
 		};
-		3F87083F1FE3B03600078CA1 /* Release */ = {
+		3F4963FC1FE41D7D00589653 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77A18701A2D3A9C5B4E2F802 /* Pods-VIFBSampleTests.release.xcconfig */;
+			baseConfigurationReference = C07D25F61CECB5AFCAE7688A /* Pods-VIFBSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -653,11 +657,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F8708401FE3B03600078CA1 /* Build configuration list for PBXNativeTarget "VIFBSampleTests" */ = {
+		3F4963FD1FE41D7D00589653 /* Build configuration list for PBXNativeTarget "VIFBSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F87083E1FE3B03600078CA1 /* Debug */,
-				3F87083F1FE3B03600078CA1 /* Release */,
+				3F4963FB1FE41D7D00589653 /* Debug */,
+				3F4963FC1FE41D7D00589653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

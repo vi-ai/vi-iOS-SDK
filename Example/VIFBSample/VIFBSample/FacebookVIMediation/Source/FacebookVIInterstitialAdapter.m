@@ -22,21 +22,20 @@
 
 - (instancetype)initWithPlacementID:(NSString*)placementID
 {
-#if TARGET_OS_SIMULATOR
-    return nil;
-#else
+//#if TARGET_OS_SIMULATOR
+//    return nil;
+//#else
     self = [super init];
     if (self != nil)
     {
-#ifdef DEBUG
-        [FBAdSettings addTestDevice:[FBAdSettings testDeviceHash]];
-#endif
-
+//#ifdef DEBUG
+//        [FBAdSettings addTestDevice:[FBAdSettings testDeviceHash]];
+//#endif
         self.status = MediatorStateIdle;
         self.placementID = placementID;
     }
     return self;
-#endif
+//#endif
 }
 
 - (void)close
@@ -48,7 +47,7 @@
 
 - (nullable NSString *)title
 {
-    return @"Facebook";
+	return kFBMediationKey;
 }
 
 
@@ -85,7 +84,7 @@
 
 - (void)interstitialAdDidClose:(FBInterstitialAd *)interstitialAd
 {
-    [super didReceiveEventWithType:VIAdEventClosed];
+	[super didReceiveEventWithType:VIAdEventCompleted];
 }
 
 - (void)interstitialAdDidLoad:(FBInterstitialAd *)interstitialAd

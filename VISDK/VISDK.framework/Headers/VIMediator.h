@@ -12,6 +12,10 @@
 #import <Foundation/Foundation.h>
 #import "VIEnums.h"
 
+static NSString * _Nullable const kFBMediationKey = @"facebook";
+static NSString * _Nullable const kAdMobKey = @"google_admob";
+static NSString * _Nonnull const kMopubKey = @"mopub";
+
 @interface VIMediator : NSObject
 
 @property (nonatomic, assign) MediatorState status;

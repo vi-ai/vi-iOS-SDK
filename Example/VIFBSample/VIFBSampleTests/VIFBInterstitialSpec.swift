@@ -1,22 +1,21 @@
 //
-//  VIAdMobAdapterSpec.swift
-//  VIAdMobAdapterSpec
+//  VIFBInterstitialSpec.swift
+//  VIFBInterstitialSpec
 //
 //  Created by Maksym Kravchenko on 12/15/17.
 //  Copyright © 2017 Vitalii Cherepakha. All rights reserved.
 //
 
-import XCTest
 import Nimble
 import Quick
 
 import VISDK
-import VIAdMobSample
+import VIFBSample
 
-class VIAdMobAdapterSpec: QuickSpec {
-    let accId = "ca-app-pub-4499248058256064/8430446295"
+class VIFBInterstitialSpec: QuickSpec {
+    let accId = "2007707356109450_2008142456065940"
     
-    var adapter: AdMobVIInterstitialAdapter!
+    var adapter: FacebookVIInterstitialAdapter!
     
     var ad: VIInterstitialAd?
     
@@ -25,8 +24,6 @@ class VIAdMobAdapterSpec: QuickSpec {
     
     
     override func spec() {
-        
-        
         context("Mediation") {
             beforeEach {
                 self.event = nil
@@ -38,42 +35,42 @@ class VIAdMobAdapterSpec: QuickSpec {
                 it("Should have initiated properties") {
                     expect(self.ad?.delegate).notTo(beNil())
                     expect(self.ad?.cacheMediaContent).to(beTrue())
-
+                    
                     expect(self.ad?.isReady).to(beFalse())
                     expect(self.ad?.isLoading).to(beFalse())
                     expect(self.ad?.isPaused).to(beFalse())
                     expect(self.ad?.isPlaying).to(beFalse())
-
+                    
                     expect(self.error).to(beNil())
                     expect(self.event).to(beNil())
                 }
             }
-
+            
             
             describe("Load") {
-
+                
                 describe("Load fail") {
                     it("Should receive error") {
                         self.ad = self.makeAd(faulty: true)
                         self.ad?.load()
-
+                        
                         expect(self.ad?.isLoading).to(beTrue())
-                        expect(self.error).toEventuallyNot(beNil(), timeout: 10, pollInterval: 0.2)
+                        expect(self.error).toEventuallyNot(beNil(), timeout: 30, pollInterval: 0.2)
                         expect(self.event).to(beNil())
                     }
                 }
-
+                
                 describe("Load success") {
                     it("Should be loaded") {
                         self.ad?.load()
-
+                        
                         expect(self.ad?.isLoading).to(beTrue())
                         expect(self.error).toEventually(beNil())
                         expect(self.event?.type).toEventually(equal(VIAdEventType.loaded), timeout: 10, pollInterval: 0.2)
                     }
                 }
             }
-
+            
             describe("Play") {
                 it("Should play and close") {
                     self.ad?.load()
@@ -85,30 +82,32 @@ class VIAdMobAdapterSpec: QuickSpec {
                         
                         self.ad?.show(from: vc)
                         expect(self.ad?.isPlaying).toEventually(beTrue(), timeout: 10, pollInterval: 0.5)
-                       
+                        
                         self.ad?.close()
                         expect(self.event?.type).toEventually(equal(VIAdEventType.closed))
                     }
                 }
             }
+          
         }
         
         context("Just adapter") {
             beforeEach {
-                self.adapter = AdMobVIInterstitialAdapter(placementID: self.accId)
+                self.adapter = FacebookVIInterstitialAdapter(placementID: self.accId)
             }
-
+            
             describe("Init") {
-
+                
                 it("Should have initiated properties") {
-                    expect(self.adapter.title()).to(equal("AdMob"))
+                    expect(self.adapter.title()).to(equal("Facebook"))
                     expect(self.adapter.status).to(equal(MediatorState.idle))
                 }
             }
-
+            
             describe("Load") {
-                it("Should be loading and loaded") {
+                it("Should be loading") {
                     self.adapter.load()
+                    
                     expect(self.adapter.status).to(equal(MediatorState.loading))
                     expect(self.adapter.status).toEventually(equal(MediatorState.ready), timeout: 30, pollInterval: 0.2)
                 }
@@ -130,13 +129,16 @@ class VIAdMobAdapterSpec: QuickSpec {
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
         
-        let adapter = AdMobVIInterstitialAdapter(placementID: faulty ? "" : self.accId)
-        result?.registerMediation?(adapter)
+        let adapter = FacebookVIInterstitialAdapter(placementID: faulty ? "" : self.accId)
+        if let adapter = adapter
+        {
+            result?.registerMediation?(adapter)
+        }
         return result
     }
 }
 
-extension VIAdMobAdapterSpec: VIAdDelegate {
+extension VIFBInterstitialSpec: VIAdDelegate {
     func adDidReceiveError(_ error: Error) {
         self.error = error
     }
@@ -146,4 +148,7 @@ extension VIAdMobAdapterSpec: VIAdDelegate {
         self.event = event
     }
 }
+
+
+
 

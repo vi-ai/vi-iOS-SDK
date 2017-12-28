@@ -18,6 +18,7 @@
 #import "VIAdEvent.h"
 #import "VIMediator.h"
 #import "VIEnums.h"
+#import "VIExternalTracker.h"
 
 //! Project version number for VISDK.
 FOUNDATION_EXPORT double VISDKVersionNumber;
@@ -65,6 +66,13 @@ FOUNDATION_EXPORT const unsigned char VISDKVersionString[];
  @return VIInterstitialAd instance
 */
 - (nullable id<VIInterstitialAd>)createInterstitialAdFor:(nonnull VIPlacement *)placement;
+
+
+/**
+ Registers external event tracking service.
+ */
+
+- (void)registerExternalTracker:(nonnull VIExternalTracker *)tracker;
 
 @end
 

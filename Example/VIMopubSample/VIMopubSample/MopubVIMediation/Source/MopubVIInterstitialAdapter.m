@@ -40,7 +40,7 @@
 
 - (nullable NSString *)title
 {
-    return @"AdMob";
+	return kMopubKey;
 }
 
 
@@ -101,7 +101,7 @@
 
 - (void)interstitialWillDisappear:(MPInterstitialAdController *)interstitial
 {
-    [super didReceiveEventWithType:VIAdEventClosed];
+	[super didReceiveEventWithType:VIAdEventCompleted];
 }
 
 @end

@@ -16,7 +16,7 @@ class FBInlineMediationControllerSwift: UIViewController {
         let result = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: self.containerView ?? self.view, useCahe: true)
         result?.delegate = self
         
-        let adapter = FacebookVIInterstitialAdapter(placementID: "e90aa8b06e3c473aa0ba70ebfc8c5c89")
+        let adapter = FacebookVIInlineAdapter(placementID: "e90aa8b06e3c473aa0ba70ebfc8c5c89")
         if let adapter = adapter
         {
             result?.registerMediation?(adapter)

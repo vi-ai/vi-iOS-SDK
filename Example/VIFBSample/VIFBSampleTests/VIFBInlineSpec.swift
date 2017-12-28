@@ -1,39 +1,46 @@
 //
-//  VIAdMobAdapterSpec.swift
-//  VIAdMobAdapterSpec
+//  VIFBInlineSpec.swift
+//  VIFBInlineSpec
 //
 //  Created by Maksym Kravchenko on 12/15/17.
 //  Copyright © 2017 Vitalii Cherepakha. All rights reserved.
 //
 
-import XCTest
 import Nimble
 import Quick
 
 import VISDK
-import VIAdMobSample
+import VIFBSample
 
-class VIAdMobAdapterSpec: QuickSpec {
-    let accId = "ca-app-pub-4499248058256064/8430446295"
+
+/*
+ - (void)pause;
+ - (void)resume;
+ 
+ Can't be tested because of FB not working with Simulator
+ */
+
+
+class VIFBInlineSpec: QuickSpec {
+    let accId = "2007707356109450_2017462025133983"
+
+    var adapter: FacebookVIInlineAdapter!
+    var viewController: UIViewController!
     
-    var adapter: AdMobVIInterstitialAdapter!
-    
-    var ad: VIInterstitialAd?
-    
+    var ad: VIVideoAd?
+
     var error: Error?
     var event: VIAdEvent?
-    
-    
+
+
     override func spec() {
-        
-        
         context("Mediation") {
             beforeEach {
                 self.event = nil
                 self.error = nil
                 self.ad = self.makeAd()
             }
-            
+
             describe("Init") {
                 it("Should have initiated properties") {
                     expect(self.ad?.delegate).notTo(beNil())
@@ -49,8 +56,11 @@ class VIAdMobAdapterSpec: QuickSpec {
                 }
             }
 
-            
+
             describe("Load") {
+				afterEach {
+					self.ad?.close()
+				}
 
                 describe("Load fail") {
                     it("Should receive error") {
@@ -59,6 +69,8 @@ class VIAdMobAdapterSpec: QuickSpec {
 
                         expect(self.ad?.isLoading).to(beTrue())
                         expect(self.error).toEventuallyNot(beNil(), timeout: 10, pollInterval: 0.2)
+						expect(self.ad?.isReady).toEventually(beFalse())
+
                         expect(self.event).to(beNil())
                     }
                 }
@@ -82,33 +94,34 @@ class VIAdMobAdapterSpec: QuickSpec {
                         let vc = UIViewController()
                         expect(vc.view.frame).notTo(equal(CGRect.zero)) //also triggers viewDidLoad()
                         vc.beginAppearanceTransition(true, animated: false)
-                        
-                        self.ad?.show(from: vc)
+
+                        self.ad?.start()
                         expect(self.ad?.isPlaying).toEventually(beTrue(), timeout: 10, pollInterval: 0.5)
-                       
+
                         self.ad?.close()
                         expect(self.event?.type).toEventually(equal(VIAdEventType.closed))
                     }
                 }
             }
         }
-        
+
         context("Just adapter") {
             beforeEach {
-                self.adapter = AdMobVIInterstitialAdapter(placementID: self.accId)
+                self.adapter = FacebookVIInlineAdapter(placementID: self.accId)
             }
 
             describe("Init") {
 
                 it("Should have initiated properties") {
-                    expect(self.adapter.title()).to(equal("AdMob"))
+                    expect(self.adapter.title()).to(equal("Facebook"))
                     expect(self.adapter.status).to(equal(MediatorState.idle))
                 }
             }
 
             describe("Load") {
-                it("Should be loading and loaded") {
+                it("Should be loading") {
                     self.adapter.load()
+
                     expect(self.adapter.status).to(equal(MediatorState.loading))
                     expect(self.adapter.status).toEventually(equal(MediatorState.ready), timeout: 30, pollInterval: 0.2)
                 }
@@ -117,6 +130,7 @@ class VIAdMobAdapterSpec: QuickSpec {
             describe("Close") {
                 it("Should close") {
                     self.adapter.load()
+                    
                     expect(self.adapter.status).to(equal(MediatorState.loading))
                     self.adapter.close()
                     expect(self.adapter.status).to(equal(MediatorState.idle))
@@ -124,26 +138,34 @@ class VIAdMobAdapterSpec: QuickSpec {
             }
         }
     }
-    
-    private func makeAd(faulty: Bool = false) -> VIInterstitialAd? {
+
+    private func makeAd(faulty: Bool = false) -> VIVideoAd? {
+        self.viewController = UIViewController()
+        let _ = viewController.view
+        
         let placement = VIPlacement("lkhkg", options: nil)
-        let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
+        let result = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: self.viewController.view, useCahe: true)
         result?.delegate = self
         
-        let adapter = AdMobVIInterstitialAdapter(placementID: faulty ? "" : self.accId)
-        result?.registerMediation?(adapter)
+        let adapter = FacebookVIInterstitialAdapter(placementID: faulty ? "" : self.accId)
+        if let adapter = adapter
+        {
+            result?.registerMediation?(adapter)
+        }
         return result
     }
 }
 
-extension VIAdMobAdapterSpec: VIAdDelegate {
+extension VIFBInlineSpec: VIAdDelegate {
     func adDidReceiveError(_ error: Error) {
         self.error = error
     }
     
     func adDidReceive(_ event: VIAdEvent) {
-        print("event = \(event)")
         self.event = event
     }
 }
+
+
+
 

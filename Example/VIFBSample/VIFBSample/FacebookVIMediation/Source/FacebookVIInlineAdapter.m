@@ -80,21 +80,22 @@
 
 - (instancetype)initWithPlacementID:(NSString*)placementID
 {
-#if TARGET_OS_SIMULATOR
-    return nil;
-#else
+//#if TARGET_OS_SIMULATOR
+//    return nil;
+//#else
     self = [super init];
     if (self != nil)
     {
 #ifdef DEBUG
         [FBAdSettings addTestDevice:[FBAdSettings testDeviceHash]];
 #endif
+
         self.status = MediatorStateIdle;
         self.placementID = placementID;
         self.startsWhenReady = NO;
     }
     return self;
-#endif
+//#endif
 }
 
 - (void)close
@@ -122,7 +123,7 @@
 
 - (nullable NSString *)title
 {
-    return @"Facebook";
+	return kFBMediationKey;
 }
 
 - (void)load
@@ -268,22 +269,15 @@
 
 - (NSString*)timeFormatFromTime:(NSInteger)time
 {
-    NSMutableString* result = [NSMutableString string];
-    
-    NSInteger hours = time / 3600;
-    time = time%hours;
-    NSInteger minutes = time / 60;
-    time = time%minutes;
-    NSInteger seconds = time;
-    
-    [result appendString:[NSString stringWithFormat:@"%02ld:%02ld", (long)minutes, (long)seconds]];
-    
-    if (hours > 0)
-    {
-        [result insertString:[NSString stringWithFormat:@"%02ld:", (long)hours] atIndex:0];
-    }
-    
-    return result;
+	NSCalendar *calendar = [NSCalendar currentCalendar];
+	NSDateComponents *components = [NSDateComponents new];
+	components.second = time;
+	
+	NSDate *date = [calendar dateFromComponents:components];
+	NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+	formatter.dateFormat = @"HH:mm:ss";
+	NSString *result = [formatter stringFromDate:date];
+	return result;
 }
 
 - (void)prepareUIForVideo:(BOOL)isVideo
@@ -323,7 +317,7 @@
 
 - (void)nativeAdDidClick:(FBNativeAd *)nativeAd
 {
-    [super didReceiveEventWithType:VIAdEventClicked];
+	[super didReceiveEventWithType:VIAdEventClicked];
 }
 
 #pragma mark - FBMediaViewDelegate
@@ -351,14 +345,14 @@
 
 - (void)videoRendererVideoDidPlay:(VIVideoRenderer *)videoRenderer
 {
-        if (videoRenderer == nil || (CMTIME_IS_VALID(videoRenderer.currentTime) && CMTimeGetSeconds(videoRenderer.currentTime) == 0))
-        {
-            [super didReceiveEventWithType:VIAdEventStarted];
-        }
-        else
-        {
-            [super didReceiveEventWithType:VIAdEventResumed];
-        }
+	if (videoRenderer == nil || (CMTIME_IS_VALID(videoRenderer.currentTime) && CMTimeGetSeconds(videoRenderer.currentTime) == 0))
+	{
+		[super didReceiveEventWithType:VIAdEventStarted];
+	}
+	else
+	{
+		[super didReceiveEventWithType:VIAdEventResumed];
+	}
 }
 
 - (void)videoRendererVideoDidFail:(VIVideoRenderer *)videoRenderer withError:(NSError*)error

@@ -20,7 +20,7 @@
 
 - (nullable NSString *)title;
 
-- (nonnull instancetype)initWithPlacementID:(nonnull NSString*)placementID;
+- (nullable instancetype)initWithPlacementID:(nonnull NSString*)placementID;
 
 - (void)setContainerView:(nonnull UIView *)containerView;
 @end

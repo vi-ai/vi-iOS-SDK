@@ -3,6 +3,7 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/maksymkravchenko/Spec.git'
+
 workspace 'Samples.xcworkspace'
 
 target 'VIAdMobSample' do
@@ -21,6 +22,7 @@ target 'VIAdMobSampleTests' do
     pod 'VISDK'
 end
 
+
 ###
 target 'VIMopubSample' do
     use_frameworks!
@@ -38,8 +40,8 @@ target 'VIMopubSampleTests' do
     pod 'VISDK'
 end
 
+####
 
-###
 target 'VIFBSample' do
     use_frameworks!
     project 'VIFBSample/VIFBSample.xcodeproj'
@@ -50,7 +52,7 @@ end
 target 'VIFBSampleTests' do
     use_frameworks!
     project 'VIFBSample/VIFBSample.xcodeproj'
-    
+
     pod 'Quick'
     pod 'Nimble'
     pod 'VISDK'

@@ -32,6 +32,7 @@
 
 - (void)prepareAD
 {
+    
     VIPlacement* placement = [[VIPlacement alloc] initWith:@"фывфыв" options:nil];
     self.ad = [[VISDK sharedInstance] createVideoAdFor:placement inContainer:self.containerView useCahe:YES];
     self.ad.delegate = self;

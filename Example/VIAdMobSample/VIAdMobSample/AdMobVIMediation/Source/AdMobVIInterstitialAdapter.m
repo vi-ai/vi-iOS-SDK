@@ -40,7 +40,7 @@
 
 - (nullable NSString *)title
 {
-    return @"AdMob";
+	return kAdMobKey;
 }
 
 
@@ -98,7 +98,7 @@
 
 - (void)interstitialWillDismissScreen:(GADInterstitial *)ad
 {
-    [super didReceiveEventWithType:VIAdEventClosed];
+	[super didReceiveEventWithType:VIAdEventCompleted];
 }
 
 @end

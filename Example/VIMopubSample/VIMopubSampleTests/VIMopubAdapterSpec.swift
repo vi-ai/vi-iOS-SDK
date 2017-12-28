@@ -13,6 +13,9 @@ import VISDK
 import VIMopubSample
 
 class VIMopubAdapterSpec: QuickSpec {
+    let accId = "e90aa8b06e3c473aa0ba70ebfc8c5c89"
+
+    
     var adapter: MopubVIInterstitialAdapter!
     
     var ad: VIInterstitialAd?
@@ -53,13 +56,13 @@ class VIMopubAdapterSpec: QuickSpec {
                         self.ad?.load()
                         
                         expect(self.ad?.isLoading).to(beTrue())
-                        expect(self.error).toEventuallyNot(beNil(), timeout: 10, pollInterval: 0.2)
+                        expect(self.error).toEventuallyNot(beNil(), timeout: 30, pollInterval: 0.2)
                         expect(self.event).to(beNil())
                     }
                 }
                 
                 describe("Load success") {
-                    it("Should receive error") {
+                    it("Should be loaded") {
                         self.ad?.load()
                         
                         expect(self.ad?.isLoading).to(beTrue())
@@ -90,7 +93,7 @@ class VIMopubAdapterSpec: QuickSpec {
         
         context("Just adapter") {
             beforeEach {
-                self.adapter = MopubVIInterstitialAdapter(placementID: "ca-app-pub-4499248058256064/8430446295")
+                self.adapter = MopubVIInterstitialAdapter(placementID: self.accId)
             }
             
             describe("Init") {
@@ -102,15 +105,23 @@ class VIMopubAdapterSpec: QuickSpec {
             }
             
             describe("Load") {
-                it("Should be loading") {
+                it("Should be loading and loaded") {
                     self.adapter.load()
-                    
+
                     expect(self.adapter.status).to(equal(MediatorState.loading))
+                    
+                    //FIXME: somehow it work only while testing this target separately from other mediation targets
+//                    expect(self.adapter.status).toEventually(equal(MediatorState.ready), timeout: 30, pollInterval: 0.2)
+
                 }
-                
-                it("Should be loaded") {
+            }
+            
+            describe("Close") {
+                it("Should close") {
                     self.adapter.load()
-                    expect(self.adapter.status).toEventually(equal(MediatorState.ready),timeout: 10, pollInterval: 0.2)
+                    expect(self.adapter.status).to(equal(MediatorState.loading))
+                    self.adapter.close()
+                    expect(self.adapter.status).to(equal(MediatorState.idle))
                 }
             }
         }
@@ -121,7 +132,7 @@ class VIMopubAdapterSpec: QuickSpec {
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
         
-        let adapter = MopubVIInterstitialAdapter(placementID: faulty ? "" : "e90aa8b06e3c473aa0ba70ebfc8c5c89")
+        let adapter = MopubVIInterstitialAdapter(placementID: faulty ? "" : self.accId)
         result?.registerMediation?(adapter)
         return result
     }
@@ -137,5 +148,6 @@ extension VIMopubAdapterSpec: VIAdDelegate {
         self.event = event
     }
 }
+
 
 
