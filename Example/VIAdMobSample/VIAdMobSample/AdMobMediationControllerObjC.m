@@ -31,8 +31,7 @@
 
 - (void)prepareAD
 {
-    
-    VIPlacement* placement = [[VIPlacement alloc] initWith:@"фывфыв" options:nil];
+    VIPlacement* placement = [[VIPlacement alloc] initWith:@"pltsn8iz6zueb3wl7hm" options:nil];
     self.ad = [[VISDK sharedInstance] createInterstitialAdFor:placement];
     self.ad.delegate = self;
     AdMobVIInterstitialAdapter* adapter = [[AdMobVIInterstitialAdapter alloc] initWithPlacementID:@"ca-app-pub-4499248058256064/8430446295"];

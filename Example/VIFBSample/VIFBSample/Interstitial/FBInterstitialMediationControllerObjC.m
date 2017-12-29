@@ -32,7 +32,7 @@
 - (void)prepareAD
 {
     
-    VIPlacement* placement = [[VIPlacement alloc] initWith:@"фывфыв" options:nil];
+    VIPlacement* placement = [[VIPlacement alloc] initWith:@"pltsn8iz6zueb3wl7hm" options:nil];
     self.ad = [[VISDK sharedInstance] createInterstitialAdFor:placement];
     self.ad.delegate = self;
     FacebookVIInterstitialAdapter* adapter = [[FacebookVIInterstitialAdapter alloc] initWithPlacementID:@"2007707356109450_2008142456065940"];

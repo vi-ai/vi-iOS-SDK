@@ -10,7 +10,7 @@
 
 The vi iOS SDK supports iOS v8 and above and requires ARC.
 
-**Enabe support for HTTP ads**
+#### Enabe support for HTTP ads
 
 Apple has introduced HTTPS changes that may not be supported by all Advertisers.
 In order to support ad requests that are made using HTTP instead of HTTPS, you need to make the following changes in your Info.plist:
@@ -51,8 +51,8 @@ Always initialise the vi SDK while launching your application
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-VISDK.sharedInstance()
-return true
+	VISDK.sharedInstance()
+	return true
 }
 ```
 #### Setting up an In-Stream ad
@@ -62,13 +62,14 @@ return true
 var inStreamAd: VIVideoAd!          // object to manage the ad
 
 override func viewDidLoad() {
-super.viewDidLoad()
-// Get PlacementId from ad console
-let placement = VIPlacement("Your_placement_Id", options: nil);
-inStreamAd = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: adContainer)
-inStreamAd.startsWhenReady = true
-inStreamAd.delegate = self
-inStreamAd.load()
+	super.viewDidLoad()
+	// Get PlacementId from ad console
+	
+	let placement = VIPlacement("Your_placement_Id", options: nil);
+	inStreamAd = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: adContainer)
+	inStreamAd.startsWhenReady = true
+	inStreamAd.delegate = self
+	inStreamAd.load()
 }
 ```
 
@@ -76,31 +77,31 @@ Implement two delegate methods which are rather informative and doesn’t requir
 
 ```swift
 func adDidReceive(_ event: VIAdEvent) {
-switch event.type {
-case .completed: break
-case .clicked: break
-case .closed: break
-case .expired: break
-case .loaded: break
-case .paused: break
-case .resumed: break
-case .started: break
-}
+	switch event.type {
+	case .completed: break
+	case .clicked: break
+	case .closed: break
+	case .expired: break
+	case .loaded: break
+	case .paused: break
+	case .resumed: break
+	case .started: break
+	}
 }
 
 func adDidReceiveError(_ error: Error) {
-
+	//your code
 }
 ```
 with one exception – start the ad manually if startsWhenReady is NO.
 
 ```swift
 func adDidReceive(_ event: VIAdEvent) {
-switch event.type {
-case .loaded:
-inStreamAd.start()
-break
-}
+	switch event.type {
+	case .loaded:
+		inStreamAd.start()
+	break
+	}
 }
 ```
 #### Setting up an Interstitial ad
@@ -117,13 +118,13 @@ Once the ad is loaded, a corresponding event will be returned via the following 
 
 ```swift
 func adDidReceive(_ event: VIAdEvent) {
-switch event.type {
-case .loaded:
-if interstitialAd.isReady {
-interstitialAd.show(from: self)
-}
-break
-}
+	switch event.type {
+	case .loaded:
+		if interstitialAd.isReady {
+			interstitialAd.show(from: self)
+		}
+	break
+	}
 }
 ```
 
