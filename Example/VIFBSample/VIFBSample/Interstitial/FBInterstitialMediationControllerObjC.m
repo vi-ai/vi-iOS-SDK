@@ -35,7 +35,7 @@
     VIPlacement* placement = [[VIPlacement alloc] initWith:@"фывфыв" options:nil];
     self.ad = [[VISDK sharedInstance] createInterstitialAdFor:placement];
     self.ad.delegate = self;
-    FacebookVIInterstitialAdapter* adapter = [[FacebookVIInterstitialAdapter alloc] initWithPlacementID:@"e90aa8b06e3c473aa0ba70ebfc8c5c89"];
+    FacebookVIInterstitialAdapter* adapter = [[FacebookVIInterstitialAdapter alloc] initWithPlacementID:@"2007707356109450_2008142456065940"];
     [self.ad registerMediation:adapter];
 }
 

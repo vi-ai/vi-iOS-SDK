@@ -36,7 +36,7 @@
     VIPlacement* placement = [[VIPlacement alloc] initWith:@"фывфыв" options:nil];
     self.ad = [[VISDK sharedInstance] createVideoAdFor:placement inContainer:self.containerView useCahe:YES];
     self.ad.delegate = self;
-    FacebookVIInlineAdapter* adapter = [[FacebookVIInlineAdapter alloc] initWithPlacementID:@"e90aa8b06e3c473aa0ba70ebfc8c5c89"];
+    FacebookVIInlineAdapter* adapter = [[FacebookVIInlineAdapter alloc] initWithPlacementID:@"2007707356109450_2017462025133983"];
     [self.ad registerMediation:adapter];
 }
 

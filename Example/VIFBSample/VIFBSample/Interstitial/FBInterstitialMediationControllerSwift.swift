@@ -16,7 +16,7 @@ class FBInterstitialMediationControllerSwift: UIViewController {
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
         
-        let adapter = FacebookVIInterstitialAdapter(placementID: "e90aa8b06e3c473aa0ba70ebfc8c5c89")
+        let adapter = FacebookVIInterstitialAdapter(placementID: "2007707356109450_2008142456065940")
         if let adapter = adapter
         {
             result?.registerMediation?(adapter)
