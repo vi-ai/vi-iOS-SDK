@@ -13,15 +13,16 @@ The vi iOS SDK supports iOS v8 and above and requires ARC.
 **Enabe support for HTTP ads**
 
 Apple has introduced HTTPS changes that may not be supported by all Advertisers.
-In order to support ad requests that are made using HTTP instead of HTTPS, you need to make the following changes in your Info.plist
+In order to support ad requests that are made using HTTP instead of HTTPS, you need to make the following changes in your Info.plist:
 
-Add the 'App Transport Security Settings' node
+```
+Add the 'App Transport Security Settings' node, and
 set 'Allow Arbitrary Loads' to YES
-
+```
 
 ## Installation
 
-**Using CocoaPods**
+#### Using CocoaPods
 
 VISDK is available through [CocoaPods](http://cocoapods.org).
 To install it, simply add the following line to your Podfile:
@@ -32,7 +33,7 @@ pod 'VISDK'
 Install the pod(s) by running `pod install`.
 Include VISDK wherever you need it with `import VISDK`.
 
-**Using Dynamic Framework**
+#### Using Dynamic Framework
 
 You can also add the vi iOS SDK as a dynamic framework to your project or workspace.
 
@@ -54,7 +55,7 @@ VISDK.sharedInstance()
 return true
 }
 ```
-**Setting up an In-Stream ad**
+#### Setting up an In-Stream ad
 
 ```swift
 @IBOutlet var adContainer: UIView!  // ad container. Ensure it's a part of view hierarchy
@@ -102,7 +103,7 @@ break
 }
 }
 ```
-**Setting up an Interstitial ad**
+#### Setting up an Interstitial ad
 
 Interstitial ads are cached locally which could take time depending on existing network conditions. Therefore, we recommend that you initiate the ad load process in advance to enhance the user experience.
 
@@ -128,17 +129,15 @@ break
 
 All callbacks are fired from the main queue. You will not be required to perform any resource cleanup steps. All ad content is automatically removed once the ad has been displayed.
 
-**Mediation**
+#### Mediation
 
 Also you can implement custom Mediations. Detailed samples are provided in [Example](https://github.com/maksymkravchenko/vi/tree/master/Example).
 
-**Need help?**
+To run the Example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Need help?
 
 Get in touch with as at pubdev@vi.ai so we can help you get started!
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
