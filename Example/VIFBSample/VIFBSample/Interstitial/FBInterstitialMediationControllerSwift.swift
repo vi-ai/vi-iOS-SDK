@@ -12,7 +12,7 @@ import VISDK
 class FBInterstitialMediationControllerSwift: UIViewController {
 
     fileprivate lazy var ad:VIInterstitialAd? = {
-        let placement = VIPlacement("pltsn8iz6zueb3wl7hm", options: nil)
+        let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
         

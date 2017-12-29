@@ -99,7 +99,7 @@ class VIMopubAdapterSpec: QuickSpec {
             describe("Init") {
                 
                 it("Should have initiated properties") {
-                    expect(self.adapter.title()).to(equal("AdMob"))
+                    expect(self.adapter.title()).to(equal("mopub"))
                     expect(self.adapter.status).to(equal(MediatorState.idle))
                 }
             }
@@ -128,7 +128,7 @@ class VIMopubAdapterSpec: QuickSpec {
     }
     
     private func makeAd(faulty: Bool = false) -> VIInterstitialAd? {
-        let placement = VIPlacement("lkhkg", options: nil)
+        let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
         

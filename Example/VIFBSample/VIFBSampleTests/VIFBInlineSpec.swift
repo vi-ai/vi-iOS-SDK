@@ -113,7 +113,7 @@ class VIFBInlineSpec: QuickSpec {
             describe("Init") {
 
                 it("Should have initiated properties") {
-                    expect(self.adapter.title()).to(equal("Facebook"))
+                    expect(self.adapter.title()).to(equal("facebook"))
                     expect(self.adapter.status).to(equal(MediatorState.idle))
                 }
             }
@@ -143,7 +143,7 @@ class VIFBInlineSpec: QuickSpec {
         self.viewController = UIViewController()
         let _ = viewController.view
         
-        let placement = VIPlacement("lkhkg", options: nil)
+        let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
         let result = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: self.viewController.view, useCahe: true)
         result?.delegate = self
         
