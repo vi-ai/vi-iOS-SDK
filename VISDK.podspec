@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VISDK'
-  s.version          = '1.5.1'
+  s.version          = '1.5.2'
   s.summary          = 'Add in-app video advertisement with VISDK'
 
   s.description      = 'Add in-app video advertisement with VISDK. Use it carefully and enjoy.'
