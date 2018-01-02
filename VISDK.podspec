@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VISDK'
-  s.version          = '1.5.2'
+  s.version          = '1.6.0'
   s.summary          = 'Add in-app video advertisement with VISDK'
 
   s.description      = 'Add in-app video advertisement with VISDK. Use it carefully and enjoy.'
 
-  s.homepage         = 'https://github.com/'
+  s.homepage         = 'https://vi.ai'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'VISDK' => 'nl@vi.com' }
   s.source           = { :git => 'https://github.com/maksymkravchenko/vi.git', :tag => s.version.to_s }
