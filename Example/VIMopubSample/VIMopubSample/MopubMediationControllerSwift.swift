@@ -12,10 +12,12 @@ import VISDK
 class MopubMediationControllerSwift: UIViewController {
 
     fileprivate lazy var ad:VIInterstitialAd? = {
+		// FIXME: use your placementId.
         let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
-        
+		
+		// FIXME: use your placementId.
         let adapter = MopubVIInterstitialAdapter(placementID: "e90aa8b06e3c473aa0ba70ebfc8c5c89")
         result?.registerMediation?(adapter)
         return result

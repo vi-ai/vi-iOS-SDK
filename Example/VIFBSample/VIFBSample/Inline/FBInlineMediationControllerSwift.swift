@@ -12,10 +12,12 @@ import VISDK
 class FBInlineMediationControllerSwift: UIViewController {
 
     fileprivate lazy var ad:VIVideoAd? = {
-        let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
+		// FIXME: use your placementId.
+        let placement = VIPlacement("your placementID", options: nil)
         let result = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: self.containerView ?? self.view, useCahe: true)
         result?.delegate = self
-        
+		
+		// FIXME: use your placementId.
         let adapter = FacebookVIInlineAdapter(placementID: "2007707356109450_2017462025133983")
         if let adapter = adapter
         {

@@ -32,10 +32,12 @@
 
 - (void)prepareAD
 {
-    
-    VIPlacement* placement = [[VIPlacement alloc] initWith:@"pltsn8iz6zueb3wl7hm" options:nil];
+#warning Use your placementID here!
+    VIPlacement* placement = [[VIPlacement alloc] initWith:@"plt59gczn8crjr99us7" options:nil];
     self.ad = [[VISDK sharedInstance] createVideoAdFor:placement inContainer:self.containerView useCahe:YES];
     self.ad.delegate = self;
+	
+#warning Configure with your placementID!
     FacebookVIInlineAdapter* adapter = [[FacebookVIInlineAdapter alloc] initWithPlacementID:@"2007707356109450_2017462025133983"];
     [self.ad registerMediation:adapter];
 }

@@ -13,10 +13,13 @@ import GoogleMobileAds
 class AdMobMediationControllerSwift: UIViewController {
 
     fileprivate lazy var ad:VIInterstitialAd? = {
+		
+		// FIXME: use your placementId.
 		let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
-        
+		
+		// FIXME: use your ApplicationId.
         let adapter = AdMobVIInterstitialAdapter(placementID: "ca-app-pub-4499248058256064/8430446295")
         result?.registerMediation?(adapter)
         return result
@@ -30,7 +33,8 @@ class AdMobMediationControllerSwift: UIViewController {
         super.viewDidLoad()
         self.playButton?.isEnabled = false
         self.statusLabel?.text = "Idling"
-     
+		
+		// FIXME: use your ApplicationId!
         GADMobileAds.configure(withApplicationID: "ca-app-pub-4499248058256064~1126671347")
     }
 

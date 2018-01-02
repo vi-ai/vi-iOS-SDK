@@ -26,14 +26,19 @@
     [super viewDidLoad];
     self.playButton.enabled = NO;
     self.statusLabel.text = @"Idling";
+	
+#warning Configure with your ApplicationId!
     [GADMobileAds configureWithApplicationID:@"ca-app-pub-4499248058256064~1126671347"];
 }
 
 - (void)prepareAD
 {
-    VIPlacement* placement = [[VIPlacement alloc] initWith:@"plt59gczn8crjr99us7" options:nil];
+#warning Use your placementID here!
+	VIPlacement* placement = [[VIPlacement alloc] initWith:@"plt59gczn8crjr99us7" options:nil];
     self.ad = [[VISDK sharedInstance] createInterstitialAdFor:placement];
     self.ad.delegate = self;
+	
+#warning Configure with your ApplicationId!
     AdMobVIInterstitialAdapter* adapter = [[AdMobVIInterstitialAdapter alloc] initWithPlacementID:@"ca-app-pub-4499248058256064/8430446295"];
     [self.ad registerMediation:adapter];
 }

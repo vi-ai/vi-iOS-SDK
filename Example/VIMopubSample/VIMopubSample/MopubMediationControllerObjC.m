@@ -30,10 +30,12 @@
 
 - (void)prepareAD
 {
-    
+#warning Use your placementID here!
     VIPlacement* placement = [[VIPlacement alloc] initWith:@"plt59gczn8crjr99us7" options:nil];
     self.ad = [[VISDK sharedInstance] createInterstitialAdFor:placement];
     self.ad.delegate = self;
+	
+#warning Use your placementID here!
     MopubVIInterstitialAdapter* adapter = [[MopubVIInterstitialAdapter alloc] initWithPlacementID:@"e90aa8b06e3c473aa0ba70ebfc8c5c89"];
     [self.ad registerMediation:adapter];
 }

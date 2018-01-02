@@ -12,10 +12,13 @@ import VISDK
 class FBInterstitialMediationControllerSwift: UIViewController {
 
     fileprivate lazy var ad:VIInterstitialAd? = {
+		
+		// FIXME: user your placementId.
         let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
-        
+		
+		// FIXME: user your placementId.
         let adapter = FacebookVIInterstitialAdapter(placementID: "2007707356109450_2008142456065940")
         if let adapter = adapter
         {
