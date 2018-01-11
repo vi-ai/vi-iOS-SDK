@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://cocoapods.org/pods/VISDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'VISDK' => 'nl@vi.com' }
-  s.source           = { :git => 'https://github.com/vi-ai/vi-iOS-SDK', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vi-ai/vi-iOS-SDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
