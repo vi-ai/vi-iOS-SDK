@@ -80,6 +80,9 @@
 
 - (instancetype)initWithPlacementID:(NSString*)placementID
 {
+//#if TARGET_OS_SIMULATOR
+//    return nil;
+//#else
     self = [super init];
     if (self != nil)
     {
@@ -92,6 +95,7 @@
         self.startsWhenReady = NO;
     }
     return self;
+//#endif
 }
 
 - (void)close
@@ -119,7 +123,7 @@
 
 - (nullable NSString *)title
 {
-	return kFBMediationKey;
+    return kFBMediationKey;
 }
 
 - (void)load
@@ -207,7 +211,7 @@
     self.timeLabel.textColor = [UIColor whiteColor];
     self.timeLabel.textAlignment = NSTextAlignmentRight;
     self.timeLabel.text = [self timeFormatFromTime:0];
-    
+	
     [containerView addSubview:self.timeLabel];
     
     [[self.timeLabel.rightAnchor constraintEqualToAnchor:containerView.rightAnchor constant:-5] setActive:YES];
@@ -273,7 +277,7 @@
 	NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 	formatter.dateFormat = @"HH:mm:ss";
 	NSString *result = [formatter stringFromDate:date];
-	return result;
+    return result;
 }
 
 - (void)prepareUIForVideo:(BOOL)isVideo
@@ -313,7 +317,7 @@
 
 - (void)nativeAdDidClick:(FBNativeAd *)nativeAd
 {
-	[super didReceiveEventWithType:VIAdEventClicked];
+    [super didReceiveEventWithType:VIAdEventClicked];
 }
 
 #pragma mark - FBMediaViewDelegate
@@ -341,14 +345,14 @@
 
 - (void)videoRendererVideoDidPlay:(VIVideoRenderer *)videoRenderer
 {
-	if (videoRenderer == nil || (CMTIME_IS_VALID(videoRenderer.currentTime) && CMTimeGetSeconds(videoRenderer.currentTime) == 0))
-	{
-		[super didReceiveEventWithType:VIAdEventStarted];
-	}
-	else
-	{
-		[super didReceiveEventWithType:VIAdEventResumed];
-	}
+        if (videoRenderer == nil || (CMTIME_IS_VALID(videoRenderer.currentTime) && CMTimeGetSeconds(videoRenderer.currentTime) == 0))
+        {
+            [super didReceiveEventWithType:VIAdEventStarted];
+        }
+        else
+        {
+            [super didReceiveEventWithType:VIAdEventResumed];
+        }
 }
 
 - (void)videoRendererVideoDidFail:(VIVideoRenderer *)videoRenderer withError:(NSError*)error

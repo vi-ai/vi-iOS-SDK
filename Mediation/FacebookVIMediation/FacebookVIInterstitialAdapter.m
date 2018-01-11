@@ -22,6 +22,9 @@
 
 - (instancetype)initWithPlacementID:(NSString*)placementID
 {
+//#if TARGET_OS_SIMULATOR
+//    return nil;
+//#else
     self = [super init];
     if (self != nil)
     {
@@ -32,6 +35,7 @@
         self.placementID = placementID;
     }
     return self;
+//#endif
 }
 
 - (void)close
@@ -43,7 +47,7 @@
 
 - (nullable NSString *)title
 {
-	return kFBMediationKey;
+    return kFBMediationKey;
 }
 
 
@@ -80,7 +84,7 @@
 
 - (void)interstitialAdDidClose:(FBInterstitialAd *)interstitialAd
 {
-	[super didReceiveEventWithType:VIAdEventCompleted];
+    [super didReceiveEventWithType:VIAdEventCompleted];
 }
 
 - (void)interstitialAdDidLoad:(FBInterstitialAd *)interstitialAd

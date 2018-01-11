@@ -14,7 +14,7 @@ PODS:
     - mopub-ios-sdk/Moat
   - Nimble (7.0.3)
   - Quick (1.2.0)
-  - VISDK (1.5.1)
+  - VISDK (1.6.1)
 
 DEPENDENCIES:
   - FBAudienceNetwork (~> 4.25.0)
@@ -30,8 +30,8 @@ SPEC CHECKSUMS:
   mopub-ios-sdk: ffbe414adf2fb7717d999020a3ff51d908da599f
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  VISDK: 17aa4307f553d3f8b0d8f4b844b2022581cfa0a3
+  VISDK: 38109b0f372e2bfa75d34eacfbde354b17b01d35
 
-PODFILE CHECKSUM: 9157350f1ae1488fe625f4514adb5a532b5dccf2
+PODFILE CHECKSUM: 5533cc5dca5ccf0d9e1ab2ec491a00c24a8566d7
 
 COCOAPODS: 1.3.1
