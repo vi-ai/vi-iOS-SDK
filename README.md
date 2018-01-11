@@ -198,13 +198,19 @@ Apart from custom events, the vi SDK also includes a pre-built adapter for `coun
 
 ### count.ly adapter usage
 
-Copy source files from Folder link: [Countly](https://github.com/maksymkravchenko/vi/tree/master/ExternalAnalytics/Countly) to your project.
+Copy source files from Folder link: [Countly](https://github.com/maksymkravchenko/vi/tree/master/ExternalAnalytics/Countly) to your project. And register  `CountlyExternalTracker` at start of your App e.g. in `AppDelegate`:
 
 ```swift
 
-if let countlyTracker = CountlyExternalTracker(appKey: "Your countly app key", host: "Your countly host url path") {
-	VISDK.sharedInstance().register(countlyTracker)
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+	if let countlyTracker = CountlyExternalTracker(appKey: "Your countly app key", host: "Your countly host url path") {
+		VISDK.sharedInstance().register(countlyTracker)
+	}
+	
+	return true
 }
+
 
 ```
 
