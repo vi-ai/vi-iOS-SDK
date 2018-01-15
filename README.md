@@ -205,13 +205,14 @@ Copy source files from Folder link: [Countly](https://github.com/maksymkravchenk
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
 	//Initialize Counlty
-	CountlyConfig *config = CountlyConfig.new;
-	config.appKey = "Your countly app key";
-	config.host = "Your countly host url path";
-	[Countly.sharedInstance startWithConfig:config];
+	let config = CountlyConfig()
+	config.appKey = "Your countly app key"
+	config.host = "Your countly host url path"
+	
+	Countly.sharedInstance().start(with: config)
 
 	//Register externalTracker to VISDK
-	[VISDK.sharedInstance registerExternalTracker:[[CountlyExternalTracker alloc] init]];
+	VISDK.sharedInstance().register(CountlyExternalTracker())
 
 	return true
 }
