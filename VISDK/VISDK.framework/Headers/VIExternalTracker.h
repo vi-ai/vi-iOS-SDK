@@ -13,15 +13,9 @@
 #import <Foundation/Foundation.h>
 
 /**
- Provides functional for tracking events with castom service.
+ Provides functional for tracking events with custom service.
  */
 @interface VIExternalTracker : NSObject
-
-/**
- Set property to YES after correct initialization of Tracker.
- If NO - tracker won't be registered.
- */
-@property (nonatomic, assign, readonly) BOOL isValid;
 
 - (void)adStart:(nonnull NSString *)placementId;
 - (void)adComplete:(nonnull NSString *)placementId;
@@ -31,8 +25,6 @@
 - (void)adError:(nonnull NSString *)placementId;
 - (void)adClicked:(nonnull NSString *)placementId;
 - (void)adVolumeChanged:(nonnull NSString *)placementId isMute:(BOOL)isMute;
-
-- (nullable instancetype)init;
 
 @end
 
