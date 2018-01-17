@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (31% documented)</p>
+        <p class="header-right"><a href="https://github.com/vi-ai/vi-iOS-SDK"><img src="img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/VIAdEvent.html">VIAdEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VIExternalTracker.html">VIExternalTracker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VIInlineMediator.html">VIInlineMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VIInterstitialMediator.html">VIInterstitialMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VIMediator.html">VIMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VIOptions.html">VIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VIPlacement.html">VIPlacement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/VISDK.html">VISDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@VISDKVersionNumber">VISDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@VISDKVersionString">VISDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:VIMediator.h@kAdMobKey">kAdMobKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:VIMediator.h@kFBMediationKey">kFBMediationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:VIMediator.h@kMopubKey">kMopubKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/MediatorState.html">MediatorState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/VIAdEventType.html">VIAdEventType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/VIAd.html">VIAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VIAdDelegate.html">VIAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VIInterstitialAd.html">VIInterstitialAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VIVideoAd.html">VIVideoAd</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='video-intelligence-ios-sdk-v2-0' class='heading'>video intelligence iOS SDK v2.0</h1>
+
+<!--[![CI Status](http://img.shields.io/travis/Maksym Kravchenko/VISDK.svg?style=flat)](https://travis-ci.org/Maksym Kravchenko/VISDK)-->
+
+<p><a href="https://cocoapods.org/pods/VISDK"><img src="https://img.shields.io/cocoapods/v/VISDK.svg?style=flat" alt="Version"></a>
+<a href="https://github.com/maksymkravchenko/vi/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/VISDK.svg?style=flat" alt="License"></a>
+<a href="https://cocoapods.org/pods/VISDK"><img src="https://img.shields.io/cocoapods/p/VISDK.svg?style=flat" alt="Platform"></a></p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<p>The vi iOS SDK supports iOS v8 and above and requires ARC.</p>
+<h4 id='enable-support-for-http-ads' class='heading'>Enable support for HTTP ads</h4>
+
+<p>Apple has introduced HTTPS changes that may not be supported by all Advertisers. Enforcing the need for secure ads only will impact your potential revenue.
+In order to support ad requests that are made using HTTP instead of HTTPS, you need to make the following changes in your Info.plist:</p>
+<pre class="highlight plaintext"><code>Add the 'App Transport Security Settings' node, and
+set 'Allow Arbitrary Loads' to YES
+</code></pre>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='using-cocoapods-prefered' class='heading'>Using CocoaPods (prefered)</h3>
+
+<p>vi IOS SDK is available through <a href="http://cocoapods.org">CocoaPods</a>.
+To install it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'VISDK'</span>
+</code></pre>
+
+<p>Install the pod(s) by running <code>pod install</code>.
+Include vi IOS SDK wherever you need it with <code>import VISDK</code>.</p>
+<h3 id='using-dynamic-framework' class='heading'>Using Dynamic Framework</h3>
+
+<p>You can also add the vi iOS SDK as a dynamic framework to your project or workspace.</p>
+
+<p>Get the latest version of <a href="https://github.com/maksymkravchenko/vi/tree/master/VISDK/VISDK.framework">VISDK.framework</a> , copy it to your project’s working directory
+Open Xcode, select your target, go to General tab. Add <code>VISDK.framework</code> as Embedded Binary.
+Include VISDK wherever you need it with <code>import VISDK</code>.</p>
+<h2 id='usage' class='heading'>Usage</h2>
+
+<p>As part of vi iOS SDK v2.0 you can choose to display both In-Stream or Interstitial video ads.
+In both cases, you would need to provide a placement and a container where the ad is to be displayed.
+Make sure you hold the reference on the instance of ViAd while the ad is being rendered.</p>
+
+<p>Always initialize the vi IOS SDK while launching your application</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="nf">Bool</span> <span class="p">{</span>
+    <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span>
+    <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre>
+<h3 id='setting-up-an-in-stream-ad' class='heading'>Setting up an In-Stream ad</h3>
+<pre class="highlight swift"><code><span class="kd">@IBOutlet</span> <span class="k">var</span> <span class="nv">adContainer</span><span class="p">:</span> <span class="kt">UIView</span><span class="o">!</span>  <span class="c1">// ad container. Ensure it's a part of view hierarchy</span>
+<span class="k">var</span> <span class="nv">inStreamAd</span><span class="p">:</span> <span class="kt">VIVideoAd</span><span class="o">!</span>          <span class="c1">// object to manage the ad</span>
+
+<span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+    <span class="c1">// Get PlacementId from ad console</span>
+
+    <span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your_placement_Id"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">);</span>
+    <span class="n">inStreamAd</span> <span class="o">=</span> <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">createVideoAd</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="n">placement</span><span class="p">,</span> <span class="nv">inContainer</span><span class="p">:</span> <span class="n">adContainer</span><span class="p">)</span>
+    <span class="n">inStreamAd</span><span class="o">.</span><span class="n">startsWhenReady</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="n">inStreamAd</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+    <span class="n">inStreamAd</span><span class="o">.</span><span class="nf">load</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Implement two delegate methods which are rather informative and doesn’t require any action from your side</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adDidReceive</span><span class="p">(</span><span class="n">_</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">VIAdEvent</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">switch</span> <span class="n">event</span><span class="o">.</span><span class="nf">type</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">completed</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">clicked</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">closed</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">expired</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">loaded</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">paused</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">resumed</span><span class="p">:</span> <span class="k">break</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">started</span><span class="p">:</span> <span class="k">break</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">adDidReceiveError</span><span class="p">(</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//your code</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>with one exception – start the ad manually if startsWhenReady is NO.</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adDidReceive</span><span class="p">(</span><span class="n">_</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">VIAdEvent</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">switch</span> <span class="n">event</span><span class="o">.</span><span class="nf">type</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">loaded</span><span class="p">:</span>
+        <span class="n">inStreamAd</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+    <span class="k">break</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>you can control ad playback</p>
+<pre class="highlight swift"><code><span class="n">inStreamAd</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+
+<span class="n">inStreamAd</span><span class="o">.</span><span class="nf">pause</span><span class="p">()</span>
+
+<span class="n">inStreamAd</span><span class="o">.</span><span class="nf">resume</span><span class="p">()</span>
+
+<span class="n">inStreamAd</span><span class="o">.</span><span class="nf">close</span><span class="p">()</span>
+</code></pre>
+<h3 id='setting-up-an-interstitial-ad' class='heading'>Setting up an Interstitial ad</h3>
+
+<p>Interstitial ads are cached locally which could take time depending on existing network conditions. Therefore, we recommend that you initiate the ad load process in advance to enhance the user experience.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your_placement_Id"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="n">interstitialAd</span> <span class="o">=</span> <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">createInterstitialAd</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="n">placement</span><span class="p">)</span>
+<span class="n">interstitialAd</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+<span class="n">interstitialAd</span><span class="o">.</span><span class="nf">load</span><span class="p">()</span>
+</code></pre>
+
+<p>Once the ad is loaded, a corresponding event will be returned via the following callback. We strongly recommend checking whether the ad is ready isReady before displaying it.</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adDidReceive</span><span class="p">(</span><span class="n">_</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">VIAdEvent</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">switch</span> <span class="n">event</span><span class="o">.</span><span class="nf">type</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">loaded</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">interstitialAd</span><span class="o">.</span><span class="nf">isReady</span> <span class="p">{</span>
+            <span class="n">interstitialAd</span><span class="o">.</span><span class="nf">show</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="k">break</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>All callbacks are fired from the main queue. You will not be required to perform any resource cleanup steps. All ad content is automatically removed once the ad has been displayed.</p>
+<h2 id='client-side-mediation-how-to-enable-ad-mediation-support' class='heading'>Client Side Mediation: How to enable Ad mediation support</h2>
+
+<p>vi IOS SDK supports 3 ad providers:</p>
+
+<ul>
+<li><a href="https://github.com/maksymkravchenko/vi/tree/master/Mediation/AdMobVIMediation">AdMob</a></li>
+<li><a href="https://github.com/maksymkravchenko/vi/tree/master/Mediation/FacebookVIMediation">MoPub</a></li>
+<li><a href="https://github.com/maksymkravchenko/vi/tree/master/Mediation/MopubVIMediation">Facebook</a></li>
+</ul>
+<h3 id='installation' class='heading'>Installation</h3>
+
+<p>Add files for Mediation you need from above folder links to your projects.</p>
+
+<p>Mediation adapters should be added to Vi Ads where you want mediation to be present. Here is simple Mopub example:</p>
+<pre class="highlight swift"><code>
+<span class="c1">// Create interstitialAd</span>
+<span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your placement ID"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">ad</span> <span class="o">=</span> <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">createInterstitialAd</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="n">placement</span><span class="p">)</span>
+<span class="n">ad</span><span class="p">?</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+
+<span class="c1">// Register Mediation adapter.</span>
+<span class="k">let</span> <span class="nv">adapter</span> <span class="o">=</span> <span class="nf">MopubVIInterstitialAdapter</span><span class="p">(</span><span class="nv">placementID</span><span class="p">:</span> <span class="s">"your Mopub placement ID"</span><span class="p">)</span>
+<span class="n">ad</span><span class="p">?</span><span class="o">.</span><span class="nf">registerMediation</span><span class="p">(</span><span class="n">adapter</span><span class="p">)</span>
+
+</code></pre>
+
+<p>That’s it. When there is no available vi Direct demand, the Mopub ad will be sourced and displayed in your application.</p>
+
+<p>You can register several Mediation adapter of a different kind:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">adapter1</span> <span class="o">=</span> <span class="nf">MopubVIInterstitialAdapter</span><span class="p">(</span><span class="nv">placementID</span><span class="p">:</span> <span class="s">"your Mopub placement ID"</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">adapter2</span> <span class="o">=</span> <span class="nf">FacebookVIInterstitialAdapter</span><span class="p">(</span><span class="nv">placementID</span><span class="p">:</span> <span class="s">"your Mopub placement ID"</span><span class="p">)</span>
+<span class="n">ad</span><span class="p">?</span><span class="o">.</span><span class="nf">registerMediations</span><span class="p">([</span> <span class="n">adapter1</span><span class="p">,</span> <span class="n">adapter2</span> <span class="p">])</span>
+
+</code></pre>
+<h3 id='mediation-samples' class='heading'>Mediation Samples</h3>
+
+<p>Detailed samples with Mediation implementations are provided in <a href="https://github.com/maksymkravchenko/vi/tree/master/Example">Example</a>.</p>
+
+<p>To run the Example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+<h2 id='external-tracker-how-add-external-trackers-for-viadssdk' class='heading'>External tracker: How add external trackers for ViAdsSDK</h2>
+
+<p>ViAdSDK provides ability to add global trackers on all events that happens within the SDK. This tracking should be registered just after SDK initialization. This can be achieved with implementation of VIExternalTracker protocol.</p>
+
+<p>For all events, the placementID determines on which placement the event occurred.</p>
+
+<p>Apart from custom events, the vi SDK also includes a pre-built adapter for <code>count.ly</code> analytics.</p>
+<h3 id='count-ly-adapter-usage' class='heading'>count.ly adapter usage</h3>
+
+<p>Copy source files from Folder link: <a href="https://github.com/maksymkravchenko/vi/tree/master/ExternalAnalytics/Countly">Countly</a> to your project. And register  <code>CountlyExternalTracker</code> at start of your App e.g. in <code>AppDelegate</code>:</p>
+<pre class="highlight swift"><code>
+<span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="nf">Bool</span> <span class="p">{</span>
+
+    <span class="c1">//Initialize Counlty</span>
+    <span class="k">let</span> <span class="nv">config</span> <span class="o">=</span> <span class="nf">CountlyConfig</span><span class="p">()</span>
+    <span class="n">config</span><span class="o">.</span><span class="n">appKey</span> <span class="o">=</span> <span class="s">"Your countly app key"</span>
+    <span class="n">config</span><span class="o">.</span><span class="n">host</span> <span class="o">=</span> <span class="s">"Your countly host url path"</span>
+
+    <span class="kt">Countly</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">start</span><span class="p">(</span><span class="nv">with</span><span class="p">:</span> <span class="n">config</span><span class="p">)</span>
+
+    <span class="c1">//Register externalTracker to VISDK</span>
+    <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="nf">CountlyExternalTracker</span><span class="p">())</span>
+
+    <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+
+</code></pre>
+<h2 id='need-help' class='heading'>Need help?</h2>
+
+<p>Get in touch with as at <a href="mailto:pubdev@vi.ai">pubdev@vi.ai</a> so we can help you get started!</p>
+<h2 id='author' class='heading'>Author</h2>
+
+<p>video intelligence
+<a href="https://docs.vi.ai">more information</a></p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>vi IOS SDK is available under the MIT license. See the LICENSE file for more info.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/vi-ai/vi-iOS-SDK" target="_blank" rel="external">‘video</a>. All rights reserved. (Last updated: 2018-01-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

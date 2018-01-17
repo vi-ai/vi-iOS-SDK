@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VIInterstitialAd Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Protocol/VIInterstitialAd" class="dashAnchor"></a>
+    <a title="VIInterstitialAd Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (31% documented)</p>
+        <p class="header-right"><a href="https://github.com/vi-ai/vi-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        VIInterstitialAd Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/VIAdEvent.html">VIAdEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIExternalTracker.html">VIExternalTracker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIInlineMediator.html">VIInlineMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIInterstitialMediator.html">VIInterstitialMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIMediator.html">VIMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIOptions.html">VIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIPlacement.html">VIPlacement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VISDK.html">VISDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VISDKVersionNumber">VISDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VISDKVersionString">VISDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:VIMediator.h@kAdMobKey">kAdMobKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:VIMediator.h@kFBMediationKey">kFBMediationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:VIMediator.h@kMopubKey">kMopubKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/MediatorState.html">MediatorState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VIAdEventType.html">VIAdEventType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/VIAd.html">VIAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VIAdDelegate.html">VIAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VIInterstitialAd.html">VIInterstitialAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VIVideoAd.html">VIVideoAd</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>VIInterstitialAd</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">VIInterstitialAd</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/VIAd.html">VIAd</a></span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>Interface to display interstitial ad</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)VIInterstitialAd(im)showFromViewController:"></a>
+                    <a name="//apple_ref/objc/Method/-showFromViewController:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)VIInterstitialAd(im)showFromViewController:">-showFromViewController:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If isReady == YES, ad will be presented. Otherwise this call will be ignored.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showFromViewController</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">aViewController</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">show</span><span class="p">(</span><span class="n">fromViewController</span> <span class="nv">aViewController</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>aViewController</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>from which ad will be presented modally</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/vi-ai/vi-iOS-SDK" target="_blank" rel="external">‘video</a>. All rights reserved. (Last updated: 2018-01-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

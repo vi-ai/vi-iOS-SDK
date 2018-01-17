@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VISDK Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/VISDK" class="dashAnchor"></a>
+    <a title="VISDK Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (31% documented)</p>
+        <p class="header-right"><a href="https://github.com/vi-ai/vi-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        VISDK Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/VIAdEvent.html">VIAdEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIExternalTracker.html">VIExternalTracker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIInlineMediator.html">VIInlineMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIInterstitialMediator.html">VIInterstitialMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIMediator.html">VIMediator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIOptions.html">VIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VIPlacement.html">VIPlacement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VISDK.html">VISDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VISDKVersionNumber">VISDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VISDKVersionString">VISDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:VIMediator.h@kAdMobKey">kAdMobKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:VIMediator.h@kFBMediationKey">kFBMediationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:VIMediator.h@kMopubKey">kMopubKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/MediatorState.html">MediatorState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VIAdEventType.html">VIAdEventType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/VIAd.html">VIAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VIAdDelegate.html">VIAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VIInterstitialAd.html">VIInterstitialAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VIVideoAd.html">VIVideoAd</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>VISDK</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">VISDK</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Singletone, provides access to the api.
+Initialize in AppDelegate</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(py)version"></a>
+                    <a name="//apple_ref/objc/Property/version" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(py)version">version</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Version of the SDK</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">version</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">version</span><span class="p">:</span> <span class="nf">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(py)options"></a>
+                    <a name="//apple_ref/objc/Property/options" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(py)options">options</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n"><a href="../Classes/VIOptions.html">VIOptions</a></span> <span class="o">*</span> <span class="n">options</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">options</span><span class="p">:</span> <span class="nf">VIOptions</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(cm)createWithOptions:"></a>
+                    <a name="//apple_ref/objc/Method/+createWithOptions:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(cm)createWithOptions:">+createWithOptions:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">createWithOptions</span><span class="p">:(</span><span class="n">nullable</span> <span class="n"><a href="../Classes/VIOptions.html">VIOptions</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">options</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="n">with</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Classes/VIOptions.html">VIOptions</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(cm)sharedInstance"></a>
+                    <a name="//apple_ref/objc/Method/+sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(cm)sharedInstance">+sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="n">sharedInstance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sharedInstance</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(im)createVideoAdFor:inContainer:"></a>
+                    <a name="//apple_ref/objc/Method/-createVideoAdFor:inContainer:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(im)createVideoAdFor:inContainer:">-createVideoAdFor:inContainer:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Put and hold instance of ViAd where you are going to display the instream ad.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/VIVideoAd.html">VIVideoAd</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nf">createVideoAdFor</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/VIPlacement.html">VIPlacement</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">placement</span>
+                               <span class="nf">inContainer</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">view</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">createVideoAd</span><span class="p">(</span><span class="k">for</span> <span class="nv">placement</span><span class="p">:</span> <span class="kt"><a href="../Classes/VIPlacement.html">VIPlacement</a></span><span class="p">,</span> <span class="n">inContainer</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/VIVideoAd.html">VIVideoAd</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>placement</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>for ad</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>in which video ad will be displayed</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>VIVideoAd instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(im)createVideoAdFor:inContainer:useCahe:"></a>
+                    <a name="//apple_ref/objc/Method/-createVideoAdFor:inContainer:useCahe:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(im)createVideoAdFor:inContainer:useCahe:">-createVideoAdFor:inContainer:useCahe:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/VIVideoAd.html">VIVideoAd</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nf">createVideoAdFor</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/VIPlacement.html">VIPlacement</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">placement</span>
+                               <span class="nf">inContainer</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span>
+                                   <span class="nf">useCahe</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">shouldUseCache</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">createVideoAd</span><span class="p">(</span><span class="k">for</span> <span class="nv">placement</span><span class="p">:</span> <span class="kt"><a href="../Classes/VIPlacement.html">VIPlacement</a></span><span class="p">,</span> <span class="n">inContainer</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">useCahe</span> <span class="nv">shouldUseCache</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/VIVideoAd.html">VIVideoAd</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(im)createInterstitialAdFor:"></a>
+                    <a name="//apple_ref/objc/Method/-createInterstitialAdFor:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(im)createInterstitialAdFor:">-createInterstitialAdFor:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Put and hold instance of VIInterstitialAd where you are going to display the interstitial ad.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/VIInterstitialAd.html">VIInterstitialAd</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nf">createInterstitialAdFor</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/VIPlacement.html">VIPlacement</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">placement</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">createInterstitialAd</span><span class="p">(</span><span class="k">for</span> <span class="nv">placement</span><span class="p">:</span> <span class="kt"><a href="../Classes/VIPlacement.html">VIPlacement</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/VIInterstitialAd.html">VIInterstitialAd</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>placement</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>for ad</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>VIInterstitialAd instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VISDK(im)registerExternalTracker:"></a>
+                    <a name="//apple_ref/objc/Method/-registerExternalTracker:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VISDK(im)registerExternalTracker:">-registerExternalTracker:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Registers external event tracking service.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerExternalTracker</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/VIExternalTracker.html">VIExternalTracker</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">tracker</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">tracker</span><span class="p">:</span> <span class="kt"><a href="../Classes/VIExternalTracker.html">VIExternalTracker</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/vi-ai/vi-iOS-SDK" target="_blank" rel="external">‘video</a>. All rights reserved. (Last updated: 2018-01-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
