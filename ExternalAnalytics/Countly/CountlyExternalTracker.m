@@ -17,9 +17,6 @@ static NSString * const kDefaultEventId = @"VISDK";
 
 NSString * const ktotalCountKey = @"totalCount";
 
-
-@synthesize isValid = _isValid;
-
 - (NSString *)eventId {
 	if (_eventId == nil) {
 		return kDefaultEventId;
@@ -28,30 +25,6 @@ NSString * const ktotalCountKey = @"totalCount";
 	}
 }
 
-- (nullable instancetype)initWithAppKey:(nonnull NSString *)appKey host:(nonnull NSString *)host {
-	if (appKey.length < 1 || host.length < 1) {
-		return nil;
-	}
-	
-	self = [super init];
-	if (self) {
-		CountlyConfig *config = CountlyConfig.new;
-#ifdef DEBUG
-		config.enableDebug = YES;
-#endif
-		config.appKey = appKey;
-		config.host = host;
-		
-		[Countly.sharedInstance startWithConfig:config];
-		[Countly.sharedInstance setNewDeviceID:CLYIDFV onServer:YES];
-		_isValid = YES;
-	}
-	return self;
-}
-
-- (nullable instancetype)init {
-	return [self initWithAppKey:@"" host:@""];
-}
 
 - (void)adStart:(nonnull NSString *)placementId {
 	[self recordEvent:@"adStart"  withPlacementId:placementId];
@@ -82,7 +55,7 @@ NSString * const ktotalCountKey = @"totalCount";
 }
 
 - (void)adVolumeChanged:(nonnull NSString *)placementId isMute: (BOOL)isMute {
-	[self recordEvent:isMute ? @"adVolumeChanged_Mute" : @"adVolumeChanged_Unmute"  withPlacementId:placementId];
+	[self recordEvent:isMute ? @"adVolumeChanged_Mute" : @"adVolumeChanged_Unmute" withPlacementId:placementId];
 }
 	 
 - (void)recordEvent:(nonnull NSString *)event withPlacementId:(nonnull NSString *)placementId {
