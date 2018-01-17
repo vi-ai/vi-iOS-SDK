@@ -122,7 +122,7 @@ inStreamAd.close()
 Interstitial ads are cached locally which could take time depending on existing network conditions. Therefore, we recommend that you initiate the ad load process in advance to enhance the user experience.
 
 ```swift
-let placement = VIPlacement("plttwmion1hu5al7mmu", options: nil);
+let placement = VIPlacement("Your_placement_Id", options: nil)
 interstitialAd = VISDK.sharedInstance().createInterstitialAd(for: placement)
 interstitialAd.delegate = self
 interstitialAd.load()
@@ -162,7 +162,7 @@ Mediation adapters should be added to Vi Ads where you want mediation to be pres
 ```swift
 
 // Create interstitialAd
-let placement = VIPlacement("your placement ID", options: nil)
+let placement = VIPlacement("Your placement ID", options: nil)
 let ad = VISDK.sharedInstance().createInterstitialAd(for: placement)
 ad?.delegate = self
 
@@ -218,6 +218,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 
 ```
+
+## Documentation
+
+Detailed documentation is [here](https://cdn.rawgit.com/vi-ai/vi-iOS-SDK/918c6c92/docs/index.html).
 
 ## Need help?
 
