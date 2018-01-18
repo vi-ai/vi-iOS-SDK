@@ -57,3 +57,10 @@ target 'VIFBSampleTests' do
     pod 'VISDK'
 end
 
+target 'VIADSample' do
+	use_frameworks!
+	project 'VIADSample/VIADSample.xcodeproj'
+	pod 'VISDK'
+end
+
+

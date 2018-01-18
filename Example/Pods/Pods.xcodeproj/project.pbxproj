@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		006323E00E984D7E951706B28FC78A39 /* MPError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A981547DCDA3182F1C3BF0FEB4DBB06 /* MPError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0074738799BCFB305ECEC3010F459EFB /* MPProgressOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C04DD57FE7F4A1C9BB1C8B21854CE2 /* MPProgressOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		008EFD02DCE7C784C98EC6EB8A6BA6BD /* Pods-VIMopubSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8040BC06897A48C84395BBE907F9514 /* Pods-VIMopubSample-dummy.m */; };
+		008EFD02DCE7C784C98EC6EB8A6BA6BD /* Pods-VIMopubSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 473891E31363021F0D9E3517A306FBF1 /* Pods-VIMopubSample-dummy.m */; };
 		00C31381B467F421680E810D6ADA4EAF /* MOPUBNativeVideoAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3F74432562388D48DBADD6235E9EA /* MOPUBNativeVideoAdAdapter.m */; };
 		00C5A8022608953EB7D28F8206F29668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6D5A72A94EF4E04EF08CC3B47D6EDE /* Foundation.framework */; };
 		01019C42AAF6810A60AE347D8B7531D8 /* MoPub_Avid.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFA66621F3735FEE76F692FC6162463 /* MoPub_Avid.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +64,7 @@
 		1D7E0B16794335187E2608CF782E5813 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713D02A0C55B257A460594A35CC35FE3 /* SafariServices.framework */; };
 		1DCC3BD9A137BCFCFBC64A2EB0EF41EB /* MPReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9F33FB354E3D183DB6DAE81383048 /* MPReachability.m */; };
 		1E1CE28FFCCD7499620B47C910E9B9E9 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED06223DA9967461BEBC3D9315F12F /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		1E519E52EF3EE943C4C3CE78F3A134FC /* Pods-VIFBSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6AD1A4CC615BEB89B4C6181400D41 /* Pods-VIFBSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E519E52EF3EE943C4C3CE78F3A134FC /* Pods-VIFBSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153AB11CF6D193149659A99101744C03 /* Pods-VIFBSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2006A8CC83DF051278DB41F8436402F9 /* MPNativeAdUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E20828C9B4AEA723A60534D4BD81B3BA /* MPNativeAdUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		202A7E209898AAAF0AFA8AF47C9ECFE7 /* MPSessionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF8C0D08FB4CC5C15AE2FE54B12561 /* MPSessionTracker.m */; };
 		2144BFBF1932CA187B48C4AAE2A1B119 /* MOPUBExperimentProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF81198435FDCDC932E8071A47221B3 /* MOPUBExperimentProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,7 +95,7 @@
 		3053782376387C40520C5908E0E3E54B /* MPRewardedVideoReward.h in Headers */ = {isa = PBXBuildFile; fileRef = D456CC96D0988E50F46E7910EB94B7C4 /* MPRewardedVideoReward.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		309D355A0F70F614A8DBAC01894A4EB0 /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = C6733AC986265F7318C88C22CA4CEE81 /* MPCountdownTimer.html */; };
 		30C8E33DD3564C2396A7265AB12547EE /* MPVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AB25EFC599B191070C23AA29B9886BCD /* MPVideoConfig.m */; };
-		314EE85E5C9008AA68A8EA323C4495EE /* Pods-VIMopubSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDEC56C89808E2A97F7590548FA20EB /* Pods-VIMopubSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314EE85E5C9008AA68A8EA323C4495EE /* Pods-VIMopubSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649C969CFE4736996AE9AF832F378269 /* Pods-VIMopubSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		318219F066A170930E6E42AA5DE60FF1 /* MRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F171580C6F1EB081252C5E4DF916FD8 /* MRController.m */; };
 		31C39ED8CB1C9317F1F2840FC919662D /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08371FC7FB629FB9F472BCBA6D264E /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		31FBF2422CE65AB845A1D7CFAB0C41FE /* MPMoPubRewardedPlayableCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA61A997D948A559CE3D0CC33D8E194 /* MPMoPubRewardedPlayableCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -166,6 +166,7 @@
 		482B39DA543ADC70F2B6A1D8DCA8D0E3 /* NSString+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E7133754434893B791D0C47BF72CB /* NSString+MPAdditions.m */; };
 		486F33E653627F0B84E1BE48D85F5A67 /* MPRewardedVideoConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C18119A0EC8BE2465BDE8AFEC222C407 /* MPRewardedVideoConnection.m */; };
 		4A4925B41ACF9ED07473CCE1FFF3DC98 /* MPAnalyticsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1A217E566D63AE73895CD00DD5940B /* MPAnalyticsTracker.m */; };
+		4ADCA39814AF9387A222C94A12013985 /* Pods-VIADSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E267C801645DE6A4CC91F591D598111 /* Pods-VIADSample-dummy.m */; };
 		4B7FFE803C64E16F2D2A2BE4AC22A874 /* MPRewardedVideoAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00523CC7814A2C5AA5FC9910FA80DC33 /* MPRewardedVideoAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BADF7F6494E3CBD5ABB077BC5FCCBCE /* MPNativePositionResponseDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63576B3A3CAB0A84A56059A8696F470C /* MPNativePositionResponseDeserializer.m */; };
 		4BC34F9A1284F84DFE77EDD8F799DAA7 /* UIView+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED2EFAE7F3A5433E5E4B7707A18F41B /* UIView+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -179,12 +180,12 @@
 		4FABBF5CA8F735F48035BE4144613CB7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AA9C2F51A1029B7C7AEC94020B617 /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4FCA7E8F5569E790916C900C0E31A3D1 /* MPRewardedVideoReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 5166EA1795A7D2130BB4CB13A010D0E4 /* MPRewardedVideoReward.m */; };
 		50698F14E7847E18B907E9373FBF4C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6D5A72A94EF4E04EF08CC3B47D6EDE /* Foundation.framework */; };
-		50E70664F35C3427A818AA63BC6FC2A9 /* Pods-VIAdMobSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE2B637FE73F44BA2E9F5C1A84D9DF4 /* Pods-VIAdMobSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E70664F35C3427A818AA63BC6FC2A9 /* Pods-VIAdMobSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33721034D040B14246D7999DE35B3B43 /* Pods-VIAdMobSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52686AB386E8539EF9772BA0C55FF6CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1B89B0393E877310768B23529CF590 /* QuartzCore.framework */; };
 		52E6218E45390957D5ABB0D196712069 /* MRError.h in Headers */ = {isa = PBXBuildFile; fileRef = 657BE11EF19357E58FD156C8CE1FB050 /* MRError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53EE0EBD5B447680F5EC52BCD3AF4CA3 /* MPViewabilityTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF8434EF5FCA17BCE36E6953D54A58 /* MPViewabilityTracker.m */; };
 		54266531D01072EEE443E9F64FC0FE78 /* MPRetryingHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F86664AEF5412E9671AF242B23A3787D /* MPRetryingHTTPOperation.m */; };
-		544BA042B53A8D6EC66E57AB2137A136 /* Pods-VIAdMobSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A99A965ECCBB8C5D7A0DDF2BA722C283 /* Pods-VIAdMobSampleTests-dummy.m */; };
+		544BA042B53A8D6EC66E57AB2137A136 /* Pods-VIAdMobSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C863D3E3535A4843797638FF560EF9F7 /* Pods-VIAdMobSampleTests-dummy.m */; };
 		54CC2049C937561A469575AF9E6A6FE9 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAC370E5372CA9A30BFA0FB57137AA /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		54ECD952CC71816F33F3132AF8B616F7 /* MPGeolocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BAC154B46EBF65DEB964A6A4B68BD5 /* MPGeolocationProvider.m */; };
 		55E0AB3C4CBF9D64BF5A38A0661EC4EB /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B6648C5D22019CA09AE08E582EACE /* QuickSpecBase.m */; };
@@ -222,11 +223,11 @@
 		646149CCAC6038CDA9B02C1BB9AAC71F /* MPVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = A9964B0550923DAE24C8007A69E6F799 /* MPVASTAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64809607890C7F572D3810093E5FAC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6D5A72A94EF4E04EF08CC3B47D6EDE /* Foundation.framework */; };
 		6538676F96E24EF6F58874DCD8DAB263 /* MPNativeAdRendererConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5265641DF16B2F49BE35CFC14873856A /* MPNativeAdRendererConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		657960DD871C39DF38142FC50D18B7BF /* Pods-VIMopubSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A931647E4EB8F30048C79EB2FDCC7 /* Pods-VIMopubSampleTests-dummy.m */; };
+		657960DD871C39DF38142FC50D18B7BF /* Pods-VIMopubSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25361FA4411A8F8E1938232777090D13 /* Pods-VIMopubSampleTests-dummy.m */; };
 		6593C547A71CCEFC480CD578080A327F /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EC5851793FAA4264BC971AABE636E8 /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65985C142EE8A74E6E56D5E30A39C79C /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7611160B55D63D5194B4D3AB6B77A89 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		659FD5866FEDEE917A629DD0F11AD608 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0FC9A35279CF3836AB90D691A13240 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		661364648997AD46321627B97C25B909 /* Pods-VIAdMobSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8300248A6C893CBF971C1F0168FC9C2F /* Pods-VIAdMobSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661364648997AD46321627B97C25B909 /* Pods-VIAdMobSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFDDD27352FB4AA7372639A41D73087 /* Pods-VIAdMobSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6651AEF33A2280F36D1FC42C70FB959D /* MPNativeAdRendererImageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABEC6F988C18D54E44BB225390D9CE /* MPNativeAdRendererImageHandler.m */; };
 		66E79ABF5B46232C2EF80F7B0BE298E8 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B352EA4C8F1F9B61F129BF084F53B9D6 /* MPUnmutedBtn@2x.png */; };
 		673413E2BEC4F9472E362796179D534F /* MRCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE2ED8F57BA6DBE8A2BEFDABC417ED /* MRCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,7 +251,7 @@
 		6E2D9B5F69909568E8D25977A09E5BA1 /* MPMoPubNativeCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E59A59E918C53E45004E68BA42B3FF08 /* MPMoPubNativeCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E63AF7E08A266CFAF1335B9FC750C91 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0954BD81D84800A2B56195FF06D8 /* Configuration.swift */; };
 		6F6BD4251DA529FECFD1BD527CBBA1FF /* MPMRAIDInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49BA6446D1BCA331198CBC9350B23A2 /* MPMRAIDInterstitialViewController.m */; };
-		6F7395758B3BC094436A6709C5C4F402 /* Pods-VIMopubSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB2B67411F00787A9F2A1CCA763C701 /* Pods-VIMopubSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F7395758B3BC094436A6709C5C4F402 /* Pods-VIMopubSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA97BDA476922F68CE5726A96118E41 /* Pods-VIMopubSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF0D0635B20BE867E1F5D19213FE78F /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D4DB8DAE1D66E01F6554787A9A0E1 /* QuickSelectedTestSuiteBuilder.swift */; };
 		7015129AB2617DA544A1A4A519C83E28 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3B4D5E1B0EA6F6B9887CD3A34EB21E /* MPCloseBtn.png */; };
 		7084C35214295DA8229E984EB3350884 /* MPAdServerCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A5FB9A80CFED57A1976E88CA38EA22 /* MPAdServerCommunicator.m */; };
@@ -284,7 +285,7 @@
 		8027A5739C6C207224BB9ADEE0E9E89E /* MPNativeAdSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C314D3D5BEA26B6F97819B589F0891 /* MPNativeAdSource.m */; };
 		8038B2A676A9001CD7F42444E17066B3 /* MPCoreInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38037E3B8CD6D6FC52F3278E454991 /* MPCoreInstanceProvider.m */; };
 		811F69BD66DEE75BD5FD762CE95A4F78 /* MPVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CC68E3488675931A779E706C9B0C2599 /* MPVASTMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		813DB3D4DC3E387AFBE49C5183C9F490 /* Pods-VIFBSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 177704601E7A4B02DA755ACB7BBA3843 /* Pods-VIFBSampleTests-dummy.m */; };
+		813DB3D4DC3E387AFBE49C5183C9F490 /* Pods-VIFBSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484A4112CEFD1E8EC1D26CDC3FCD222 /* Pods-VIFBSampleTests-dummy.m */; };
 		8170866E2ACE0ACFBC6D90081354EC65 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A8A54AD03A45F9C30488EB730603C4 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		82CF72601746C241D7247F877CD2F0C1 /* MOPUBFullscreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EF717CBCC7321724D581E2C326CF99 /* MOPUBFullscreenPlayerViewController.m */; };
 		82E9255D92E0B7C6474533432C17BEF4 /* MPMediationSettingsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 239C1D2F543B55F7030990604189563B /* MPMediationSettingsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -372,6 +373,7 @@
 		B2C151B20635A480E1937E3D2B509BB4 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8DA46038E56F07D8AF0F37411184 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B326C4F99FFE9FD20EC4E2566E1738B2 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258860581FA039558538DE9FFFEC9358 /* MPAdBrowserController.xib */; };
 		B3D29F118EF6222CB008090D852AD087 /* MPNativeAdSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BD587A126B173D0EA7DB8CE9DB9820E7 /* MPNativeAdSourceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E12E521BAEDDD0AF3857FEE13B5A5D /* Pods-VIADSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA492F0988D69E11F3161CAF8282A84 /* Pods-VIADSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59CB89C3690FF282BB5553CCDB570E8 /* MPStoreKitProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2163521872AD5569392DF6CAC2BCB2D3 /* MPStoreKitProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B62EA5199DEBD23444D785AACF554D03 /* MPNativeAdConfigValues.h in Headers */ = {isa = PBXBuildFile; fileRef = AF535DDA279699BFA1618BDCFB276F35 /* MPNativeAdConfigValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6C206788561AB12B1F01BC5D303825C /* MPServerAdPositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 832E73DE1C0AA3BE842AAAECAF184D00 /* MPServerAdPositioning.m */; };
@@ -394,7 +396,7 @@
 		BC34F9E78A4E1F0EDCE1969DE4CDFC06 /* MPMoPubNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B611BF86A95AC582418AFD594F7C4F24 /* MPMoPubNativeAdAdapter.m */; };
 		BC7B9761322C74FA27969BD55833BA47 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBC68EBAA884FFF62560FD22943AF1 /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BD0334A74C5C890B6F57D7584DB580F3 /* MPVASTDurationOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = D3847E4A3D75EEAB6CB7C745100287E8 /* MPVASTDurationOffset.m */; };
-		BD0C5C83D03CAD352140BEBBD9B5FB74 /* Pods-VIAdMobSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBFF87C0CAECAAD343DF87CE51DD7C /* Pods-VIAdMobSample-dummy.m */; };
+		BD0C5C83D03CAD352140BEBBD9B5FB74 /* Pods-VIAdMobSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8217FBAE121B6C03451CA2098568F7AA /* Pods-VIAdMobSample-dummy.m */; };
 		BDA7D1F328D462B360B663768464AEAB /* NSString+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A60A66866DAC51785F19D460AACC5 /* NSString+C99ExtendedIdentifier.swift */; };
 		BDB25A7B3E5A6FDA37F9BECA16CB4FB9 /* MOPUBNativeVideoAdRendererSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C617CBCA260B348B0EFBB742028E5FB6 /* MOPUBNativeVideoAdRendererSettings.m */; };
 		BE98F97C5434ACDDF2BF30C85D362A09 /* UIColor+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 886919A94C5E45ABA8818D46BB795C0B /* UIColor+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -415,7 +417,7 @@
 		C42666190097AF6F15C53EF77AAE91DB /* MPVideoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0269F0D8B2B6C3AC02D1C20EBBBDEE /* MPVideoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49F38C087514951D8622D058451330D /* MPInterstitialAdManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DE49C958CA18DA8410AB8276BF4D39 /* MPInterstitialAdManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A456D78B1C33650C04D88981184949 /* MPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED608AADE1BDDD0F07D53C2F8F299CE /* MPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C502B1AC7D0D890B5A052E7EF1E25082 /* Pods-VIFBSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9ED12FDFB9304A7BEF92D3935648CA /* Pods-VIFBSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C502B1AC7D0D890B5A052E7EF1E25082 /* Pods-VIFBSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9CE482965B76BE410E2906132E9C26 /* Pods-VIFBSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5399F3FF75673048DF8C6185479EB37 /* MoPub_AvidVideoAdSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F72C795FC3C9A1CD3D24D6FA82A52945 /* MoPub_AvidVideoAdSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C59BCFC18123DA80CE4EE53E680C9CD5 /* NSBundle+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8A741D3E0353D889755A4607B9BC07 /* NSBundle+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5CA78124E0139FB5D9E0BF6072E6F97 /* MPAdServerURLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7211E2CF8D7A9A725AC3077E8AFA97DB /* MPAdServerURLBuilder.m */; };
@@ -445,6 +447,7 @@
 		D1D6534BF455A436F2F494976CF81635 /* MPStreamAdPlacer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9180E6E971C6C988D208FBB9F273E3 /* MPStreamAdPlacer.m */; };
 		D22AFDC109AFAEDCA600792B82922D82 /* NSURL+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0E60DA64CC6E335A27438549C40E8 /* NSURL+MPAdditions.m */; };
 		D2D1C6980D21E0B0BF000AC0EF4E585D /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 945AD03655F7D3E5F0405099348C97C7 /* MPCloseBtn@3x.png */; };
+		D41DC45B74BB543A3651FC2FA5D6B90D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6D5A72A94EF4E04EF08CC3B47D6EDE /* Foundation.framework */; };
 		D4575E6AD48FBA530CAE0101907368E0 /* MPAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64631F18096ACB76BF18BD10F8E1A747 /* MPAdView.m */; };
 		D541B99693061CE8B4D923D97E7DE3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6D5A72A94EF4E04EF08CC3B47D6EDE /* Foundation.framework */; };
 		D567239F4B1509CAD012F7351F3828C7 /* MPRewardedVideo+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E03BD310DEC12447EE87DDE2B8C052 /* MPRewardedVideo+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -527,7 +530,7 @@
 		FAE8A2DDEC9751766C52EA3E176CA8F8 /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF4B61470917C8D5D11FEE1C7E0AAF8 /* MPUnmutedBtn.png */; };
 		FB433A84B0A557CD5E5948A8B6705024 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FDD4B747F5328E3ABC9297D988FCE4 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC0FEC93C59480B7D53BCF3DA60D05E5 /* MPHTMLBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B77503C0E469D096A9CB1F3860B9CFC8 /* MPHTMLBannerCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC1FBC758FEF9AE1B812C1A7FC425A8B /* Pods-VIFBSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEFD8F519E5A1715B2663798F7DEF18 /* Pods-VIFBSample-dummy.m */; };
+		FC1FBC758FEF9AE1B812C1A7FC425A8B /* Pods-VIFBSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EEF92167274AB00551797AD256ABE1 /* Pods-VIFBSample-dummy.m */; };
 		FC251D94EC2AC7DB38DD42EF5AB73303 /* MPAdPlacerInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA22C9F2628E80C5C72CD79770C5E7D7 /* MPAdPlacerInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC4479B3AB75D1C18D6E5AE4C0ACBDD8 /* MPBaseInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 118019E265DB978F4C1946F9CFD6158B /* MPBaseInterstitialAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC8AC59DC7DFBD316113849AA1D02AD7 /* MPClosableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BBC5471EFE7F72AF724152E5DAC785 /* MPClosableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -595,15 +598,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00049BF112C50701EB44EDC8DD0F3CD9 /* Pods-VIFBSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIFBSample.modulemap"; sourceTree = "<group>"; };
 		00523CC7814A2C5AA5FC9910FA80DC33 /* MPRewardedVideoAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoAdManager.h; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdManager.h; sourceTree = "<group>"; };
 		00C47F085AA55FC95A653F523E99D3E7 /* MPBannerAdManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBannerAdManagerDelegate.h; path = MoPubSDK/Internal/Banners/MPBannerAdManagerDelegate.h; sourceTree = "<group>"; };
 		00EEA4F0C2DAA5E222768732C88E8B9F /* MOPUBAVPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBAVPlayerView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBAVPlayerView.m; sourceTree = "<group>"; };
-		012A0DB8E29BAF0C03C30C9CD71731C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		016AC620DF553B907633AB7CA93A0DE2 /* MPRetryingHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRetryingHTTPOperation.h; path = "MoPubSDK/Internal/Event Logging/MPRetryingHTTPOperation.h"; sourceTree = "<group>"; };
 		016CD5E1E9D0CDC29EA8F2518F6D740C /* MoPub-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MoPub-Bridging-Header.h"; path = "MoPubSDK/MoPub-Bridging-Header.h"; sourceTree = "<group>"; };
 		01C79230BE02CA2A5212C1ADE8511C85 /* MPAdServerCommunicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdServerCommunicator.h; path = MoPubSDK/Internal/Common/MPAdServerCommunicator.h; sourceTree = "<group>"; };
+		01D241F20BDFAF66576067AE7D7B7B37 /* Pods-VIAdMobSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIAdMobSample.modulemap"; sourceTree = "<group>"; };
 		01D8AE5221D4776FF6E777C9537A9508 /* MPFacebookKeywordProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPFacebookKeywordProvider.h; path = MoPubSDK/Internal/Common/MPFacebookKeywordProvider.h; sourceTree = "<group>"; };
-		02207A4BEC03BCB182C49B619D77F0F9 /* Pods_VIAdMobSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIAdMobSample.framework; path = "Pods-VIAdMobSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F7665372D141810278645B974BB847 /* mopub-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mopub-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
 		03E73952E5454A70A526514D4ED4D9B4 /* VISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VISDK.framework; path = VISDK/VISDK.framework; sourceTree = "<group>"; };
 		04B88B2E469681106770AA04A4BCCDE9 /* MPVASTAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTAd.m; path = MoPubSDK/Internal/VAST/MPVASTAd.m; sourceTree = "<group>"; };
@@ -612,8 +615,10 @@
 		05D8057CBA4D0BF7238D11D7BF5838E6 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		064EBE0F31592BD76698A1E777169D7A /* UIView+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/UIView+MPAdditions.m"; sourceTree = "<group>"; };
 		08BBB8787F0BFAF913A2BFD839E66D43 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		09FDCCB51AA7B18C195AAF71CC5CE33B /* Pods-VIMopubSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSample.debug.xcconfig"; sourceTree = "<group>"; };
 		0A682FC088D95E471938E58A30851130 /* MPNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdDelegate.h; path = "MoPubSDK/Native Ads/MPNativeAdDelegate.h"; sourceTree = "<group>"; };
 		0A9BC17C4CD795D49750571D8C7D4E35 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
+		0B08281D700F1E21DF8751EC32318DF6 /* Pods-VIMopubSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSample-frameworks.sh"; sourceTree = "<group>"; };
 		0BCD21D4CE94929693FE58896307A8F2 /* MPNativeAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdRequest.m; path = "MoPubSDK/Native Ads/MPNativeAdRequest.m"; sourceTree = "<group>"; };
 		0BF81198435FDCDC932E8071A47221B3 /* MOPUBExperimentProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBExperimentProvider.h; path = MoPubSDK/Internal/Utility/MOPUBExperimentProvider.h; sourceTree = "<group>"; };
 		0C1936DF507B59878FE0E3F94343280E /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPMutedBtn@3x.png"; path = "MoPubSDK/Resources/MPMutedBtn@3x.png"; sourceTree = "<group>"; };
@@ -622,8 +627,9 @@
 		0E31A9979DE6B738E68C2B779B227ADC /* MoPub_AvidDisplayAdSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AvidDisplayAdSession.h; path = MoPubSDK/Viewability/Avid/MoPub_AvidDisplayAdSession.h; sourceTree = "<group>"; };
 		0E97D0A6C5F95227CB5D66A41F698F8E /* MPCollectionViewAdPlacerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCollectionViewAdPlacerCell.m; path = "MoPubSDK/Native Ads/Internal/MPCollectionViewAdPlacerCell.m"; sourceTree = "<group>"; };
 		0F906704790AC29AF80177375C277B79 /* MPAdImpressionTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdImpressionTimer.h; path = MoPubSDK/Internal/Common/MPAdImpressionTimer.h; sourceTree = "<group>"; };
+		0FA492F0988D69E11F3161CAF8282A84 /* Pods-VIADSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIADSample-umbrella.h"; sourceTree = "<group>"; };
 		0FF30CE732BAC42BA94101C06E7D2A7D /* MPVASTMacroProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTMacroProcessor.m; path = MoPubSDK/Internal/VAST/MPVASTMacroProcessor.m; sourceTree = "<group>"; };
-		10777EB365989F2C40CC18FEB0869971 /* Pods-VIMopubSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIMopubSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1010832B8E91416ED4DC8C0674140269 /* Pods-VIAdMobSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSampleTests-resources.sh"; sourceTree = "<group>"; };
 		10A864D9B3DE10FA6179506ED60F3247 /* FBAdSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettings.h; path = FBAudienceNetwork.framework/Headers/FBAdSettings.h; sourceTree = "<group>"; };
 		10EBEC90A1EB36DFC3035379C50469FC /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		1113A887817594AC85A212E38AF9E1E2 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
@@ -633,19 +639,19 @@
 		119CF7D7CFB461A9FF0FFF03882AC3D8 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		1218DA3BE217EC1AEC497B3250DF4708 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		12B5AD7831BB33F8AB54FDC9EC4802A9 /* MOPUBAVPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBAVPlayerView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBAVPlayerView.h; sourceTree = "<group>"; };
+		133F6484B3F48EC59D13AAAFA5AD5681 /* Pods-VIAdMobSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		136AA98C42C9473300DBE1CF946726A5 /* MPVASTResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTResponse.m; path = MoPubSDK/Internal/VAST/MPVASTResponse.m; sourceTree = "<group>"; };
-		13A7887BF8CE4744674711DC543B90F6 /* Pods-VIMopubSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSample-frameworks.sh"; sourceTree = "<group>"; };
+		14207C1EDA903D078E2499FC95F27D31 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AAC93E997420B167D3800969F92D0D /* MPInterstitialAdController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialAdController.m; path = MoPubSDK/MPInterstitialAdController.m; sourceTree = "<group>"; };
+		14CF0F3C46140773E49133A4E4A4E6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14DF41D74C4D6BBA63AD3E0C58679FBB /* MPStoreKitProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStoreKitProvider.m; path = MoPubSDK/Internal/Utility/MPStoreKitProvider.m; sourceTree = "<group>"; };
-		1541552FDA47C249B6AB79ABE2B77BCB /* Pods-VIAdMobSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSample-frameworks.sh"; sourceTree = "<group>"; };
+		153AB11CF6D193149659A99101744C03 /* Pods-VIFBSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIFBSample-umbrella.h"; sourceTree = "<group>"; };
 		1550FAF566865650C61ADB8230BCF50C /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
 		15888077976870E659A480A91DAFBE2F /* MPReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPReachability.h; path = MoPubSDK/Internal/Utility/MPReachability.h; sourceTree = "<group>"; };
 		1695DC44B3028FDC2B3D93279C515CA8 /* MPNativePositionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativePositionSource.h; path = "MoPubSDK/Native Ads/Internal/MPNativePositionSource.h"; sourceTree = "<group>"; };
-		16CFAA41E4AA36FEC881AC9174C54C15 /* Pods-VIMopubSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1724CFD6998071174E9C0404674D2B62 /* MPActivityViewControllerHelper+TweetShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPActivityViewControllerHelper+TweetShare.h"; path = "MoPubSDK/Internal/Common/MPActivityViewControllerHelper+TweetShare.h"; sourceTree = "<group>"; };
-		177704601E7A4B02DA755ACB7BBA3843 /* Pods-VIFBSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIFBSampleTests-dummy.m"; sourceTree = "<group>"; };
+		173BDEA428CC6E136CBA9DCA871D6AC5 /* Pods-VIFBSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSample.debug.xcconfig"; sourceTree = "<group>"; };
 		17B5E388F377D9381024B127E235870E /* MPNativeCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeCache.m; path = "MoPubSDK/Native Ads/Internal/MPNativeCache.m"; sourceTree = "<group>"; };
-		18620F18522360BCF33C50A6741A2A61 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1880284EFCF3F566B02A32CF70E7A022 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		18CBC68EBAA884FFF62560FD22943AF1 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		194D5A587415C3915420B049928DFC01 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
@@ -655,14 +661,13 @@
 		1ABD2644B1C30053F9A43F8BE555E2B0 /* MPAdAlertGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdAlertGestureRecognizer.m; path = MoPubSDK/Internal/Common/AdAlerts/MPAdAlertGestureRecognizer.m; sourceTree = "<group>"; };
 		1B50BB40FE8E13BB28A3AC90F2C1C706 /* MPTableViewAdPlacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTableViewAdPlacer.m; path = "MoPubSDK/Native Ads/MPTableViewAdPlacer.m"; sourceTree = "<group>"; };
 		1BD171A203294E2519FEBB38E8E8D511 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
-		1BD4924A7D2B8B3A93435F0A0FCA0BBB /* Pods_VIMopubSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIMopubSampleTests.framework; path = "Pods-VIMopubSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C58A1168EA4468302EF64400050AECB /* MPUserInteractionGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUserInteractionGestureRecognizer.m; path = MoPubSDK/Internal/Utility/MPUserInteractionGestureRecognizer.m; sourceTree = "<group>"; };
 		1C77DA9BB386317D9ACB3D84F071BC46 /* MPInterstitialAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialAdManager.m; path = MoPubSDK/Internal/Interstitials/MPInterstitialAdManager.m; sourceTree = "<group>"; };
 		1CEAA49E33C8B11E17FE90636E33B4DD /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Quick.modulemap; sourceTree = "<group>"; };
-		1CEBFF87C0CAECAAD343DF87CE51DD7C /* Pods-VIAdMobSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIAdMobSample-dummy.m"; sourceTree = "<group>"; };
 		1D531D94573313BBEF417D00583C6C44 /* MPAdWebViewAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdWebViewAgent.m; path = MoPubSDK/Internal/HTML/MPAdWebViewAgent.m; sourceTree = "<group>"; };
 		1DE1FC5E6D11E766F2AE5DB24675AD1A /* MPActivityViewControllerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPActivityViewControllerHelper.h; path = MoPubSDK/Internal/Common/MPActivityViewControllerHelper.h; sourceTree = "<group>"; };
 		1DF5394B37DD1EF6E9DD011CAE7E77BC /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
+		1E4D96D7C844411CEC4DEB3ADE9A24AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E7879754051200041BE8A14DB9292D3 /* MPNativeAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdAdapter.h; path = "MoPubSDK/Native Ads/MPNativeAdAdapter.h"; sourceTree = "<group>"; };
 		1E913DCA81082023A475F5438A291DBB /* MPNativeAdRequestTargeting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdRequestTargeting.m; path = "MoPubSDK/Native Ads/MPNativeAdRequestTargeting.m"; sourceTree = "<group>"; };
 		1E92E858853F32A7643E6A682691086C /* MOPUBNativeVideoImpressionAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoImpressionAgent.m; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoImpressionAgent.m; sourceTree = "<group>"; };
@@ -671,58 +676,54 @@
 		1F77EDC8D2CBBCFD100907B33A769D04 /* NSString+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSString+MPAdditions.h"; sourceTree = "<group>"; };
 		1FEDDFD64CDA19C90C7771A913686A58 /* FBRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAd.h; path = FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h; sourceTree = "<group>"; };
 		1FFAF319D32D03ADAA4E70A35A0E939F /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
+		213AA2708A589204C36BA2E9ADDB0657 /* Pods-VIMopubSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSample.release.xcconfig"; sourceTree = "<group>"; };
 		2159A31348463C04852FC43A2414E1AF /* MPAdWebViewAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdWebViewAgent.h; path = MoPubSDK/Internal/HTML/MPAdWebViewAgent.h; sourceTree = "<group>"; };
 		2163521872AD5569392DF6CAC2BCB2D3 /* MPStoreKitProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPStoreKitProvider.h; path = MoPubSDK/Internal/Utility/MPStoreKitProvider.h; sourceTree = "<group>"; };
 		219148A41ADBA9AAB866D8DCAB85AD0E /* MPAdConversionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdConversionTracker.h; path = MoPubSDK/MPAdConversionTracker.h; sourceTree = "<group>"; };
 		21917D73AF93393860906FAC7CD07A89 /* UIWebView+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/UIWebView+MPAdditions.m"; sourceTree = "<group>"; };
 		223A60A66866DAC51785F19D460AACC5 /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		228D658DCD5F5DE3CB243B40DDA45ACF /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
-		22D3B72AF0D0E6E57FC69C689A5CDDBD /* Pods-VIFBSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIFBSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		239C1D2F543B55F7030990604189563B /* MPMediationSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMediationSettingsProtocol.h; path = MoPubSDK/RewardedVideo/MPMediationSettingsProtocol.h; sourceTree = "<group>"; };
 		23C71F3DB39FE8A2341A10545E9CDC15 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		23E0E60DA64CC6E335A27438549C40E8 /* NSURL+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/NSURL+MPAdditions.m"; sourceTree = "<group>"; };
 		2491EB98353986948D8A71E95D81AFE0 /* MPError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPError.m; path = MoPubSDK/Internal/Utility/MPError.m; sourceTree = "<group>"; };
 		24943FCB2DE5C0835E1C509491D4F6BE /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
+		25361FA4411A8F8E1938232777090D13 /* Pods-VIMopubSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIMopubSampleTests-dummy.m"; sourceTree = "<group>"; };
 		258860581FA039558538DE9FFFEC9358 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MPAdBrowserController.xib; path = MoPubSDK/Internal/Common/MPAdBrowserController.xib; sourceTree = "<group>"; };
 		25ADBDABCA1BA77C80B7A4AB740C3C7B /* MPStaticNativeAdRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPStaticNativeAdRenderer.h; path = "MoPubSDK/Native Ads/MPStaticNativeAdRenderer.h"; sourceTree = "<group>"; };
 		25CD97BA72BB0FD570D0140FCEF2FBDF /* MPTableViewCellImpressionTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTableViewCellImpressionTracker.m; path = "MoPubSDK/Native Ads/Internal/MPTableViewCellImpressionTracker.m"; sourceTree = "<group>"; };
-		26438BA3BE63A2E31EB851735267EAC6 /* Pods-VIAdMobSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIAdMobSample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26A737823DC11988233016A1C081898E /* Pods-VIFBSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSample-frameworks.sh"; sourceTree = "<group>"; };
 		26DB3C4B4C91BAF559A5BFFB926DF11F /* MPVASTLinearAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTLinearAd.m; path = MoPubSDK/Internal/VAST/MPVASTLinearAd.m; sourceTree = "<group>"; };
-		26F39F520A4686F5FB3111F0BD0C491F /* Pods-VIAdMobSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		274063D07A40277787DF60405CAD201F /* MPLogEventRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogEventRecorder.h; path = "MoPubSDK/Internal/Event Logging/MPLogEventRecorder.h"; sourceTree = "<group>"; };
 		276E5FD8E542A109AAF35EEC3961A07D /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		2810873C0A59F209EE857642EAD755CE /* MPStreamAdPlacementData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPStreamAdPlacementData.h; path = "MoPubSDK/Native Ads/MPStreamAdPlacementData.h"; sourceTree = "<group>"; };
 		283A2BD02E92BE862B93E91119CF0289 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
-		2871D86356A283FC9CAC856E109CB8E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28DA2AA508FD49D033887FE9CE56C4D0 /* MPPrivateInterstitialCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPPrivateInterstitialCustomEventDelegate.h; path = MoPubSDK/Internal/Interstitials/MPPrivateInterstitialCustomEventDelegate.h; sourceTree = "<group>"; };
 		29587AAF333C6974722C7DA3142AA8F5 /* MPNativeAd+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPNativeAd+Internal.h"; path = "MoPubSDK/Native Ads/Internal/MPNativeAd+Internal.h"; sourceTree = "<group>"; };
 		29FDD4B747F5328E3ABC9297D988FCE4 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		2B1A72F466C5B3262C005684467A95C4 /* MPVASTInline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTInline.h; path = MoPubSDK/Internal/VAST/MPVASTInline.h; sourceTree = "<group>"; };
 		2B68E8F59C6C94F71CFF672386BC2353 /* MPMoPubRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMoPubRewardedVideoCustomEvent.h; path = MoPubSDK/RewardedVideo/Internal/MPMoPubRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
 		2BA46842B61D00F148E627E094B65AE1 /* MPFacebookKeywordProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPFacebookKeywordProvider.m; path = MoPubSDK/Internal/Common/MPFacebookKeywordProvider.m; sourceTree = "<group>"; };
-		2C5A0201B7DB007662A88A5AB21D3D50 /* Pods-VIFBSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		2C6F6D86EB805E635A175FD44AA541BA /* MOPUBNativeVideoAdConfigValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoAdConfigValues.m; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoAdConfigValues.m; sourceTree = "<group>"; };
-		2CAD20B4B7E447876CA8DA49C2AEC07D /* Pods-VIAdMobSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIAdMobSampleTests.modulemap"; sourceTree = "<group>"; };
 		2CD1DBCBE1014965FB2DC94895BD3724 /* MPViewabilityAdapterMoat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPViewabilityAdapterMoat.m; path = MoPubSDK/Viewability/MOAT/MPViewabilityAdapterMoat.m; sourceTree = "<group>"; };
 		2CDAC370E5372CA9A30BFA0FB57137AA /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
-		2E4F676E95149713B49F61588F666484 /* Pods-VIMopubSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSample.release.xcconfig"; sourceTree = "<group>"; };
 		2E9ECCC8F4394C4433383397A49B5836 /* MPRewardedVideoCustomEvent+Caching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPRewardedVideoCustomEvent+Caching.h"; path = "MoPubSDK/RewardedVideo/MPRewardedVideoCustomEvent+Caching.h"; sourceTree = "<group>"; };
 		2ED608AADE1BDDD0F07D53C2F8F299CE /* MPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogging.h; path = MoPubSDK/Internal/Utility/MPLogging.h; sourceTree = "<group>"; };
-		2EE6B75781B357355C8456C7112842BF /* Pods-VIMopubSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSample.debug.xcconfig"; sourceTree = "<group>"; };
 		2EF4F57608EC8B1013E1884C1DD1453B /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		2FB66DEF690BB64D57658DFEEDA688D0 /* FBInstreamAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInstreamAdView.h; path = FBAudienceNetwork.framework/Headers/FBInstreamAdView.h; sourceTree = "<group>"; };
 		30FDA597B210182424841B3DA2F9BDE4 /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h; sourceTree = "<group>"; };
 		321C104C8867A374E6322DAB984CE390 /* MPEnhancedDeeplinkRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPEnhancedDeeplinkRequest.m; path = MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.m; sourceTree = "<group>"; };
+		32970C225958909C2D220233363918BB /* Pods-VIMopubSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		32E82E06CD934C7EC8845D7415ED3575 /* MPURLActionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPURLActionInfo.h; path = MoPubSDK/Internal/Common/MPURLActionInfo.h; sourceTree = "<group>"; };
+		331A7EF353A641CF476F785C4A7FAB8D /* Pods-VIMopubSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIMopubSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		336BEEEA9915C7CC1E7AA9809EA6FA45 /* MPAdBrowserController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdBrowserController.m; path = MoPubSDK/Internal/Common/MPAdBrowserController.m; sourceTree = "<group>"; };
+		33721034D040B14246D7999DE35B3B43 /* Pods-VIAdMobSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIAdMobSampleTests-umbrella.h"; sourceTree = "<group>"; };
 		33AC30C438F00CC6136383F33C741074 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		3484A4112CEFD1E8EC1D26CDC3FCD222 /* Pods-VIFBSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIFBSampleTests-dummy.m"; sourceTree = "<group>"; };
 		36C04DD57FE7F4A1C9BB1C8B21854CE2 /* MPProgressOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPProgressOverlayView.h; path = MoPubSDK/Internal/Common/MPProgressOverlayView.h; sourceTree = "<group>"; };
 		3770BCE3D1A2D02CEEB26C1B8870A909 /* MPMoPubNativeCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubNativeCustomEvent.m; path = "MoPubSDK/Native Ads/Internal/MPMoPubNativeCustomEvent.m"; sourceTree = "<group>"; };
 		37F637CE0DCB68C097294EA36094D9E6 /* MPBaseInterstitialAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBaseInterstitialAdapter.m; path = MoPubSDK/Internal/Interstitials/MPBaseInterstitialAdapter.m; sourceTree = "<group>"; };
 		38B6402B43D7CDF350DB38CC714DE3E0 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		38D8551EF068A535CDB822690EFEEFF1 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
-		39A4149E3B8982657F70D627832C7A4B /* Pods-VIFBSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A677DCFAC2235A695566385DDF17BB9 /* MPActivityViewControllerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPActivityViewControllerHelper.m; path = MoPubSDK/Internal/Common/MPActivityViewControllerHelper.m; sourceTree = "<group>"; };
 		3A6C7996D6C6D8FBB1405BC1B3271A65 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		3A9E7133754434893B791D0C47BF72CB /* NSString+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/NSString+MPAdditions.m"; sourceTree = "<group>"; };
@@ -731,17 +732,14 @@
 		3B70F197A5A1E72C3A2B3CE07453826E /* MPCollectionViewAdPlacerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCollectionViewAdPlacerCell.h; path = "MoPubSDK/Native Ads/Internal/MPCollectionViewAdPlacerCell.h"; sourceTree = "<group>"; };
 		3BD9F01E2FAE12000C32E8D6FE8D26C7 /* MPBannerCustomEvent+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPBannerCustomEvent+Internal.m"; path = "MoPubSDK/Internal/Banners/MPBannerCustomEvent+Internal.m"; sourceTree = "<group>"; };
 		3CDCA0672AA21D94E85BE2BABA0D85FA /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
-		3CE1899BFD105871BE046ADE12834A2F /* Pods-VIAdMobSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSample-resources.sh"; sourceTree = "<group>"; };
 		3DD49EA72BCC5DD3778BC2E76A076EBE /* MPNativeAdRendering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendering.h; path = "MoPubSDK/Native Ads/MPNativeAdRendering.h"; sourceTree = "<group>"; };
 		3E1D3C45E49EBC1B28A83157DCDD42F6 /* MPAdBrowserController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdBrowserController.h; path = MoPubSDK/Internal/Common/MPAdBrowserController.h; sourceTree = "<group>"; };
 		3E3D6CF0625FACB0A743DCEB5391890E /* MRProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRProperty.h; path = MoPubSDK/Internal/MRAID/MRProperty.h; sourceTree = "<group>"; };
 		3EEE48454F219A7732B54F5B4A58B742 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		3EFEDC95A5D27BE15FB187655F37DF75 /* Pods-VIFBSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIFBSampleTests.modulemap"; sourceTree = "<group>"; };
 		4006BA707978962B844924363E32D85E /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
 		4137D7198A65FF81FD94EC27FB2416DB /* MPStreamAdPlacementData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStreamAdPlacementData.m; path = "MoPubSDK/Native Ads/MPStreamAdPlacementData.m"; sourceTree = "<group>"; };
 		41496DDE267BC605AEE212BD5AC51F62 /* MPViewabilityAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPViewabilityAdapter.h; path = MoPubSDK/Viewability/MPViewabilityAdapter.h; sourceTree = "<group>"; };
 		4197D42E729110BFAB07191682F42257 /* MOPUBActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBActivityIndicatorView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBActivityIndicatorView.m; sourceTree = "<group>"; };
-		41EEBA9F0A0695F54DF195182BF15BFD /* Pods-VIFBSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIFBSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		422929E28CBC9AB8FEB5F77EABF9E1F6 /* MRController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRController.h; path = MoPubSDK/Internal/MRAID/MRController.h; sourceTree = "<group>"; };
 		4240852389CFF7E4FC331514223EBA80 /* MPEnhancedDeeplinkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPEnhancedDeeplinkRequest.h; path = MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.h; sourceTree = "<group>"; };
 		42933085B4CCAAAB57510005D8B83A3F /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
@@ -754,22 +752,24 @@
 		457A8F9E66B240E1B9E7ED1748780BA6 /* MPUBMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPUBMoatMobileAppKit.framework; path = MoPubSDK/Viewability/MOAT/MPUBMoatMobileAppKit.framework; sourceTree = "<group>"; };
 		45FB11AAF6B9C7F3D25E64C4529552C5 /* MPSessionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSessionTracker.h; path = MoPubSDK/Internal/Utility/MPSessionTracker.h; sourceTree = "<group>"; };
 		462A0291C15A356C81EC3B4E308D8565 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
+		473891E31363021F0D9E3517A306FBF1 /* Pods-VIMopubSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIMopubSample-dummy.m"; sourceTree = "<group>"; };
+		4789735325D70187FCEDFE39F6E519BF /* Pods-VIADSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIADSample.modulemap"; sourceTree = "<group>"; };
 		47D73A8EB9FE5B55256C46A9F4836D22 /* UIWebView+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIWebView+MPAdditions.h"; sourceTree = "<group>"; };
 		485955A745B879D159E6A303893AB414 /* MPImageDownloadQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPImageDownloadQueue.m; path = "MoPubSDK/Native Ads/Internal/MPImageDownloadQueue.m"; sourceTree = "<group>"; };
 		48776D5E1156955D865A7A276EAB553D /* MRBundleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBundleManager.m; path = MoPubSDK/Internal/MRAID/MRBundleManager.m; sourceTree = "<group>"; };
+		4878FD9D9AD8AA8242543815F4B07115 /* Pods-VIFBSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIFBSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48A3BB4AAA88E9DC93C430F837B40023 /* MOPUBNativeVideoCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoCustomEvent.h; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoCustomEvent.h; sourceTree = "<group>"; };
-		48C7159CC11D880BB4AAD2F4F4BF4C12 /* Pods-VIAdMobSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIAdMobSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		491B398D0645C575D878FC5EAB175210 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		49A9F33FB354E3D183DB6DAE81383048 /* MPReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPReachability.m; path = MoPubSDK/Internal/Utility/MPReachability.m; sourceTree = "<group>"; };
 		49ABEC6F988C18D54E44BB225390D9CE /* MPNativeAdRendererImageHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdRendererImageHandler.m; path = "MoPubSDK/Native Ads/Internal/MPNativeAdRendererImageHandler.m"; sourceTree = "<group>"; };
 		4ADE385BDEFE78C2D4D59BE196D77EBC /* MPNativeAdRendererConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendererConstants.h; path = "MoPubSDK/Native Ads/Internal/MPNativeAdRendererConstants.h"; sourceTree = "<group>"; };
+		4B4A21BE132EEAB80092C696CC37B343 /* Pods-VIAdMobSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		4B74EF063594E9E4B3BFB821BC5FC1EA /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		4CAAE4E1C5F988907959B51A816E033E /* MPAdPlacerInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdPlacerInvocation.m; path = "MoPubSDK/Native Ads/Internal/MPAdPlacerInvocation.m"; sourceTree = "<group>"; };
 		4D2D55A9A4B449950E10B263EEA619A4 /* MPTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTimer.h; path = MoPubSDK/Internal/Utility/MPTimer.h; sourceTree = "<group>"; };
 		4D6D79F37D6E8E5650331C7A325031A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E78A81D2DF0916FA9F471DEA18D2FDE /* MOPUBNativeVideoCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoCustomEvent.m; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoCustomEvent.m; sourceTree = "<group>"; };
 		4E8D35010886D471635BBC7972A7417C /* FBAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdChoicesView.h; path = FBAudienceNetwork.framework/Headers/FBAdChoicesView.h; sourceTree = "<group>"; };
-		4ED07CF73BC800255E37A46EBFF38D18 /* Pods-VIFBSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIFBSample.modulemap"; sourceTree = "<group>"; };
 		4F3E77120F32BB634BD38E81AE091696 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		4F91FC11CD3C3498EDBD3500E49AAA9E /* MOPUBActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBActivityIndicatorView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBActivityIndicatorView.h; sourceTree = "<group>"; };
 		4FBB8467F55654404E84029A272A3A6A /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
@@ -792,6 +792,7 @@
 		57DC0954BD81D84800A2B56195FF06D8 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		58B0D88B208675C048480590D8D542CF /* MOPUBNativeVideoAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoAdAdapter.h; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoAdAdapter.h; sourceTree = "<group>"; };
 		58C6AF3075A1F91A5FBD232C0C09148A /* MPWebView+Viewability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPWebView+Viewability.h"; path = "MoPubSDK/Viewability/MPWebView+Viewability.h"; sourceTree = "<group>"; };
+		59A8E2776ED43D46A6D4AAD5826110CC /* Pods-VIMopubSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIMopubSampleTests.modulemap"; sourceTree = "<group>"; };
 		59B3A5F2BA1D88484480328CB4E1831D /* MPMRAIDBannerCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMRAIDBannerCustomEvent.m; path = MoPubSDK/Internal/MRAID/MPMRAIDBannerCustomEvent.m; sourceTree = "<group>"; };
 		59E5CCE1D39B35443B5F214B7403702F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5A0669347039F96B0EFD91CB9959DDBF /* MPActivityViewControllerHelper+TweetShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPActivityViewControllerHelper+TweetShare.m"; path = "MoPubSDK/Internal/Common/MPActivityViewControllerHelper+TweetShare.m"; sourceTree = "<group>"; };
@@ -816,6 +817,7 @@
 		60F6D381D12ACDD088245208ED48D350 /* MPMRAIDBannerCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMRAIDBannerCustomEvent.h; path = MoPubSDK/Internal/MRAID/MPMRAIDBannerCustomEvent.h; sourceTree = "<group>"; };
 		61163EF19C2352B6A507571F98C88394 /* MPDAAIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPDAAIcon.png; path = MoPubSDK/Resources/MPDAAIcon.png; sourceTree = "<group>"; };
 		617DDF28AD97E0A2F7615F1F51A1200D /* mopub-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mopub-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		6182FB25EBDF164E744165008C52D31B /* Pods_VIAdMobSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIAdMobSample.framework; path = "Pods-VIAdMobSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619C5DF66D3E3264B6880400AC8011BB /* MPBannerCustomEvent+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPBannerCustomEvent+Internal.h"; path = "MoPubSDK/Internal/Banners/MPBannerCustomEvent+Internal.h"; sourceTree = "<group>"; };
 		6212F80DA0CEBFCA1A09276515C7F67D /* MPVASTInline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTInline.m; path = MoPubSDK/Internal/VAST/MPVASTInline.m; sourceTree = "<group>"; };
 		624D8512591D27C5864EB15C8DEB70F4 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
@@ -825,7 +827,8 @@
 		63369A34AB11EE6909C799FCB2A20A91 /* MPVASTResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTResource.h; path = MoPubSDK/Internal/VAST/MPVASTResource.h; sourceTree = "<group>"; };
 		63576B3A3CAB0A84A56059A8696F470C /* MPNativePositionResponseDeserializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativePositionResponseDeserializer.m; path = "MoPubSDK/Native Ads/Internal/MPNativePositionResponseDeserializer.m"; sourceTree = "<group>"; };
 		64631F18096ACB76BF18BD10F8E1A747 /* MPAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdView.m; path = MoPubSDK/MPAdView.m; sourceTree = "<group>"; };
-		6508020B20FCB6AAEDB443D668EF6903 /* Pods-VIFBSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIFBSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		649C969CFE4736996AE9AF832F378269 /* Pods-VIMopubSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIMopubSample-umbrella.h"; sourceTree = "<group>"; };
+		64C555DDAD5EC31C82109BE22946E1B4 /* Pods_VIFBSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIFBSampleTests.framework; path = "Pods-VIFBSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65225D841527FD14161B538F923BD4FC /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButtonX@3x.png"; path = "MoPubSDK/Resources/MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
 		6539F56497ED2DF6DED9AD4A397615FE /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		657BE11EF19357E58FD156C8CE1FB050 /* MRError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRError.h; path = MoPubSDK/Internal/MRAID/MRError.h; sourceTree = "<group>"; };
@@ -837,73 +840,77 @@
 		67039EA3342FA0E3FFACD602F9EE2F27 /* MPStaticNativeAdRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStaticNativeAdRenderer.m; path = "MoPubSDK/Native Ads/MPStaticNativeAdRenderer.m"; sourceTree = "<group>"; };
 		6725B8F188565B0893BD58A05E86FC31 /* MPBannerAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBannerAdManager.m; path = MoPubSDK/Internal/Banners/MPBannerAdManager.m; sourceTree = "<group>"; };
 		67E0CF92481610BE9F1B68C1775BBCC1 /* MPUserInteractionGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPUserInteractionGestureRecognizer.h; path = MoPubSDK/Internal/Utility/MPUserInteractionGestureRecognizer.h; sourceTree = "<group>"; };
+		67E8FDC23757908D33179B05C9D7E875 /* Pods-VIAdMobSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIAdMobSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		68CF80743F22B33969C4413BB81D521E /* MPVASTManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTManager.h; path = MoPubSDK/Internal/VAST/MPVASTManager.h; sourceTree = "<group>"; };
 		698D4B1FD0BDBC938E8889ED0639B6F3 /* MPBaseBannerAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBaseBannerAdapter.m; path = MoPubSDK/Internal/Banners/MPBaseBannerAdapter.m; sourceTree = "<group>"; };
 		69C08CC2B66608D020F52BE1F083C3C2 /* MPNativeAdRendererConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdRendererConfiguration.m; path = "MoPubSDK/Native Ads/MPNativeAdRendererConfiguration.m"; sourceTree = "<group>"; };
+		6A1490FF9D76858D1748C7EC3570FF46 /* Pods_VIAdMobSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIAdMobSampleTests.framework; path = "Pods-VIAdMobSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3F2F1E18080CFC1E137FC6D8B8B632 /* MPNativeCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeCustomEventDelegate.h; path = "MoPubSDK/Native Ads/MPNativeCustomEventDelegate.h"; sourceTree = "<group>"; };
 		6A754843CD8D895192A564A586FED2D7 /* MOPUBReplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBReplayView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBReplayView.m; sourceTree = "<group>"; };
 		6A9984E77A153C04A217122A859175FD /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		6ABA2BB69989B8DCF674F01FD9F42269 /* MPInstanceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInstanceProvider.h; path = MoPubSDK/Internal/MPInstanceProvider.h; sourceTree = "<group>"; };
 		6B06D53CC495A2F26E9CAAC28A75E317 /* MPForceableOrientationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPForceableOrientationProtocol.h; path = MoPubSDK/Internal/MRAID/MPForceableOrientationProtocol.h; sourceTree = "<group>"; };
 		6B5B2994DB262633FEEF94FFD503F1A1 /* MPProgressOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPProgressOverlayView.m; path = MoPubSDK/Internal/Common/MPProgressOverlayView.m; sourceTree = "<group>"; };
+		6BDB84350F1DEFA8B3D4F903D1DB3A90 /* Pods-VIFBSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C4E293B12A7E7416B5838E4B30E40D3 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
-		6CE2B637FE73F44BA2E9F5C1A84D9DF4 /* Pods-VIAdMobSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIAdMobSampleTests-umbrella.h"; sourceTree = "<group>"; };
 		6D0345B8D78B960076D3EF728A1159FB /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		6D3B4D5E1B0EA6F6B9887CD3A34EB21E /* MPCloseBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPCloseBtn.png; path = MoPubSDK/Resources/MPCloseBtn.png; sourceTree = "<group>"; };
 		6D5F476A1A14CAA7F844F6311BF463F3 /* MPInterstitialCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialCustomEvent.m; path = MoPubSDK/MPInterstitialCustomEvent.m; sourceTree = "<group>"; };
 		6DE4C3AB8CF46B36FDBD2162D677CB73 /* MPNativeAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdError.h; path = "MoPubSDK/Native Ads/MPNativeAdError.h"; sourceTree = "<group>"; };
+		6DF1D52BC85408196A7CB39CDB733673 /* Pods-VIAdMobSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DFDDD27352FB4AA7372639A41D73087 /* Pods-VIAdMobSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIAdMobSample-umbrella.h"; sourceTree = "<group>"; };
 		6E329F78763570A1419057E63C5763F0 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPDAAIcon@2x.png"; path = "MoPubSDK/Resources/MPDAAIcon@2x.png"; sourceTree = "<group>"; };
 		6E9AAFF66CAA6A42878751D0E5A3E7DA /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		6ED2EFAE7F3A5433E5E4B7707A18F41B /* UIView+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIView+MPAdditions.h"; sourceTree = "<group>"; };
 		6F171580C6F1EB081252C5E4DF916FD8 /* MRController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRController.m; path = MoPubSDK/Internal/MRAID/MRController.m; sourceTree = "<group>"; };
+		6F5EE8C92FAEDBBEA0999AF1F949ACB8 /* Pods-VIFBSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIFBSampleTests.modulemap"; sourceTree = "<group>"; };
 		6FA2272E0BE3BCA33573A826B1590DFD /* MPInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialCustomEvent.h; path = MoPubSDK/MPInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		70683185E8E83872ED32DEDD57A3637A /* Pods-VIAdMobSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSample.release.xcconfig"; sourceTree = "<group>"; };
 		71056A7D7F5AFA2ED44B5D4F97DA336F /* MPVASTMacroProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTMacroProcessor.h; path = MoPubSDK/Internal/VAST/MPVASTMacroProcessor.h; sourceTree = "<group>"; };
 		712D3386BCA0852FCFF85B8ED390D56E /* FBMediaViewVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaViewVideoRenderer.h; path = FBAudienceNetwork.framework/Headers/FBMediaViewVideoRenderer.h; sourceTree = "<group>"; };
 		713D02A0C55B257A460594A35CC35FE3 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
-		71877CA67B6652428E3C246A38D78080 /* Pods-VIMopubSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7211E2CF8D7A9A725AC3077E8AFA97DB /* MPAdServerURLBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdServerURLBuilder.m; path = MoPubSDK/Internal/Common/MPAdServerURLBuilder.m; sourceTree = "<group>"; };
 		7259C58B034D64D2BBEA97B4269F495D /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		7318A2713CF753319DC8D64A6E143751 /* MPInstanceProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInstanceProvider.m; path = MoPubSDK/Internal/MPInstanceProvider.m; sourceTree = "<group>"; };
-		7348446A5E2491D723E3B78695EB2A06 /* Pods-VIAdMobSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSampleTests-frameworks.sh"; sourceTree = "<group>"; };
-		739070E3C4C7046861EC48B60B457BE7 /* Pods-VIFBSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSample-resources.sh"; sourceTree = "<group>"; };
 		73DBD4896BF3F6DE058DAE0E3852558D /* MPNativeAdConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdConstants.h; path = "MoPubSDK/Native Ads/MPNativeAdConstants.h"; sourceTree = "<group>"; };
 		743A642BB6026BDF497D3C4037911CF9 /* MPWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPWebView.h; path = MoPubSDK/Internal/HTML/MPWebView.h; sourceTree = "<group>"; };
+		747551728FAB98B42D6C27887C4F1FD0 /* Pods-VIFBSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		74E0119D423117C081B51BF123D60A96 /* MPLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLogging.m; path = MoPubSDK/Internal/Utility/MPLogging.m; sourceTree = "<group>"; };
 		7512567F628D1A661F12AF2EF281E210 /* FBAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdView.h; path = FBAudienceNetwork.framework/Headers/FBAdView.h; sourceTree = "<group>"; };
-		756829970AFFCD3045ED83464AEBA151 /* Pods-VIMopubSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIMopubSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		75A3193126232B458E121CB49778E471 /* MRBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBridge.m; path = MoPubSDK/Internal/MRAID/MRBridge.m; sourceTree = "<group>"; };
 		75F2909CFEF5C5D059A337DD5B970A2D /* FBAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSize.h; path = FBAudienceNetwork.framework/Headers/FBAdSize.h; sourceTree = "<group>"; };
 		766258852FB14DFFD19B1BC441B193FF /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
 		770A9880B59528BBE10850B5AB6EE3E1 /* MPRealTimeTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRealTimeTimer.m; path = MoPubSDK/Internal/Common/MPRealTimeTimer.m; sourceTree = "<group>"; };
 		771EAAA567675C3B0E4A3FBE34EC1615 /* MPMutedBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPMutedBtn.png; path = MoPubSDK/Resources/MPMutedBtn.png; sourceTree = "<group>"; };
-		77FBF762FD480B79BDFC0034B90671C6 /* Pods-VIAdMobSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSampleTests-resources.sh"; sourceTree = "<group>"; };
 		77FFEF41D00D32BC895275293BD92A72 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		78A8A54AD03A45F9C30488EB730603C4 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		78ABCFAAD85F1F711689C66593837FD1 /* Pods-VIADSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIADSample.release.xcconfig"; sourceTree = "<group>"; };
+		78D02C4AD6CD64D2C93E88EDBF1AC577 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MoPub.framework; path = "mopub-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7919A2E06051C518FDD827732DE6C795 /* Pods-VIFBSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7950B3C34D0E7C52E66521EAAD92175F /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/QuickObjectiveC/DSL/World+DSL.h"; sourceTree = "<group>"; };
 		79826E4B1BC69800587131130EF17130 /* MPAdDestinationDisplayAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdDestinationDisplayAgent.m; path = MoPubSDK/Internal/Common/MPAdDestinationDisplayAgent.m; sourceTree = "<group>"; };
 		7A0859907245AEF036959B3A573CED0E /* VIAdEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIAdEvent.h; path = VISDK/VISDK.framework/Headers/VIAdEvent.h; sourceTree = "<group>"; };
+		7A6DDBBD91CCBCABAFB1B65394B1CBAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A97608FC5EFB5F5C67B4A99D0A53C8F /* MPVASTTrackingEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTTrackingEvent.m; path = MoPubSDK/Internal/VAST/MPVASTTrackingEvent.m; sourceTree = "<group>"; };
 		7A9ABDF4DB033B8DFCEFFB929D146041 /* FBInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAd.h; path = FBAudienceNetwork.framework/Headers/FBInterstitialAd.h; sourceTree = "<group>"; };
 		7ACA027326C47CE91486532C10C43D48 /* MPWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPWebView.m; path = MoPubSDK/Internal/HTML/MPWebView.m; sourceTree = "<group>"; };
 		7BF5CF03D2870C06BA269D96BF4E9D30 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPMutedBtn@2x.png"; path = "MoPubSDK/Resources/MPMutedBtn@2x.png"; sourceTree = "<group>"; };
 		7BFB2027DC3F4EA6A0C4828558B6170C /* MPVASTMediaFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTMediaFile.m; path = MoPubSDK/Internal/VAST/MPVASTMediaFile.m; sourceTree = "<group>"; };
-		7CEFD8F519E5A1715B2663798F7DEF18 /* Pods-VIFBSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIFBSample-dummy.m"; sourceTree = "<group>"; };
 		7D5D359916DAF5D8AE234EFFC919E917 /* MPRewardedVideoAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoAdManager.m; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdManager.m; sourceTree = "<group>"; };
+		7D6361B46491A161FD6CD1EC095CC0EC /* Pods-VIMopubSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSample-resources.sh"; sourceTree = "<group>"; };
+		7E267C801645DE6A4CC91F591D598111 /* Pods-VIADSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIADSample-dummy.m"; sourceTree = "<group>"; };
 		7EB2F30E617245A43A1CFD1049CC28AF /* MPXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPXMLParser.m; path = MoPubSDK/Internal/Common/MPXMLParser.m; sourceTree = "<group>"; };
 		7F06D878B6D7BF1B593C2C564647D9BA /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
-		7FB73321E68ADC14D643C4EB602465FF /* Pods-VIFBSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSampleTests-resources.sh"; sourceTree = "<group>"; };
 		7FBC5E5B21E342CB6016AD5B19F4CF31 /* MPNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNetworkManager.m; path = "MoPubSDK/Internal/Event Logging/MPNetworkManager.m"; sourceTree = "<group>"; };
 		7FDE848D35D8BC167A3C12A46222F3A2 /* MPInternalUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInternalUtils.h; path = MoPubSDK/Internal/Utility/MPInternalUtils.h; sourceTree = "<group>"; };
 		7FDF7B44BA16D998B39E702A86EB9ACB /* VISDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VISDK.h; path = VISDK/VISDK.framework/Headers/VISDK.h; sourceTree = "<group>"; };
-		80984F2080E571ED1224B6E4FDC69005 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		816835AAB797F5F44F9535D6AA48CA84 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MoPub.framework; path = "mopub-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FF8DA46038E56F07D8AF0F37411184 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
+		8217FBAE121B6C03451CA2098568F7AA /* Pods-VIAdMobSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIAdMobSample-dummy.m"; sourceTree = "<group>"; };
 		825DC3889932A1D249B05EF4D065B461 /* MPTableViewAdPlacerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTableViewAdPlacerCell.m; path = "MoPubSDK/Native Ads/Internal/MPTableViewAdPlacerCell.m"; sourceTree = "<group>"; };
 		82942C0A4598A683809E96E864301777 /* MPCollectionViewAdPlacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCollectionViewAdPlacer.m; path = "MoPubSDK/Native Ads/MPCollectionViewAdPlacer.m"; sourceTree = "<group>"; };
 		829F473961C750C257DEF0454C4138DD /* MPAdImpressionTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdImpressionTimer.m; path = MoPubSDK/Internal/Common/MPAdImpressionTimer.m; sourceTree = "<group>"; };
 		82CFC2D7BAFAD2568B3AB88DD727283B /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		82DD2184C8339CEA7498C01C07F6FC35 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPUnmutedBtn@3x.png"; path = "MoPubSDK/Resources/MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
-		8300248A6C893CBF971C1F0168FC9C2F /* Pods-VIAdMobSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIAdMobSample-umbrella.h"; sourceTree = "<group>"; };
 		831807DCC542745D6A7B465941AADB78 /* MPURLResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPURLResolver.m; path = MoPubSDK/Internal/Common/MPURLResolver.m; sourceTree = "<group>"; };
 		832E73DE1C0AA3BE842AAAECAF184D00 /* MPServerAdPositioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPServerAdPositioning.m; path = "MoPubSDK/Native Ads/MPServerAdPositioning.m"; sourceTree = "<group>"; };
 		83EA860B1CC83E0E79125694FFC00245 /* MPNativeAdRendererImageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendererImageHandler.h; path = "MoPubSDK/Native Ads/Internal/MPNativeAdRendererImageHandler.h"; sourceTree = "<group>"; };
@@ -912,14 +919,15 @@
 		84F1F0CC63A26ABBBAF215FE60B84E6C /* MPBannerCustomEventAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBannerCustomEventAdapter.m; path = MoPubSDK/Internal/Banners/MPBannerCustomEventAdapter.m; sourceTree = "<group>"; };
 		86871F37DE30561E7361DBCA559EDFE7 /* MoPub_ExternalAvidAdSessionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_ExternalAvidAdSessionContext.h; path = MoPubSDK/Viewability/Avid/MoPub_ExternalAvidAdSessionContext.h; sourceTree = "<group>"; };
 		876B6F6C0305E7DECF9900D9A8817BC2 /* MOPUBNativeVideoAdRendererSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoAdRendererSettings.h; path = MoPubSDK/NativeVideo/MOPUBNativeVideoAdRendererSettings.h; sourceTree = "<group>"; };
-		87C504B988E7D37723D3E312CF1ED93D /* Pods-VIAdMobSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSample.release.xcconfig"; sourceTree = "<group>"; };
 		883EBBF7D8D19E44A55C7E01E49C7073 /* MPBannerCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBannerCustomEventDelegate.h; path = MoPubSDK/MPBannerCustomEventDelegate.h; sourceTree = "<group>"; };
 		886919A94C5E45ABA8818D46BB795C0B /* UIColor+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIColor+MPAdditions.h"; sourceTree = "<group>"; };
 		889B431357ACB29F6065E8A6D0EFC375 /* MPVASTLinearAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTLinearAd.h; path = MoPubSDK/Internal/VAST/MPVASTLinearAd.h; sourceTree = "<group>"; };
 		88D6D6902AA29B9BAEC7898E9146A29D /* MPPlayBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPPlayBtn.png; path = MoPubSDK/Resources/MPPlayBtn.png; sourceTree = "<group>"; };
 		892ED99A57348A1228446F77B20D67AB /* MOPUBReplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBReplayView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBReplayView.h; sourceTree = "<group>"; };
+		894EF20769F0D2AAE62659AFD3F9E0DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8996B9C45C76AE4AE024CA63652EB87D /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		89BBC5471EFE7F72AF724152E5DAC785 /* MPClosableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPClosableView.h; path = MoPubSDK/Internal/Common/MPClosableView.h; sourceTree = "<group>"; };
+		8A6408B80AD94E37F264FD884F184AD8 /* Pods-VIMopubSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A981547DCDA3182F1C3BF0FEB4DBB06 /* MPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPError.h; path = MoPubSDK/Internal/Utility/MPError.h; sourceTree = "<group>"; };
 		8AD0E59CAD5CF1EE608E52356E819A2C /* MPNativeAdRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRenderer.h; path = "MoPubSDK/Native Ads/MPNativeAdRenderer.h"; sourceTree = "<group>"; };
 		8AEB0DE3B046D1530D736C18D1F7FEDD /* MPNativeAdRenderingImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdRenderingImageLoader.m; path = "MoPubSDK/Native Ads/MPNativeAdRenderingImageLoader.m"; sourceTree = "<group>"; };
@@ -932,6 +940,7 @@
 		8D05C0020D4686A3A55E38D03475B3B6 /* MPServerAdPositioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPServerAdPositioning.h; path = "MoPubSDK/Native Ads/MPServerAdPositioning.h"; sourceTree = "<group>"; };
 		8D0C69CC6A8F473132F31E404802AFF0 /* MPIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPIdentityProvider.h; path = MoPubSDK/Internal/Utility/MPIdentityProvider.h; sourceTree = "<group>"; };
 		8D5E9E0F1538334A553801D84A567FF1 /* MPBannerAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBannerAdManager.h; path = MoPubSDK/Internal/Banners/MPBannerAdManager.h; sourceTree = "<group>"; };
+		8D76D67E65C7B3C1B9FE54332F762700 /* Pods-VIFBSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSample.release.xcconfig"; sourceTree = "<group>"; };
 		8DB491368C4C5279CBFAFF46F368424F /* MPVASTResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTResource.m; path = MoPubSDK/Internal/VAST/MPVASTResource.m; sourceTree = "<group>"; };
 		8E8B01A8AFDDD6AD67C1ABB1747CDF45 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		8EA702570227DA6550231A3E7BA4D16A /* MRConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRConstants.m; path = MoPubSDK/Internal/MRAID/MRConstants.m; sourceTree = "<group>"; };
@@ -940,7 +949,9 @@
 		90955E2A5EE4A8A78B3751CF9108EE8F /* libAvid-mopub-3.6.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libAvid-mopub-3.6.1.a"; path = "MoPubSDK/Viewability/Avid/libAvid-mopub-3.6.1.a"; sourceTree = "<group>"; };
 		90A74E3A3EA3DB9C376DFEDF4CC1BC7B /* MPVASTIndustryIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTIndustryIcon.h; path = MoPubSDK/Internal/VAST/MPVASTIndustryIcon.h; sourceTree = "<group>"; };
 		9114CC48DF0200FCE9B6A98052D9B6A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9214A3E0802E87A89DFBDDF791512D5B /* Pods-VIFBSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSample-frameworks.sh"; sourceTree = "<group>"; };
 		925D81D6ABD811532768FBFA8CA3E671 /* MPQRunLoopOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPQRunLoopOperation.h; path = "MoPubSDK/Internal/Event Logging/MPQRunLoopOperation.h"; sourceTree = "<group>"; };
+		92E2BB7995C8485BA4B64DA3210A47AD /* Pods-VIAdMobSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIAdMobSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C5B99B122C6D2E774E2849CD73B2B5 /* MPNativeAdData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdData.h; path = "MoPubSDK/Native Ads/MPNativeAdData.h"; sourceTree = "<group>"; };
 		940B8AE6D0033AF7911FF868932DEB43 /* mopub-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mopub-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
@@ -953,11 +964,14 @@
 		95A7B9452F8AFB870D38A7E5AD383CB1 /* MPStaticNativeAdRendererSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPStaticNativeAdRendererSettings.h; path = "MoPubSDK/Native Ads/MPStaticNativeAdRendererSettings.h"; sourceTree = "<group>"; };
 		95BAC154B46EBF65DEB964A6A4B68BD5 /* MPGeolocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPGeolocationProvider.m; path = MoPubSDK/Internal/Utility/MPGeolocationProvider.m; sourceTree = "<group>"; };
 		95DE3E98C249E2479928C9DE8078BAAE /* MPCountdownTimerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCountdownTimerView.m; path = MoPubSDK/Internal/Common/MPCountdownTimerView.m; sourceTree = "<group>"; };
+		971D38C10FD4C038A481E094172E0CBB /* Pods-VIFBSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSampleTests-resources.sh"; sourceTree = "<group>"; };
+		97B8773E7ED24456886FE7E9C0646633 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99382BA2A5A44479EDE0D967ADC654BC /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		999DD8317D781AAE2AED7A9F4B06193F /* MPNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAd.h; path = "MoPubSDK/Native Ads/MPNativeAd.h"; sourceTree = "<group>"; };
 		99A0821CB95096315D178B5354ECBC3E /* MPNativeAdSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdSource.h; path = "MoPubSDK/Native Ads/MPNativeAdSource.h"; sourceTree = "<group>"; };
 		99A25AC9EE3A413641ECDBAA543483B4 /* MPGeolocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPGeolocationProvider.h; path = MoPubSDK/Internal/Utility/MPGeolocationProvider.h; sourceTree = "<group>"; };
 		99FE1C713938008BA686F6440D1D1AD2 /* MPClientAdPositioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPClientAdPositioning.m; path = "MoPubSDK/Native Ads/MPClientAdPositioning.m"; sourceTree = "<group>"; };
+		9A9CE482965B76BE410E2906132E9C26 /* Pods-VIFBSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIFBSampleTests-umbrella.h"; sourceTree = "<group>"; };
 		9AB198962CF2013ED9AB7CE0E9F26921 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		9B523486FAD977AB6B9196E5F4E51CA8 /* MPVASTModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTModel.m; path = MoPubSDK/Internal/VAST/MPVASTModel.m; sourceTree = "<group>"; };
 		9B7659CC85D6E529FDFF5D10FA0A7EB8 /* CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CurrentTestCaseTracker.h; path = Sources/NimbleObjectiveC/CurrentTestCaseTracker.h; sourceTree = "<group>"; };
@@ -969,48 +983,46 @@
 		9E5B0EC08D8C66C002BF9424769AC644 /* FBNativeAdCollectionViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewCellProvider.h; sourceTree = "<group>"; };
 		9EC02D975EC493D59A133E21F70B325C /* MPAdAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdAlertManager.h; path = MoPubSDK/Internal/Common/AdAlerts/MPAdAlertManager.h; sourceTree = "<group>"; };
 		9ECDC5DD0CC448C7C396498D60BBB07D /* MPNativeAdError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdError.m; path = "MoPubSDK/Native Ads/MPNativeAdError.m"; sourceTree = "<group>"; };
-		9F2473ADF1CDF8D4B0B34BCAB8539E49 /* Pods-VIMopubSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIMopubSampleTests.modulemap"; sourceTree = "<group>"; };
 		9F25F5AEFADE77C263390B21E580EBC4 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		9F330153D50A02F318A3C91D400FEE69 /* MoPub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub.h; path = MoPubSDK/MoPub.h; sourceTree = "<group>"; };
 		9FA34E311B69309DF0ADA2F4B18E5551 /* MPNativeCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeCache.h; path = "MoPubSDK/Native Ads/Internal/MPNativeCache.h"; sourceTree = "<group>"; };
 		9FC8B5762D1A261625347034F93D2A21 /* MPMoPubRewardedPlayableCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubRewardedPlayableCustomEvent.m; path = MoPubSDK/RewardedVideo/Internal/MPMoPubRewardedPlayableCustomEvent.m; sourceTree = "<group>"; };
-		9FDEC56C89808E2A97F7590548FA20EB /* Pods-VIMopubSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIMopubSample-umbrella.h"; sourceTree = "<group>"; };
 		9FF4358E2A7550C6867A7999ADD7D38A /* mopub-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "mopub-ios-sdk.modulemap"; sourceTree = "<group>"; };
 		A00893E15EB12142C55BF474315EDFA9 /* MoPub_AvidDeferredAdSessionListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AvidDeferredAdSessionListener.h; path = MoPubSDK/Viewability/Avid/MoPub_AvidDeferredAdSessionListener.h; sourceTree = "<group>"; };
 		A052535CDD458D8E6CA240342BDB986D /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		A0A0996646A4E30943220E012BD13764 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		A12C6FBD988DA7BACE9B83D30DCE6B11 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
-		A20AE3ABD48002DCD9094CF146061113 /* Pods_VIFBSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIFBSampleTests.framework; path = "Pods-VIFBSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1674DCD9D2B004CEFABBD7CC1024272 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BBB0FED79015E1007B1A33204254CA /* MPXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPXMLParser.h; path = MoPubSDK/Internal/Common/MPXMLParser.h; sourceTree = "<group>"; };
 		A3A7818A417865B78A88FA2AEA2316C5 /* MPNativeAdSourceQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdSourceQueue.h; path = "MoPubSDK/Native Ads/Internal/MPNativeAdSourceQueue.h"; sourceTree = "<group>"; };
 		A4FB29EBAEAEDA51C6534011ACFF2859 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
-		A525146EC571E2EAFFC10EDC225F76D2 /* Pods-VIAdMobSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5B36335899F700228AE0D89035BAB19 /* MPVASTCompanionAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTCompanionAd.m; path = MoPubSDK/Internal/VAST/MPVASTCompanionAd.m; sourceTree = "<group>"; };
 		A5EDCFD9CBDE44136A0D65AED5779B76 /* MPNativePositionResponseDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativePositionResponseDeserializer.h; path = "MoPubSDK/Native Ads/Internal/MPNativePositionResponseDeserializer.h"; sourceTree = "<group>"; };
 		A6405C8DE307BC76987A36FE572E678E /* MOPUBAVPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBAVPlayer.h; path = MoPubSDK/NativeVideo/Internal/MOPUBAVPlayer.h; sourceTree = "<group>"; };
+		A6550C9752731B0F2DC4F264102BFB66 /* Pods-VIAdMobSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A673B905C5BF7344E121B3B6CC5539E8 /* NSBundle+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/NSBundle+MPAdditions.m"; sourceTree = "<group>"; };
-		A6D78A174F11BD8FB0981B429E272C41 /* Pods-VIFBSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSample.release.xcconfig"; sourceTree = "<group>"; };
 		A6EC3DFA5ABA793C14D2D64932D37D84 /* MPNativeAdConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdConstants.m; path = "MoPubSDK/Native Ads/MPNativeAdConstants.m"; sourceTree = "<group>"; };
 		A7C314D3D5BEA26B6F97819B589F0891 /* MPNativeAdSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdSource.m; path = "MoPubSDK/Native Ads/MPNativeAdSource.m"; sourceTree = "<group>"; };
 		A7DE49C958CA18DA8410AB8276BF4D39 /* MPInterstitialAdManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialAdManagerDelegate.h; path = MoPubSDK/Internal/Interstitials/MPInterstitialAdManagerDelegate.h; sourceTree = "<group>"; };
+		A7EEF92167274AB00551797AD256ABE1 /* Pods-VIFBSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIFBSample-dummy.m"; sourceTree = "<group>"; };
 		A8056CB28533DE521AD78D08DF169CBC /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
 		A81EBE2DB586D5228F6328D671C837E0 /* MPDiskLRUCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDiskLRUCache.m; path = "MoPubSDK/Native Ads/Internal/MPDiskLRUCache.m"; sourceTree = "<group>"; };
+		A8A28037C1AF9CC5001F471A875A6CCB /* Pods_VIMopubSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIMopubSample.framework; path = "Pods-VIMopubSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9146F2648FE8EE11BC19ED989DF2515 /* Pods-VIADSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIADSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A9151A0538CB5BA0FFAD1C2B318107F0 /* Pods-VIMopubSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIMopubSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9173652DD4A446E5E3DBF91CF382E5F /* MPInterstitialCustomEventAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialCustomEventAdapter.m; path = MoPubSDK/Internal/Interstitials/MPInterstitialCustomEventAdapter.m; sourceTree = "<group>"; };
 		A9393967DD19E169ACE89F283EC1C1AB /* MPHTMLInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTMLInterstitialCustomEvent.h; path = MoPubSDK/Internal/HTML/MPHTMLInterstitialCustomEvent.h; sourceTree = "<group>"; };
 		A9651714185E377A81B7C9851F837359 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPPlayBtn@3x.png"; path = "MoPubSDK/Resources/MPPlayBtn@3x.png"; sourceTree = "<group>"; };
 		A9964B0550923DAE24C8007A69E6F799 /* MPVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTAd.h; path = MoPubSDK/Internal/VAST/MPVASTAd.h; sourceTree = "<group>"; };
-		A99A965ECCBB8C5D7A0DDF2BA722C283 /* Pods-VIAdMobSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIAdMobSampleTests-dummy.m"; sourceTree = "<group>"; };
 		A9BD065F4219F3DFE18A599860138695 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		AA8A8AC75B6D224036353E2EAC655B85 /* Pods-VIMopubSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIMopubSample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA940BA6F9001050DBC8FD3F1AF5B37A /* Pods-VIFBSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		AAB69ED664CF1C7FA04D361F89858449 /* MPGlobal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPGlobal.m; path = MoPubSDK/Internal/Utility/MPGlobal.m; sourceTree = "<group>"; };
 		AB25EFC599B191070C23AA29B9886BCD /* MPVideoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVideoConfig.m; path = MoPubSDK/Internal/Common/MPVideoConfig.m; sourceTree = "<group>"; };
 		AB7973E861C3DABA435D214E9876C97E /* MPLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogLevel.h; path = MoPubSDK/MPLogLevel.h; sourceTree = "<group>"; };
-		ABC779CFA878D8F1C70EF5B3DACCA466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD98E58FC4A337E176E6124E90A55DF /* Pods-VIAdMobSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSample-resources.sh"; sourceTree = "<group>"; };
 		ACC9BE2FA620025F52EC4E0C4120CBCD /* MPBannerCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBannerCustomEvent.m; path = MoPubSDK/MPBannerCustomEvent.m; sourceTree = "<group>"; };
 		AD1CF1BA7B077A615CCB772F3D206057 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		AD6BD9D8544900ABE97F1EBF205CE815 /* MOPUBPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBPlayerView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerView.h; sourceTree = "<group>"; };
-		AE111A555C83EB3BBF4ECFCAFB02C112 /* Pods-VIFBSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIFBSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADFEDC897FB2E69C3569E8BE97AED5A8 /* Pods-VIAdMobSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIAdMobSampleTests.modulemap"; sourceTree = "<group>"; };
 		AF0CB2693B5C3F2E9A29A2915D18648E /* MPHTMLBannerCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPHTMLBannerCustomEvent.m; path = MoPubSDK/Internal/HTML/MPHTMLBannerCustomEvent.m; sourceTree = "<group>"; };
 		AF2686FE461584C45D77CD150D3E5C73 /* MPNativeCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeCustomEvent.h; path = "MoPubSDK/Native Ads/MPNativeCustomEvent.h"; sourceTree = "<group>"; };
 		AF535DDA279699BFA1618BDCFB276F35 /* MPNativeAdConfigValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdConfigValues.h; path = "MoPubSDK/Native Ads/Internal/MPNativeAdConfigValues.h"; sourceTree = "<group>"; };
@@ -1023,10 +1035,8 @@
 		B34DEDECC77A3E5D675EA1285B43FB1E /* VIAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIAd.h; path = VISDK/VISDK.framework/Headers/VIAd.h; sourceTree = "<group>"; };
 		B352EA4C8F1F9B61F129BF084F53B9D6 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPUnmutedBtn@2x.png"; path = "MoPubSDK/Resources/MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
 		B3C3F01169C311FD5C3D7D8EB92E2836 /* MPLogEventCommunicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogEventCommunicator.h; path = "MoPubSDK/Internal/Event Logging/MPLogEventCommunicator.h"; sourceTree = "<group>"; };
-		B3F40812A6114B7A57DE36DE7B22E419 /* Pods-VIMopubSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		B3FA367B381545DACDE22D73CCFD803C /* MPAdPositioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdPositioning.h; path = "MoPubSDK/Native Ads/MPAdPositioning.h"; sourceTree = "<group>"; };
 		B4091C98359A714ACAA2FEAFF9BF6AAA /* MPLogEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogEvent.h; path = "MoPubSDK/Internal/Event Logging/MPLogEvent.h"; sourceTree = "<group>"; };
-		B4921B1BD3EDF322A97FEC7DCEB0462A /* Pods-VIAdMobSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIAdMobSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4EEA749B8A45E45A0048213A90B51E5 /* MRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRConstants.h; path = MoPubSDK/Internal/MRAID/MRConstants.h; sourceTree = "<group>"; };
 		B536D4EF707C38989894FC035EDEA3AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B611BF86A95AC582418AFD594F7C4F24 /* MPMoPubNativeAdAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubNativeAdAdapter.m; path = "MoPubSDK/Native Ads/Internal/MPMoPubNativeAdAdapter.m"; sourceTree = "<group>"; };
@@ -1035,16 +1045,15 @@
 		B77503C0E469D096A9CB1F3860B9CFC8 /* MPHTMLBannerCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTMLBannerCustomEvent.h; path = MoPubSDK/Internal/HTML/MPHTMLBannerCustomEvent.h; sourceTree = "<group>"; };
 		B7BB486CC5F5BB702DD4E6D56225E9BC /* MPConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPConstants.h; path = MoPubSDK/MPConstants.h; sourceTree = "<group>"; };
 		B815E43DB2E1F95228C8F1B9DC3681AE /* MPAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdView.h; path = MoPubSDK/MPAdView.h; sourceTree = "<group>"; };
-		B845E227745A12E69DBF399990BBBBB4 /* Pods-VIMopubSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIMopubSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B8BECF9CABFA3936C9E81DCDB0843710 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		B9078CDE0B314CD8EFB0992DB16B4ACA /* MPURLActionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPURLActionInfo.m; path = MoPubSDK/Internal/Common/MPURLActionInfo.m; sourceTree = "<group>"; };
-		B952D18D5CCDEC3F2E8290A7EA794246 /* Pods_VIFBSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIFBSample.framework; path = "Pods-VIFBSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9ABA2DB72A5D09C969E9464430BDCFC /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
+		B9CBF35497A6EC0CC411872A935E2DE0 /* Pods-VIMopubSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSampleTests-resources.sh"; sourceTree = "<group>"; };
 		BA1B89B0393E877310768B23529CF590 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BA490166698A7B276BCE8D01A85DDF25 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
+		BAACEE79A625E6BC4B29E1AF8BC88D89 /* Pods-VIFBSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIFBSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB7E0D095B2459F5D26410F7BAF7D9DF /* MPLogEventRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLogEventRecorder.m; path = "MoPubSDK/Internal/Event Logging/MPLogEventRecorder.m"; sourceTree = "<group>"; };
 		BBA2C289090DD114D4CF55139F6F2C12 /* MOPUBNativeVideoAdConfigValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoAdConfigValues.h; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoAdConfigValues.h; sourceTree = "<group>"; };
-		BC0330CC3AFCEC1671A10012E0C16F02 /* Pods-VIMopubSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIMopubSample.modulemap"; sourceTree = "<group>"; };
 		BCFC09D0CDBABE19756B64AE3FD22D09 /* MPIdentityProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPIdentityProvider.m; path = MoPubSDK/Internal/Utility/MPIdentityProvider.m; sourceTree = "<group>"; };
 		BD015F967F1FE3EC6152895FCE388199 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseBtn@2x.png"; path = "MoPubSDK/Resources/MPCloseBtn@2x.png"; sourceTree = "<group>"; };
 		BD587A126B173D0EA7DB8CE9DB9820E7 /* MPNativeAdSourceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdSourceDelegate.h; path = "MoPubSDK/Native Ads/MPNativeAdSourceDelegate.h"; sourceTree = "<group>"; };
@@ -1054,6 +1063,7 @@
 		BD81B26E8877FEB16481C362CB27D689 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPPlayBtn@2x.png"; path = "MoPubSDK/Resources/MPPlayBtn@2x.png"; sourceTree = "<group>"; };
 		BDBCF29F4FA5C7E3F4C052DE5A00E203 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		BDCC3539A849774CAA6C8E71476CC291 /* MPBannerCustomEventAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBannerCustomEventAdapter.h; path = MoPubSDK/Internal/Banners/MPBannerCustomEventAdapter.h; sourceTree = "<group>"; };
+		BDEAC1915D15B0897F99066EDAC8F7C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE09337DB584CD0F4D5F7565A00CD854 /* MPAdAlertGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdAlertGestureRecognizer.h; path = MoPubSDK/Internal/Common/AdAlerts/MPAdAlertGestureRecognizer.h; sourceTree = "<group>"; };
 		BE54CB9670A2918C65526C2283EAA1A9 /* MOPUBNativeVideoImpressionAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoImpressionAgent.h; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoImpressionAgent.h; sourceTree = "<group>"; };
 		BE9A34F70E74EDA3162C80D9EF3D9A38 /* NSHTTPURLResponse+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPURLResponse+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSHTTPURLResponse+MPAdditions.h"; sourceTree = "<group>"; };
@@ -1063,18 +1073,14 @@
 		BF78054B8EBC6DA4F7B0174220A94992 /* MPAdConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdConfiguration.h; path = MoPubSDK/Internal/Common/MPAdConfiguration.h; sourceTree = "<group>"; };
 		BFA97CB4633B20EB136CF2FA40DFCD0C /* MRNativeCommandHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRNativeCommandHandler.m; path = MoPubSDK/Internal/MRAID/MRNativeCommandHandler.m; sourceTree = "<group>"; };
 		C0196AD2049635A1A2A180E232DCC36C /* UIColor+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/UIColor+MPAdditions.m"; sourceTree = "<group>"; };
-		C0DBDB267374CFE19EDCF7252FA6885E /* Pods-VIAdMobSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIAdMobSample.modulemap"; sourceTree = "<group>"; };
 		C18119A0EC8BE2465BDE8AFEC222C407 /* MPRewardedVideoConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoConnection.m; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoConnection.m; sourceTree = "<group>"; };
 		C24AAC0027DDF6A70E709F43A8CCDC85 /* MRBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBundleManager.h; path = MoPubSDK/Internal/MRAID/MRBundleManager.h; sourceTree = "<group>"; };
 		C24B4CA8FC17197A4ADA44619B8D6B05 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		C26216FED4F24E45D248A220E4E5DAFA /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
-		C2A6AD1A4CC615BEB89B4C6181400D41 /* Pods-VIFBSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIFBSample-umbrella.h"; sourceTree = "<group>"; };
 		C2DBED3E79C64E6469584DD5FA901A0A /* MPLogEvent+NativeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPLogEvent+NativeVideo.h"; path = "MoPubSDK/Internal/Event Logging/MPLogEvent+NativeVideo.h"; sourceTree = "<group>"; };
-		C3003D16C57E44ABA3E178FF56BC0730 /* Pods_VIMopubSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIMopubSample.framework; path = "Pods-VIMopubSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34277E0B39CD64B08E3822BEE855569 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
 		C3F74EF144B4AF8EAFFDC1A43FB134D0 /* mopub-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mopub-ios-sdk-dummy.m"; sourceTree = "<group>"; };
 		C41A6ADF2C51FA7E63E4FCCA9CB89D88 /* MPMoPubRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubRewardedVideoCustomEvent.m; path = MoPubSDK/RewardedVideo/Internal/MPMoPubRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
-		C49A931647E4EB8F30048C79EB2FDCC7 /* Pods-VIMopubSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIMopubSampleTests-dummy.m"; sourceTree = "<group>"; };
 		C4CDF643FA46485D0BEEF1F51A836DA9 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/QuickObjectiveC/World.h; sourceTree = "<group>"; };
 		C51B58D33419F881A74016BEBF7B301B /* MPQRunLoopOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPQRunLoopOperation.m; path = "MoPubSDK/Internal/Event Logging/MPQRunLoopOperation.m"; sourceTree = "<group>"; };
 		C58E4CCE0FFB798D5A33D3990B6D7BC9 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
@@ -1088,6 +1094,8 @@
 		C81A824E0E19B2260BFA1E602C3FE69B /* MPCountdownTimerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCountdownTimerView.h; path = MoPubSDK/Internal/Common/MPCountdownTimerView.h; sourceTree = "<group>"; };
 		C83E4AD054EF73A610A9B0A99D393726 /* MPRewardedVideoAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoAdapter.h; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdapter.h; sourceTree = "<group>"; };
 		C8503AA0C1C033A9E8A6307A5FC61622 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
+		C863D3E3535A4843797638FF560EF9F7 /* Pods-VIAdMobSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIAdMobSampleTests-dummy.m"; sourceTree = "<group>"; };
+		C9238D3E5BEDFCDFB920E63BF0BB3B81 /* Pods_VIADSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIADSample.framework; path = "Pods-VIADSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AAA10D8451E151B387DE5E822BDFAF /* MPRewardedVideoNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoNetwork.h; path = MoPubSDK/RewardedVideo/MPRewardedVideoNetwork.h; sourceTree = "<group>"; };
 		C9D641BF6CA16E5DA08415CC1E62DBD3 /* MPVASTWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTWrapper.h; path = MoPubSDK/Internal/VAST/MPVASTWrapper.h; sourceTree = "<group>"; };
 		CA21A292406ECB25713DF0EC1CF66BD4 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
@@ -1095,15 +1103,15 @@
 		CA7D3E1A8AF29B5D86853A04ABC1C2B7 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		CC3FD6CF4235D1F37E69111EB50C1383 /* MPViewabilityAdapterAvid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPViewabilityAdapterAvid.h; path = MoPubSDK/Viewability/Avid/MPViewabilityAdapterAvid.h; sourceTree = "<group>"; };
 		CC68E3488675931A779E706C9B0C2599 /* MPVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTMediaFile.h; path = MoPubSDK/Internal/VAST/MPVASTMediaFile.h; sourceTree = "<group>"; };
-		CDB2318FEFF8FAAB2E1C452605312E5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4D185814A5627522D99543A10CC189 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD9D8865546E838D936EB465FB59EE4 /* MPRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoCustomEvent.h; path = MoPubSDK/RewardedVideo/MPRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
-		CE9ED12FDFB9304A7BEF92D3935648CA /* Pods-VIFBSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIFBSampleTests-umbrella.h"; sourceTree = "<group>"; };
 		CF2CC0C2079488FA59973AA08A8E325A /* VIPlacement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIPlacement.h; path = VISDK/VISDK.framework/Headers/VIPlacement.h; sourceTree = "<group>"; };
 		CF338724263710CC0490DB6BA5BD37F1 /* MPAnalyticsTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAnalyticsTracker.h; path = MoPubSDK/Internal/Utility/MPAnalyticsTracker.h; sourceTree = "<group>"; };
 		CF88F0B8C645F9FCC89CB4D67F5B9F4B /* MPVASTStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTStringUtilities.h; path = MoPubSDK/Internal/VAST/MPVASTStringUtilities.h; sourceTree = "<group>"; };
 		CF951DAE9FCBFF2E82D9192BEE638841 /* MRError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRError.m; path = MoPubSDK/Internal/MRAID/MRError.m; sourceTree = "<group>"; };
 		CFF92A7D410171EA41B036F5766962B2 /* MPRewardedVideoAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoAdapter.m; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdapter.m; sourceTree = "<group>"; };
 		D04390D35F3EEF81D1DDB18C5E50455F /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
+		D0816F1A9DC0213CA04B92064311B2DC /* Pods-VIADSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIADSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0B3CB75091F2AF62B569268F928DB34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		D0C0326C3891B408C750D9C11367BE1F /* MRVideoPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRVideoPlayerManager.m; path = MoPubSDK/Internal/MRAID/MRVideoPlayerManager.m; sourceTree = "<group>"; };
 		D15C7D4EA26D9213D33D2CA0CF6A7AEA /* MoPub_AbstractAvidManagedAdSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AbstractAvidManagedAdSession.h; path = MoPubSDK/Viewability/Avid/MoPub_AbstractAvidManagedAdSession.h; sourceTree = "<group>"; };
@@ -1117,18 +1125,23 @@
 		D46C2EAFA082471EDB891549DD9387DF /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButtonX@2x.png"; path = "MoPubSDK/Resources/MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
 		D58DFE6403273A58E1C2083672949323 /* MRCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRCommand.m; path = MoPubSDK/Internal/MRAID/MRCommand.m; sourceTree = "<group>"; };
 		D59300A9853A4EA9A3E5247E8EBC4C21 /* MPNativeAdData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdData.m; path = "MoPubSDK/Native Ads/MPNativeAdData.m"; sourceTree = "<group>"; };
-		D5D7BBAEA6828A2276EC9CC61A8F4C3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C0D4BEDEAC2C929C9675FA454161BC /* Pods-VIADSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIADSample-resources.sh"; sourceTree = "<group>"; };
 		D61F4C031FDDEAA2B1F83C91F97E2ACD /* MPMRAIDInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMRAIDInterstitialCustomEvent.h; path = MoPubSDK/Internal/MRAID/MPMRAIDInterstitialCustomEvent.h; sourceTree = "<group>"; };
 		D643B445120EDB38699D09103ACB8093 /* MPWebView+Viewability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPWebView+Viewability.m"; path = "MoPubSDK/Viewability/MPWebView+Viewability.m"; sourceTree = "<group>"; };
 		D6A5FB9A80CFED57A1976E88CA38EA22 /* MPAdServerCommunicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdServerCommunicator.m; path = MoPubSDK/Internal/Common/MPAdServerCommunicator.m; sourceTree = "<group>"; };
 		D6AA70ED2D176097465D93E911B49C8D /* MPVASTCreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTCreative.m; path = MoPubSDK/Internal/VAST/MPVASTCreative.m; sourceTree = "<group>"; };
 		D6E82726DF0EF97A099946EC7C3BFE02 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
+		D6FB016DB1012E6ABC0F1B177F446EB7 /* Pods-VIADSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIADSample-frameworks.sh"; sourceTree = "<group>"; };
+		D705FC5975308BBEE28BBC3EF530EDE8 /* Pods-VIFBSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIFBSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7EC5851793FAA4264BC971AABE636E8 /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
+		D8BE503AD0F26F9E69DF8E48CC53ED3A /* Pods-VIAdMobSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIAdMobSample-frameworks.sh"; sourceTree = "<group>"; };
 		D924A4B34B404EA6BF44FCBDA77B2BC2 /* MPViewabilityAdapterAvid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPViewabilityAdapterAvid.m; path = MoPubSDK/Viewability/Avid/MPViewabilityAdapterAvid.m; sourceTree = "<group>"; };
-		D9619D8DB61DFD57B2F8A1C72B8AA13F /* Pods-VIMopubSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSample-resources.sh"; sourceTree = "<group>"; };
 		DA7329059057E5BA00907FE259CCF6D7 /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h; sourceTree = "<group>"; };
+		DAA97BDA476922F68CE5726A96118E41 /* Pods-VIMopubSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIMopubSampleTests-umbrella.h"; sourceTree = "<group>"; };
 		DAB373908410B453D85CF2D39EE9ED45 /* MPVASTDurationOffset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTDurationOffset.h; path = MoPubSDK/Internal/VAST/MPVASTDurationOffset.h; sourceTree = "<group>"; };
+		DAF20EDCDE6231A4549E50A9BFC48F6E /* Pods-VIFBSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIFBSample-resources.sh"; sourceTree = "<group>"; };
 		DAF4B61470917C8D5D11FEE1C7E0AAF8 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPUnmutedBtn.png; path = MoPubSDK/Resources/MPUnmutedBtn.png; sourceTree = "<group>"; };
+		DB0F205E46EEB3D7244F4593CEB27DEF /* Pods-VIAdMobSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIAdMobSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB8A741D3E0353D889755A4607B9BC07 /* NSBundle+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSBundle+MPAdditions.h"; sourceTree = "<group>"; };
 		DB9180E6E971C6C988D208FBB9F273E3 /* MPStreamAdPlacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStreamAdPlacer.m; path = "MoPubSDK/Native Ads/MPStreamAdPlacer.m"; sourceTree = "<group>"; };
 		DBB6D9250CEC06B5C972B7D7F07A8AAA /* MPKeywordProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPKeywordProvider.h; path = MoPubSDK/Internal/Common/MPKeywordProvider.h; sourceTree = "<group>"; };
@@ -1136,12 +1149,13 @@
 		DC75056B3A4ACC2AEB307DEFF9A45771 /* MPHTMLInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTMLInterstitialViewController.h; path = MoPubSDK/Internal/HTML/MPHTMLInterstitialViewController.h; sourceTree = "<group>"; };
 		DD246C609AED2E9CC418BD8A6412EE1A /* MRProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRProperty.m; path = MoPubSDK/Internal/MRAID/MRProperty.m; sourceTree = "<group>"; };
 		DE574DE7487139E62B8B7664606F28FC /* MPRewardedVideoConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoConnection.h; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoConnection.h; sourceTree = "<group>"; };
+		DE7697308D26FAEA2299DAD4C11CBE1D /* Pods-VIMopubSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIMopubSample.modulemap"; sourceTree = "<group>"; };
+		DEEB413F5EA553C02D9430978DC6F7E2 /* Pods-VIMopubSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIMopubSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF39B8496F42ECBA2DFC31D035B3698B /* MPClosableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPClosableView.m; path = MoPubSDK/Internal/Common/MPClosableView.m; sourceTree = "<group>"; };
 		DF50127083DEE00492C5E86A1BD4406F /* MOPUBExperimentProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBExperimentProvider.m; path = MoPubSDK/Internal/Utility/MOPUBExperimentProvider.m; sourceTree = "<group>"; };
 		DF89A52C4B083DB867F6E758288C41DA /* MoPub_AvidManagedVideoAdSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AvidManagedVideoAdSession.h; path = MoPubSDK/Viewability/Avid/MoPub_AvidManagedVideoAdSession.h; sourceTree = "<group>"; };
 		E0AACA971F07A81D9D85BAA64CFB26CA /* MPCoreInstanceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCoreInstanceProvider.h; path = MoPubSDK/Internal/MPCoreInstanceProvider.h; sourceTree = "<group>"; };
 		E19785D6E8CC671AD65D3077E0CECEF5 /* MoPub_AvidAdSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AvidAdSessionManager.h; path = MoPubSDK/Viewability/Avid/MoPub_AvidAdSessionManager.h; sourceTree = "<group>"; };
-		E1A9E92E2EE4BB5F165D415CCB85D077 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B0B6E48AFF7448E106A4239ABF14EA /* NSHTTPURLResponse+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPURLResponse+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/NSHTTPURLResponse+MPAdditions.m"; sourceTree = "<group>"; };
 		E1C176FD16E00C8E11A48DE61852D514 /* MPRewardedVideoCustomEvent+Caching.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPRewardedVideoCustomEvent+Caching.m"; path = "MoPubSDK/RewardedVideo/MPRewardedVideoCustomEvent+Caching.m"; sourceTree = "<group>"; };
 		E20828C9B4AEA723A60534D4BD81B3BA /* MPNativeAdUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdUtils.h; path = "MoPubSDK/Native Ads/Internal/MPNativeAdUtils.h"; sourceTree = "<group>"; };
@@ -1160,6 +1174,7 @@
 		E7DE9BC9C0E5277E9325E771237D5FEA /* VIOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIOptions.h; path = VISDK/VISDK.framework/Headers/VIOptions.h; sourceTree = "<group>"; };
 		E814905D5673B94D92963004DBFC8F21 /* MPConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPConstants.m; path = MoPubSDK/MPConstants.m; sourceTree = "<group>"; };
 		E88EAA25B655B8E981D99160A3B731FF /* MPVASTTrackingEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTTrackingEvent.h; path = MoPubSDK/Internal/VAST/MPVASTTrackingEvent.h; sourceTree = "<group>"; };
+		E8A2E52FC13976EECF908863E8953172 /* Pods_VIFBSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIFBSample.framework; path = "Pods-VIFBSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DE99202205454CF89E4C1BDFD730FF /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		E9AD11F3F359582C420856842157FC37 /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h; sourceTree = "<group>"; };
 		E9B3E4C6C4F0BA17E570B1C0CE6E4E0E /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
@@ -1167,15 +1182,13 @@
 		EA9029B85D9CE370FD1E22993AC15886 /* MOPUBPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBPlayerView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerView.m; sourceTree = "<group>"; };
 		EAD772CCB10C853AE3E577A6D54C164B /* MPNativeAdRequest+MPNativeAdSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPNativeAdRequest+MPNativeAdSource.h"; path = "MoPubSDK/Native Ads/Internal/Categories/MPNativeAdRequest+MPNativeAdSource.h"; sourceTree = "<group>"; };
 		EADF8434EF5FCA17BCE36E6953D54A58 /* MPViewabilityTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPViewabilityTracker.m; path = MoPubSDK/Viewability/MPViewabilityTracker.m; sourceTree = "<group>"; };
-		EB038684D46C0105D4DE3288F70FC05E /* Pods-VIAdMobSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIAdMobSample.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2303657C6BA76377A179A8B405E6D5 /* UIButton+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/UIButton+MPAdditions.m"; sourceTree = "<group>"; };
 		EB6706B3896DD140BAA389624984941B /* MPVASTWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTWrapper.m; path = MoPubSDK/Internal/VAST/MPVASTWrapper.m; sourceTree = "<group>"; };
 		EC38037E3B8CD6D6FC52F3278E454991 /* MPCoreInstanceProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCoreInstanceProvider.m; path = MoPubSDK/Internal/MPCoreInstanceProvider.m; sourceTree = "<group>"; };
 		EC6EA5D402ACD5E69A813B4ECACE1407 /* MPAdServerURLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdServerURLBuilder.h; path = MoPubSDK/Internal/Common/MPAdServerURLBuilder.h; sourceTree = "<group>"; };
+		EC99AA58934EC99A74C021A94D137AAA /* Pods-VIAdMobSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIAdMobSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED66DE237FF48F37F541B153A91B9BBA /* MPVASTTracking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTTracking.m; path = MoPubSDK/Internal/MPVASTTracking.m; sourceTree = "<group>"; };
-		ED809A5CB1A4E1E094A4FAE8B2F47702 /* Pods-VIMopubSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIMopubSampleTests-resources.sh"; sourceTree = "<group>"; };
 		ED83B18F536270B2BDC94B96E7F1DD78 /* MPNativeAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRequest.h; path = "MoPubSDK/Native Ads/MPNativeAdRequest.h"; sourceTree = "<group>"; };
-		EDB2B67411F00787A9F2A1CCA763C701 /* Pods-VIMopubSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIMopubSampleTests-umbrella.h"; sourceTree = "<group>"; };
 		EDD48A4C4813CF19182B1897D8F82994 /* MoPub_AvidManagedDisplayAdSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AvidManagedDisplayAdSession.h; path = MoPubSDK/Viewability/Avid/MoPub_AvidManagedDisplayAdSession.h; sourceTree = "<group>"; };
 		EE3AA9C2F51A1029B7C7AEC94020B617 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		EE9F6289B13485175D35EC2705D62FCD /* MPInternalUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInternalUtils.m; path = MoPubSDK/Internal/Utility/MPInternalUtils.m; sourceTree = "<group>"; };
@@ -1187,7 +1200,6 @@
 		F010A3A1DB5D03F3FEE2262EFDA3139A /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		F03B7923E29F79573D0DAB2899C82EC1 /* MRBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBridge.h; path = MoPubSDK/Internal/MRAID/MRBridge.h; sourceTree = "<group>"; };
 		F05F82540AA277E2E93441E08D22D829 /* MPRewardedVideoError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoError.h; path = MoPubSDK/RewardedVideo/MPRewardedVideoError.h; sourceTree = "<group>"; };
-		F0A95F009D8242345C493621A3D0D5FF /* Pods_VIAdMobSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIAdMobSampleTests.framework; path = "Pods-VIAdMobSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DF8C0D08FB4CC5C15AE2FE54B12561 /* MPSessionTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPSessionTracker.m; path = MoPubSDK/Internal/Utility/MPSessionTracker.m; sourceTree = "<group>"; };
 		F19B2E61EE05079B19DBBE106DB6CF72 /* MPTableViewAdPlacerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTableViewAdPlacerCell.h; path = "MoPubSDK/Native Ads/Internal/MPTableViewAdPlacerCell.h"; sourceTree = "<group>"; };
 		F2169566CA6F68939824383C452ED296 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
@@ -1195,16 +1207,19 @@
 		F316DD0882D8F49AC212030A79F0EB9B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		F357D851D59886D98269341DB8AEACEE /* MPRewardedVideoError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoError.m; path = MoPubSDK/RewardedVideo/MPRewardedVideoError.m; sourceTree = "<group>"; };
 		F3FBB3DDCE03551A9B8C42DD049839FB /* MPCollectionViewAdPlacer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCollectionViewAdPlacer.h; path = "MoPubSDK/Native Ads/MPCollectionViewAdPlacer.h"; sourceTree = "<group>"; };
+		F47C9D4D4D8878A9F1FCEA7F130AA942 /* Pods-VIFBSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIFBSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F48121049C11D272743BE7DDC1DF18A7 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		F49BA6446D1BCA331198CBC9350B23A2 /* MPMRAIDInterstitialViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMRAIDInterstitialViewController.m; path = MoPubSDK/Internal/MRAID/MPMRAIDInterstitialViewController.m; sourceTree = "<group>"; };
+		F4B6647C9FF3FC0E80C6B0655A25F997 /* Pods_VIMopubSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIMopubSampleTests.framework; path = "Pods-VIMopubSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C4AD62D9A66ADE2F1655039F99C2B8 /* Pods-VIMopubSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIMopubSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6015BE57EBC008BD464C075F74B8841 /* MPAPIEndpoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAPIEndpoints.m; path = MoPubSDK/Internal/Common/MPAPIEndpoints.m; sourceTree = "<group>"; };
 		F6E54315951E0C40E60E502B739CD56D /* MPAdAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdAlertManager.m; path = MoPubSDK/Internal/Common/AdAlerts/MPAdAlertManager.m; sourceTree = "<group>"; };
 		F72C795FC3C9A1CD3D24D6FA82A52945 /* MoPub_AvidVideoAdSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub_AvidVideoAdSession.h; path = MoPubSDK/Viewability/Avid/MoPub_AvidVideoAdSession.h; sourceTree = "<group>"; };
 		F7611160B55D63D5194B4D3AB6B77A89 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		F7959C5C46A67F6187FD02FC84AAE98B /* MOPUBPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBPlayerManager.m; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerManager.m; sourceTree = "<group>"; };
 		F7B5E3F34C8BA29C6E93BA7D84A50977 /* MPPrivateRewardedVideoCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPPrivateRewardedVideoCustomEventDelegate.h; path = MoPubSDK/RewardedVideo/Internal/MPPrivateRewardedVideoCustomEventDelegate.h; sourceTree = "<group>"; };
-		F8040BC06897A48C84395BBE907F9514 /* Pods-VIMopubSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIMopubSample-dummy.m"; sourceTree = "<group>"; };
 		F86664AEF5412E9671AF242B23A3787D /* MPRetryingHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRetryingHTTPOperation.m; path = "MoPubSDK/Internal/Event Logging/MPRetryingHTTPOperation.m"; sourceTree = "<group>"; };
+		F9726A3F80C26FBB935A7B9458544974 /* Pods-VIMopubSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIMopubSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F98D96D7A121B1FC491D7561AD507E19 /* MPNativeAdRendererSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendererSettings.h; path = "MoPubSDK/Native Ads/MPNativeAdRendererSettings.h"; sourceTree = "<group>"; };
 		F9BCC1547FFB118FDBB36C391461D3DA /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		FA24F6EDFD8894E34856AED6C38BA248 /* MPStaticNativeAdRendererSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStaticNativeAdRendererSettings.m; path = "MoPubSDK/Native Ads/MPStaticNativeAdRendererSettings.m"; sourceTree = "<group>"; };
@@ -1218,10 +1233,9 @@
 		FCE39E38F69CC6F9A70AA1BE8F13AFDC /* MPNativeAd+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPNativeAd+Internal.m"; path = "MoPubSDK/Native Ads/Internal/MPNativeAd+Internal.m"; sourceTree = "<group>"; };
 		FD55C74AAF70EFB9005543434D460F4C /* MPLastResortDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLastResortDelegate.m; path = MoPubSDK/Internal/Common/MPLastResortDelegate.m; sourceTree = "<group>"; };
 		FE748D2D5D241EF9AA76E252C763E995 /* MPCloseButtonX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPCloseButtonX.png; path = MoPubSDK/Resources/MPCloseButtonX.png; sourceTree = "<group>"; };
-		FEF79339B815B9B560190F661E22B86E /* Pods-VIAdMobSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIAdMobSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF530D26E0254D745F261476A98BFCF6 /* Pods-VIFBSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIFBSample.debug.xcconfig"; sourceTree = "<group>"; };
 		FF745C58A4640DD5F6A08BBC0E09EF29 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		FF9640FCD16073EF542BEED735222B38 /* MPRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoCustomEvent.m; path = MoPubSDK/RewardedVideo/MPRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
+		FF9EE6250749F18AB5D91129CB2086D9 /* Pods-VIADSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIADSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1247,6 +1261,14 @@
 				1D7E0B16794335187E2608CF782E5813 /* SafariServices.framework in Frameworks */,
 				8C12503E1971B26E74C8C2F6EF0556EE /* SystemConfiguration.framework in Frameworks */,
 				2C7C09A8597E8FD713F9F034E9A880BB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2479965A504930A83A29466E5524782C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41DC45B74BB543A3651FC2FA5D6B90D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1310,53 +1332,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04FAAC5CF9C514FCA44E5C0AFE5CDD67 /* Pods-VIMopubSampleTests */ = {
+		00FB724E8EC4762EA413A05BFF06E453 /* Pods-VIAdMobSample */ = {
 			isa = PBXGroup;
 			children = (
-				ABC779CFA878D8F1C70EF5B3DACCA466 /* Info.plist */,
-				9F2473ADF1CDF8D4B0B34BCAB8539E49 /* Pods-VIMopubSampleTests.modulemap */,
-				B845E227745A12E69DBF399990BBBBB4 /* Pods-VIMopubSampleTests-acknowledgements.markdown */,
-				756829970AFFCD3045ED83464AEBA151 /* Pods-VIMopubSampleTests-acknowledgements.plist */,
-				C49A931647E4EB8F30048C79EB2FDCC7 /* Pods-VIMopubSampleTests-dummy.m */,
-				B3F40812A6114B7A57DE36DE7B22E419 /* Pods-VIMopubSampleTests-frameworks.sh */,
-				ED809A5CB1A4E1E094A4FAE8B2F47702 /* Pods-VIMopubSampleTests-resources.sh */,
-				EDB2B67411F00787A9F2A1CCA763C701 /* Pods-VIMopubSampleTests-umbrella.h */,
-				16CFAA41E4AA36FEC881AC9174C54C15 /* Pods-VIMopubSampleTests.debug.xcconfig */,
-				71877CA67B6652428E3C246A38D78080 /* Pods-VIMopubSampleTests.release.xcconfig */,
+				BDEAC1915D15B0897F99066EDAC8F7C0 /* Info.plist */,
+				01D241F20BDFAF66576067AE7D7B7B37 /* Pods-VIAdMobSample.modulemap */,
+				DB0F205E46EEB3D7244F4593CEB27DEF /* Pods-VIAdMobSample-acknowledgements.markdown */,
+				67E8FDC23757908D33179B05C9D7E875 /* Pods-VIAdMobSample-acknowledgements.plist */,
+				8217FBAE121B6C03451CA2098568F7AA /* Pods-VIAdMobSample-dummy.m */,
+				D8BE503AD0F26F9E69DF8E48CC53ED3A /* Pods-VIAdMobSample-frameworks.sh */,
+				ABD98E58FC4A337E176E6124E90A55DF /* Pods-VIAdMobSample-resources.sh */,
+				6DFDDD27352FB4AA7372639A41D73087 /* Pods-VIAdMobSample-umbrella.h */,
+				A6550C9752731B0F2DC4F264102BFB66 /* Pods-VIAdMobSample.debug.xcconfig */,
+				70683185E8E83872ED32DEDD57A3637A /* Pods-VIAdMobSample.release.xcconfig */,
 			);
-			name = "Pods-VIMopubSampleTests";
-			path = "Target Support Files/Pods-VIMopubSampleTests";
-			sourceTree = "<group>";
-		};
-		103B96AF967D0080F169FBAA9783B0C5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6FF6C0B97C3A44B7379EF63D3E463870 /* Pods-VIAdMobSample */,
-				FB3713F1B575E2066FE9C5EDA1F253A0 /* Pods-VIAdMobSampleTests */,
-				185BEF2D0C9518A01A87607FAB30BE6A /* Pods-VIFBSample */,
-				9C55FE1327451B7E2B7B11CFE8E25C4B /* Pods-VIFBSampleTests */,
-				88EF3217C83CDD07D96658A4EA8D8A8C /* Pods-VIMopubSample */,
-				04FAAC5CF9C514FCA44E5C0AFE5CDD67 /* Pods-VIMopubSampleTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		185BEF2D0C9518A01A87607FAB30BE6A /* Pods-VIFBSample */ = {
-			isa = PBXGroup;
-			children = (
-				E1A9E92E2EE4BB5F165D415CCB85D077 /* Info.plist */,
-				4ED07CF73BC800255E37A46EBFF38D18 /* Pods-VIFBSample.modulemap */,
-				41EEBA9F0A0695F54DF195182BF15BFD /* Pods-VIFBSample-acknowledgements.markdown */,
-				AE111A555C83EB3BBF4ECFCAFB02C112 /* Pods-VIFBSample-acknowledgements.plist */,
-				7CEFD8F519E5A1715B2663798F7DEF18 /* Pods-VIFBSample-dummy.m */,
-				26A737823DC11988233016A1C081898E /* Pods-VIFBSample-frameworks.sh */,
-				739070E3C4C7046861EC48B60B457BE7 /* Pods-VIFBSample-resources.sh */,
-				C2A6AD1A4CC615BEB89B4C6181400D41 /* Pods-VIFBSample-umbrella.h */,
-				FF530D26E0254D745F261476A98BFCF6 /* Pods-VIFBSample.debug.xcconfig */,
-				A6D78A174F11BD8FB0981B429E272C41 /* Pods-VIFBSample.release.xcconfig */,
-			);
-			name = "Pods-VIFBSample";
-			path = "Target Support Files/Pods-VIFBSample";
+			name = "Pods-VIAdMobSample";
+			path = "Target Support Files/Pods-VIAdMobSample";
 			sourceTree = "<group>";
 		};
 		1DCA9FA4874563FAF8E350DBE23BD8CD /* Quick */ = {
@@ -1439,6 +1430,24 @@
 			name = Avid;
 			sourceTree = "<group>";
 		};
+		2C1224604F0F67B40A39459A9E1DFF71 /* Pods-VIMopubSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1674DCD9D2B004CEFABBD7CC1024272 /* Info.plist */,
+				59A8E2776ED43D46A6D4AAD5826110CC /* Pods-VIMopubSampleTests.modulemap */,
+				DEEB413F5EA553C02D9430978DC6F7E2 /* Pods-VIMopubSampleTests-acknowledgements.markdown */,
+				F9726A3F80C26FBB935A7B9458544974 /* Pods-VIMopubSampleTests-acknowledgements.plist */,
+				25361FA4411A8F8E1938232777090D13 /* Pods-VIMopubSampleTests-dummy.m */,
+				32970C225958909C2D220233363918BB /* Pods-VIMopubSampleTests-frameworks.sh */,
+				B9CBF35497A6EC0CC411872A935E2DE0 /* Pods-VIMopubSampleTests-resources.sh */,
+				DAA97BDA476922F68CE5726A96118E41 /* Pods-VIMopubSampleTests-umbrella.h */,
+				F5C4AD62D9A66ADE2F1655039F99C2B8 /* Pods-VIMopubSampleTests.debug.xcconfig */,
+				8A6408B80AD94E37F264FD884F184AD8 /* Pods-VIMopubSampleTests.release.xcconfig */,
+			);
+			name = "Pods-VIMopubSampleTests";
+			path = "Target Support Files/Pods-VIMopubSampleTests";
+			sourceTree = "<group>";
+		};
 		358C5510EFE22D6AAD7E613AEDD16D51 /* Google-Mobile-Ads-SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -1469,22 +1478,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A9C5ACB059805C7F2CA8C775B2C51ED /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				816835AAB797F5F44F9535D6AA48CA84 /* MoPub.framework */,
-				18620F18522360BCF33C50A6741A2A61 /* Nimble.framework */,
-				02207A4BEC03BCB182C49B619D77F0F9 /* Pods_VIAdMobSample.framework */,
-				F0A95F009D8242345C493621A3D0D5FF /* Pods_VIAdMobSampleTests.framework */,
-				B952D18D5CCDEC3F2E8290A7EA794246 /* Pods_VIFBSample.framework */,
-				A20AE3ABD48002DCD9094CF146061113 /* Pods_VIFBSampleTests.framework */,
-				C3003D16C57E44ABA3E178FF56BC0730 /* Pods_VIMopubSample.framework */,
-				1BD4924A7D2B8B3A93435F0A0FCA0BBB /* Pods_VIMopubSampleTests.framework */,
-				80984F2080E571ED1224B6E4FDC69005 /* Quick.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		45F88CA1BA0C5DDFAC9175CD1984B861 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1493,22 +1486,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6FF6C0B97C3A44B7379EF63D3E463870 /* Pods-VIAdMobSample */ = {
+		46A5C93FF2E2C0BC74EA87D7E7E1B18A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDB2318FEFF8FAAB2E1C452605312E5D /* Info.plist */,
-				C0DBDB267374CFE19EDCF7252FA6885E /* Pods-VIAdMobSample.modulemap */,
-				26438BA3BE63A2E31EB851735267EAC6 /* Pods-VIAdMobSample-acknowledgements.markdown */,
-				48C7159CC11D880BB4AAD2F4F4BF4C12 /* Pods-VIAdMobSample-acknowledgements.plist */,
-				1CEBFF87C0CAECAAD343DF87CE51DD7C /* Pods-VIAdMobSample-dummy.m */,
-				1541552FDA47C249B6AB79ABE2B77BCB /* Pods-VIAdMobSample-frameworks.sh */,
-				3CE1899BFD105871BE046ADE12834A2F /* Pods-VIAdMobSample-resources.sh */,
-				8300248A6C893CBF971C1F0168FC9C2F /* Pods-VIAdMobSample-umbrella.h */,
-				EB038684D46C0105D4DE3288F70FC05E /* Pods-VIAdMobSample.debug.xcconfig */,
-				87C504B988E7D37723D3E312CF1ED93D /* Pods-VIAdMobSample.release.xcconfig */,
+				78D02C4AD6CD64D2C93E88EDBF1AC577 /* MoPub.framework */,
+				97B8773E7ED24456886FE7E9C0646633 /* Nimble.framework */,
+				6182FB25EBDF164E744165008C52D31B /* Pods_VIAdMobSample.framework */,
+				6A1490FF9D76858D1748C7EC3570FF46 /* Pods_VIAdMobSampleTests.framework */,
+				C9238D3E5BEDFCDFB920E63BF0BB3B81 /* Pods_VIADSample.framework */,
+				E8A2E52FC13976EECF908863E8953172 /* Pods_VIFBSample.framework */,
+				64C555DDAD5EC31C82109BE22946E1B4 /* Pods_VIFBSampleTests.framework */,
+				A8A28037C1AF9CC5001F471A875A6CCB /* Pods_VIMopubSample.framework */,
+				F4B6647C9FF3FC0E80C6B0655A25F997 /* Pods_VIMopubSampleTests.framework */,
+				14207C1EDA903D078E2499FC95F27D31 /* Quick.framework */,
 			);
-			name = "Pods-VIAdMobSample";
-			path = "Target Support Files/Pods-VIAdMobSample";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60621EC626136F019C2AF4DED8C5267F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FB724E8EC4762EA413A05BFF06E453 /* Pods-VIAdMobSample */,
+				F84C7CEC69EBB57745B1FA930B128C76 /* Pods-VIAdMobSampleTests */,
+				9AA8B2E0089C3E81D76800F618DD58A6 /* Pods-VIADSample */,
+				C39FB9FDEB68302FA0D580290CCF488E /* Pods-VIFBSample */,
+				EBD1467A403B466C6EC7116B88271BD8 /* Pods-VIFBSampleTests */,
+				FC2C549FA41E3F1B01EF004710257E35 /* Pods-VIMopubSample */,
+				2C1224604F0F67B40A39459A9E1DFF71 /* Pods-VIMopubSampleTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		75BF3A0074BA588E3243F85BFFBAAEA4 /* Frameworks */ = {
@@ -1525,27 +1531,9 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
 				35F4E47D0B60DBD484FDBC103270A993 /* Pods */,
-				3A9C5ACB059805C7F2CA8C775B2C51ED /* Products */,
-				103B96AF967D0080F169FBAA9783B0C5 /* Targets Support Files */,
+				46A5C93FF2E2C0BC74EA87D7E7E1B18A /* Products */,
+				60621EC626136F019C2AF4DED8C5267F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		88EF3217C83CDD07D96658A4EA8D8A8C /* Pods-VIMopubSample */ = {
-			isa = PBXGroup;
-			children = (
-				012A0DB8E29BAF0C03C30C9CD71731C6 /* Info.plist */,
-				BC0330CC3AFCEC1671A10012E0C16F02 /* Pods-VIMopubSample.modulemap */,
-				AA8A8AC75B6D224036353E2EAC655B85 /* Pods-VIMopubSample-acknowledgements.markdown */,
-				10777EB365989F2C40CC18FEB0869971 /* Pods-VIMopubSample-acknowledgements.plist */,
-				F8040BC06897A48C84395BBE907F9514 /* Pods-VIMopubSample-dummy.m */,
-				13A7887BF8CE4744674711DC543B90F6 /* Pods-VIMopubSample-frameworks.sh */,
-				D9619D8DB61DFD57B2F8A1C72B8AA13F /* Pods-VIMopubSample-resources.sh */,
-				9FDEC56C89808E2A97F7590548FA20EB /* Pods-VIMopubSample-umbrella.h */,
-				2EE6B75781B357355C8456C7112842BF /* Pods-VIMopubSample.debug.xcconfig */,
-				2E4F676E95149713B49F61588F666484 /* Pods-VIMopubSample.release.xcconfig */,
-			);
-			name = "Pods-VIMopubSample";
-			path = "Target Support Files/Pods-VIMopubSample";
 			sourceTree = "<group>";
 		};
 		8BFE87CF5CDAA758B8BD140642C04104 /* mopub-ios-sdk */ = {
@@ -1588,22 +1576,22 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9C55FE1327451B7E2B7B11CFE8E25C4B /* Pods-VIFBSampleTests */ = {
+		9AA8B2E0089C3E81D76800F618DD58A6 /* Pods-VIADSample */ = {
 			isa = PBXGroup;
 			children = (
-				D5D7BBAEA6828A2276EC9CC61A8F4C3B /* Info.plist */,
-				3EFEDC95A5D27BE15FB187655F37DF75 /* Pods-VIFBSampleTests.modulemap */,
-				6508020B20FCB6AAEDB443D668EF6903 /* Pods-VIFBSampleTests-acknowledgements.markdown */,
-				22D3B72AF0D0E6E57FC69C689A5CDDBD /* Pods-VIFBSampleTests-acknowledgements.plist */,
-				177704601E7A4B02DA755ACB7BBA3843 /* Pods-VIFBSampleTests-dummy.m */,
-				AA940BA6F9001050DBC8FD3F1AF5B37A /* Pods-VIFBSampleTests-frameworks.sh */,
-				7FB73321E68ADC14D643C4EB602465FF /* Pods-VIFBSampleTests-resources.sh */,
-				CE9ED12FDFB9304A7BEF92D3935648CA /* Pods-VIFBSampleTests-umbrella.h */,
-				39A4149E3B8982657F70D627832C7A4B /* Pods-VIFBSampleTests.debug.xcconfig */,
-				2C5A0201B7DB007662A88A5AB21D3D50 /* Pods-VIFBSampleTests.release.xcconfig */,
+				894EF20769F0D2AAE62659AFD3F9E0DD /* Info.plist */,
+				4789735325D70187FCEDFE39F6E519BF /* Pods-VIADSample.modulemap */,
+				FF9EE6250749F18AB5D91129CB2086D9 /* Pods-VIADSample-acknowledgements.markdown */,
+				D0816F1A9DC0213CA04B92064311B2DC /* Pods-VIADSample-acknowledgements.plist */,
+				7E267C801645DE6A4CC91F591D598111 /* Pods-VIADSample-dummy.m */,
+				D6FB016DB1012E6ABC0F1B177F446EB7 /* Pods-VIADSample-frameworks.sh */,
+				D5C0D4BEDEAC2C929C9675FA454161BC /* Pods-VIADSample-resources.sh */,
+				0FA492F0988D69E11F3161CAF8282A84 /* Pods-VIADSample-umbrella.h */,
+				A9146F2648FE8EE11BC19ED989DF2515 /* Pods-VIADSample.debug.xcconfig */,
+				78ABCFAAD85F1F711689C66593837FD1 /* Pods-VIADSample.release.xcconfig */,
 			);
-			name = "Pods-VIFBSampleTests";
-			path = "Target Support Files/Pods-VIFBSampleTests";
+			name = "Pods-VIADSample";
+			path = "Target Support Files/Pods-VIADSample";
 			sourceTree = "<group>";
 		};
 		A26180E59D94E6A40A04E1C30261E209 /* Frameworks */ = {
@@ -1644,6 +1632,24 @@
 				45F88CA1BA0C5DDFAC9175CD1984B861 /* Frameworks */,
 			);
 			name = Moat;
+			sourceTree = "<group>";
+		};
+		C39FB9FDEB68302FA0D580290CCF488E /* Pods-VIFBSample */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DDBBD91CCBCABAFB1B65394B1CBAE /* Info.plist */,
+				00049BF112C50701EB44EDC8DD0F3CD9 /* Pods-VIFBSample.modulemap */,
+				4878FD9D9AD8AA8242543815F4B07115 /* Pods-VIFBSample-acknowledgements.markdown */,
+				BAACEE79A625E6BC4B29E1AF8BC88D89 /* Pods-VIFBSample-acknowledgements.plist */,
+				A7EEF92167274AB00551797AD256ABE1 /* Pods-VIFBSample-dummy.m */,
+				9214A3E0802E87A89DFBDDF791512D5B /* Pods-VIFBSample-frameworks.sh */,
+				DAF20EDCDE6231A4549E50A9BFC48F6E /* Pods-VIFBSample-resources.sh */,
+				153AB11CF6D193149659A99101744C03 /* Pods-VIFBSample-umbrella.h */,
+				173BDEA428CC6E136CBA9DCA871D6AC5 /* Pods-VIFBSample.debug.xcconfig */,
+				8D76D67E65C7B3C1B9FE54332F762700 /* Pods-VIFBSample.release.xcconfig */,
+			);
+			name = "Pods-VIFBSample";
+			path = "Target Support Files/Pods-VIFBSample";
 			sourceTree = "<group>";
 		};
 		C4CEE9146B4D8AA9DCCE95578DFA67BB /* FBAudienceNetwork */ = {
@@ -1803,6 +1809,24 @@
 				1E0E22B18E2DA8DD308A7906E44845DC /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD1467A403B466C6EC7116B88271BD8 /* Pods-VIFBSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D185814A5627522D99543A10CC189 /* Info.plist */,
+				6F5EE8C92FAEDBBEA0999AF1F949ACB8 /* Pods-VIFBSampleTests.modulemap */,
+				F47C9D4D4D8878A9F1FCEA7F130AA942 /* Pods-VIFBSampleTests-acknowledgements.markdown */,
+				D705FC5975308BBEE28BBC3EF530EDE8 /* Pods-VIFBSampleTests-acknowledgements.plist */,
+				3484A4112CEFD1E8EC1D26CDC3FCD222 /* Pods-VIFBSampleTests-dummy.m */,
+				747551728FAB98B42D6C27887C4F1FD0 /* Pods-VIFBSampleTests-frameworks.sh */,
+				971D38C10FD4C038A481E094172E0CBB /* Pods-VIFBSampleTests-resources.sh */,
+				9A9CE482965B76BE410E2906132E9C26 /* Pods-VIFBSampleTests-umbrella.h */,
+				7919A2E06051C518FDD827732DE6C795 /* Pods-VIFBSampleTests.debug.xcconfig */,
+				6BDB84350F1DEFA8B3D4F903D1DB3A90 /* Pods-VIFBSampleTests.release.xcconfig */,
+			);
+			name = "Pods-VIFBSampleTests";
+			path = "Target Support Files/Pods-VIFBSampleTests";
 			sourceTree = "<group>";
 		};
 		F1D5D37B4C9E1835461B71A9E59DB44E /* Core */ = {
@@ -2172,22 +2196,40 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		FB3713F1B575E2066FE9C5EDA1F253A0 /* Pods-VIAdMobSampleTests */ = {
+		F84C7CEC69EBB57745B1FA930B128C76 /* Pods-VIAdMobSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				2871D86356A283FC9CAC856E109CB8E8 /* Info.plist */,
-				2CAD20B4B7E447876CA8DA49C2AEC07D /* Pods-VIAdMobSampleTests.modulemap */,
-				B4921B1BD3EDF322A97FEC7DCEB0462A /* Pods-VIAdMobSampleTests-acknowledgements.markdown */,
-				FEF79339B815B9B560190F661E22B86E /* Pods-VIAdMobSampleTests-acknowledgements.plist */,
-				A99A965ECCBB8C5D7A0DDF2BA722C283 /* Pods-VIAdMobSampleTests-dummy.m */,
-				7348446A5E2491D723E3B78695EB2A06 /* Pods-VIAdMobSampleTests-frameworks.sh */,
-				77FBF762FD480B79BDFC0034B90671C6 /* Pods-VIAdMobSampleTests-resources.sh */,
-				6CE2B637FE73F44BA2E9F5C1A84D9DF4 /* Pods-VIAdMobSampleTests-umbrella.h */,
-				26F39F520A4686F5FB3111F0BD0C491F /* Pods-VIAdMobSampleTests.debug.xcconfig */,
-				A525146EC571E2EAFFC10EDC225F76D2 /* Pods-VIAdMobSampleTests.release.xcconfig */,
+				14CF0F3C46140773E49133A4E4A4E6DA /* Info.plist */,
+				ADFEDC897FB2E69C3569E8BE97AED5A8 /* Pods-VIAdMobSampleTests.modulemap */,
+				EC99AA58934EC99A74C021A94D137AAA /* Pods-VIAdMobSampleTests-acknowledgements.markdown */,
+				92E2BB7995C8485BA4B64DA3210A47AD /* Pods-VIAdMobSampleTests-acknowledgements.plist */,
+				C863D3E3535A4843797638FF560EF9F7 /* Pods-VIAdMobSampleTests-dummy.m */,
+				4B4A21BE132EEAB80092C696CC37B343 /* Pods-VIAdMobSampleTests-frameworks.sh */,
+				1010832B8E91416ED4DC8C0674140269 /* Pods-VIAdMobSampleTests-resources.sh */,
+				33721034D040B14246D7999DE35B3B43 /* Pods-VIAdMobSampleTests-umbrella.h */,
+				133F6484B3F48EC59D13AAAFA5AD5681 /* Pods-VIAdMobSampleTests.debug.xcconfig */,
+				6DF1D52BC85408196A7CB39CDB733673 /* Pods-VIAdMobSampleTests.release.xcconfig */,
 			);
 			name = "Pods-VIAdMobSampleTests";
 			path = "Target Support Files/Pods-VIAdMobSampleTests";
+			sourceTree = "<group>";
+		};
+		FC2C549FA41E3F1B01EF004710257E35 /* Pods-VIMopubSample */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D96D7C844411CEC4DEB3ADE9A24AC /* Info.plist */,
+				DE7697308D26FAEA2299DAD4C11CBE1D /* Pods-VIMopubSample.modulemap */,
+				A9151A0538CB5BA0FFAD1C2B318107F0 /* Pods-VIMopubSample-acknowledgements.markdown */,
+				331A7EF353A641CF476F785C4A7FAB8D /* Pods-VIMopubSample-acknowledgements.plist */,
+				473891E31363021F0D9E3517A306FBF1 /* Pods-VIMopubSample-dummy.m */,
+				0B08281D700F1E21DF8751EC32318DF6 /* Pods-VIMopubSample-frameworks.sh */,
+				7D6361B46491A161FD6CD1EC095CC0EC /* Pods-VIMopubSample-resources.sh */,
+				649C969CFE4736996AE9AF832F378269 /* Pods-VIMopubSample-umbrella.h */,
+				09FDCCB51AA7B18C195AAF71CC5CE33B /* Pods-VIMopubSample.debug.xcconfig */,
+				213AA2708A589204C36BA2E9ADDB0657 /* Pods-VIMopubSample.release.xcconfig */,
+			);
+			name = "Pods-VIMopubSample";
+			path = "Target Support Files/Pods-VIMopubSample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2462,6 +2504,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A014D7BC349CF47170D77694BC417E82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E12E521BAEDDD0AF3857FEE13B5A5D /* Pods-VIADSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E664657BF5A0313C09718A595C719138 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2503,7 +2553,7 @@
 			);
 			name = "mopub-ios-sdk";
 			productName = "mopub-ios-sdk";
-			productReference = 816835AAB797F5F44F9535D6AA48CA84 /* MoPub.framework */;
+			productReference = 78D02C4AD6CD64D2C93E88EDBF1AC577 /* MoPub.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		55EF92289B39D83CA77E4F6CF2C79360 /* Pods-VIFBSample */ = {
@@ -2520,7 +2570,7 @@
 			);
 			name = "Pods-VIFBSample";
 			productName = "Pods-VIFBSample";
-			productReference = B952D18D5CCDEC3F2E8290A7EA794246 /* Pods_VIFBSample.framework */;
+			productReference = E8A2E52FC13976EECF908863E8953172 /* Pods_VIFBSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		764D0FDAA667500624B13C40B8CF063C /* Pods-VIAdMobSample */ = {
@@ -2537,7 +2587,7 @@
 			);
 			name = "Pods-VIAdMobSample";
 			productName = "Pods-VIAdMobSample";
-			productReference = 02207A4BEC03BCB182C49B619D77F0F9 /* Pods_VIAdMobSample.framework */;
+			productReference = 6182FB25EBDF164E744165008C52D31B /* Pods_VIAdMobSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7A85DCBE06C796A0302CB6A5360AB60B /* Pods-VIFBSampleTests */ = {
@@ -2556,7 +2606,7 @@
 			);
 			name = "Pods-VIFBSampleTests";
 			productName = "Pods-VIFBSampleTests";
-			productReference = A20AE3ABD48002DCD9094CF146061113 /* Pods_VIFBSampleTests.framework */;
+			productReference = 64C555DDAD5EC31C82109BE22946E1B4 /* Pods_VIFBSampleTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8083D3FF050D335723A2B6C7CB1BD254 /* Pods-VIMopubSample */ = {
@@ -2574,7 +2624,7 @@
 			);
 			name = "Pods-VIMopubSample";
 			productName = "Pods-VIMopubSample";
-			productReference = C3003D16C57E44ABA3E178FF56BC0730 /* Pods_VIMopubSample.framework */;
+			productReference = A8A28037C1AF9CC5001F471A875A6CCB /* Pods_VIMopubSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		932AA24AA354F0D3CC73D8BD158E7C18 /* Pods-VIAdMobSampleTests */ = {
@@ -2593,7 +2643,7 @@
 			);
 			name = "Pods-VIAdMobSampleTests";
 			productName = "Pods-VIAdMobSampleTests";
-			productReference = F0A95F009D8242345C493621A3D0D5FF /* Pods_VIAdMobSampleTests.framework */;
+			productReference = 6A1490FF9D76858D1748C7EC3570FF46 /* Pods_VIAdMobSampleTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A282B70CBCE05666E28FD5DFC20CF8EB /* Pods-VIMopubSampleTests */ = {
@@ -2612,7 +2662,7 @@
 			);
 			name = "Pods-VIMopubSampleTests";
 			productName = "Pods-VIMopubSampleTests";
-			productReference = 1BD4924A7D2B8B3A93435F0A0FCA0BBB /* Pods_VIMopubSampleTests.framework */;
+			productReference = F4B6647C9FF3FC0E80C6B0655A25F997 /* Pods_VIMopubSampleTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */ = {
@@ -2629,7 +2679,24 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = 18620F18522360BCF33C50A6741A2A61 /* Nimble.framework */;
+			productReference = 97B8773E7ED24456886FE7E9C0646633 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7A79671D6DC0CAF5B23984BBCDA46D4 /* Pods-VIADSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237E97206DCA9B1293DC739B0C22A39F /* Build configuration list for PBXNativeTarget "Pods-VIADSample" */;
+			buildPhases = (
+				75624C1D296A33AB63C556CD5AE664BF /* Sources */,
+				2479965A504930A83A29466E5524782C /* Frameworks */,
+				A014D7BC349CF47170D77694BC417E82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VIADSample";
+			productName = "Pods-VIADSample";
+			productReference = C9238D3E5BEDFCDFB920E63BF0BB3B81 /* Pods_VIADSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F653AD18760F8FC52A32108240F23335 /* Quick */ = {
@@ -2646,7 +2713,7 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = 80984F2080E571ED1224B6E4FDC69005 /* Quick.framework */;
+			productReference = 14207C1EDA903D078E2499FC95F27D31 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2666,7 +2733,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3A9C5ACB059805C7F2CA8C775B2C51ED /* Products */;
+			productRefGroup = 46A5C93FF2E2C0BC74EA87D7E7E1B18A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2674,6 +2741,7 @@
 				DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */,
 				764D0FDAA667500624B13C40B8CF063C /* Pods-VIAdMobSample */,
 				932AA24AA354F0D3CC73D8BD158E7C18 /* Pods-VIAdMobSampleTests */,
+				E7A79671D6DC0CAF5B23984BBCDA46D4 /* Pods-VIADSample */,
 				55EF92289B39D83CA77E4F6CF2C79360 /* Pods-VIFBSample */,
 				7A85DCBE06C796A0302CB6A5360AB60B /* Pods-VIFBSampleTests */,
 				8083D3FF050D335723A2B6C7CB1BD254 /* Pods-VIMopubSample */,
@@ -2796,6 +2864,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1FBC758FEF9AE1B812C1A7FC425A8B /* Pods-VIFBSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75624C1D296A33AB63C556CD5AE664BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADCA39814AF9387A222C94A12013985 /* Pods-VIADSample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3090,9 +3166,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0186D3CF6D822523F91590965DBD3B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78ABCFAAD85F1F711689C66593837FD1 /* Pods-VIADSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VIADSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIADSample/Pods-VIADSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIADSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		08809E3046DEF4F2526A10A547FE691F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C5A0201B7DB007662A88A5AB21D3D50 /* Pods-VIFBSampleTests.release.xcconfig */;
+			baseConfigurationReference = 6BDB84350F1DEFA8B3D4F903D1DB3A90 /* Pods-VIFBSampleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3126,7 +3235,7 @@
 		};
 		0ACA02247BC57AEF9E7CA934E8D2C511 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87C504B988E7D37723D3E312CF1ED93D /* Pods-VIAdMobSample.release.xcconfig */;
+			baseConfigurationReference = 70683185E8E83872ED32DEDD57A3637A /* Pods-VIAdMobSample.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3191,7 +3300,7 @@
 		};
 		34C8308E0A2A2BC8006AF634F94DF13E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A525146EC571E2EAFFC10EDC225F76D2 /* Pods-VIAdMobSampleTests.release.xcconfig */;
+			baseConfigurationReference = 6DF1D52BC85408196A7CB39CDB733673 /* Pods-VIAdMobSampleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3342,7 +3451,7 @@
 		};
 		78A57C303698FA4513A3476032112408 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26F39F520A4686F5FB3111F0BD0C491F /* Pods-VIAdMobSampleTests.debug.xcconfig */;
+			baseConfigurationReference = 133F6484B3F48EC59D13AAAFA5AD5681 /* Pods-VIAdMobSampleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3376,7 +3485,7 @@
 		};
 		81E5CBD066BB1E2377BCCD3408F0B534 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16CFAA41E4AA36FEC881AC9174C54C15 /* Pods-VIMopubSampleTests.debug.xcconfig */;
+			baseConfigurationReference = F5C4AD62D9A66ADE2F1655039F99C2B8 /* Pods-VIMopubSampleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3410,7 +3519,7 @@
 		};
 		87B042A11E76DDBC45C714D01E42892C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF530D26E0254D745F261476A98BFCF6 /* Pods-VIFBSample.debug.xcconfig */;
+			baseConfigurationReference = 173BDEA428CC6E136CBA9DCA871D6AC5 /* Pods-VIFBSample.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3442,7 +3551,7 @@
 		};
 		890D0F1AD20C01DD0D48B3D01857EB77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6D78A174F11BD8FB0981B429E272C41 /* Pods-VIFBSample.release.xcconfig */;
+			baseConfigurationReference = 8D76D67E65C7B3C1B9FE54332F762700 /* Pods-VIFBSample.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3475,7 +3584,7 @@
 		};
 		AC9C1C9EAAC7BE52C6F97FA4777911F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EE6B75781B357355C8456C7112842BF /* Pods-VIMopubSample.debug.xcconfig */;
+			baseConfigurationReference = 09FDCCB51AA7B18C195AAF71CC5CE33B /* Pods-VIMopubSample.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3567,7 +3676,7 @@
 		};
 		B60F9D16B428A520578FB5DDAC48C690 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71877CA67B6652428E3C246A38D78080 /* Pods-VIMopubSampleTests.release.xcconfig */;
+			baseConfigurationReference = 8A6408B80AD94E37F264FD884F184AD8 /* Pods-VIMopubSampleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3631,7 +3740,7 @@
 		};
 		C6EAD04665234FE2D3396C91078ED26F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB038684D46C0105D4DE3288F70FC05E /* Pods-VIAdMobSample.debug.xcconfig */;
+			baseConfigurationReference = A6550C9752731B0F2DC4F264102BFB66 /* Pods-VIAdMobSample.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3726,7 +3835,7 @@
 		};
 		DAF9E5F8C5494CD4EE037A47D71DA2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39A4149E3B8982657F70D627832C7A4B /* Pods-VIFBSampleTests.debug.xcconfig */;
+			baseConfigurationReference = 7919A2E06051C518FDD827732DE6C795 /* Pods-VIFBSampleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3760,7 +3869,7 @@
 		};
 		F8151CAC3EB9D1DEFD8B1F57C0B04B80 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E4F676E95149713B49F61588F666484 /* Pods-VIMopubSample.release.xcconfig */;
+			baseConfigurationReference = 213AA2708A589204C36BA2E9ADDB0657 /* Pods-VIMopubSample.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3791,6 +3900,38 @@
 			};
 			name = Release;
 		};
+		FE7F589405FB60042A6A27C7403CF67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9146F2648FE8EE11BC19ED989DF2515 /* Pods-VIADSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VIADSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIADSample/Pods-VIADSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIADSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3808,6 +3949,15 @@
 			buildConfigurations = (
 				87B042A11E76DDBC45C714D01E42892C /* Debug */,
 				890D0F1AD20C01DD0D48B3D01857EB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		237E97206DCA9B1293DC739B0C22A39F /* Build configuration list for PBXNativeTarget "Pods-VIADSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7F589405FB60042A6A27C7403CF67D /* Debug */,
+				0186D3CF6D822523F91590965DBD3B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

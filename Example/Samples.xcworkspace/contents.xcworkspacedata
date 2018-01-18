@@ -11,6 +11,9 @@
       location = "group:VIAdMobSample/VIAdMobSample.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:VIADSample/VIADSample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
