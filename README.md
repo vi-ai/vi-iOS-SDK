@@ -2,7 +2,7 @@
 
 <!--[![CI Status](http://img.shields.io/travis/Maksym Kravchenko/VISDK.svg?style=flat)](https://travis-ci.org/Maksym Kravchenko/VISDK)-->
 [![Version](https://img.shields.io/cocoapods/v/VISDK.svg?style=flat)](https://cocoapods.org/pods/VISDK)
-[![License](https://img.shields.io/cocoapods/l/VISDK.svg?style=flat)](https://github.com/maksymkravchenko/vi/blob/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/VISDK.svg?style=flat)](https://github.com/vi-ai/vi-iOS-SDK/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/VISDK.svg?style=flat)](https://cocoapods.org/pods/VISDK)
 
 
@@ -65,7 +65,7 @@ override func viewDidLoad() {
 	super.viewDidLoad()
 	// Get PlacementId from ad console
 	
-	let placement = VIPlacement("Your_placement_Id", options: nil);
+	let placement = VIPlacement("Your placement id from console", options: nil);
 	inStreamAd = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: adContainer)
 	inStreamAd.startsWhenReady = true
 	inStreamAd.delegate = self
@@ -122,7 +122,9 @@ inStreamAd.close()
 Interstitial ads are cached locally which could take time depending on existing network conditions. Therefore, we recommend that you initiate the ad load process in advance to enhance the user experience.
 
 ```swift
-let placement = VIPlacement("Your_placement_Id", options: nil)
+// Get PlacementId from ad console
+
+let placement = VIPlacement("Your placement id from console", options: nil)
 interstitialAd = VISDK.sharedInstance().createInterstitialAd(for: placement)
 interstitialAd.delegate = self
 interstitialAd.load()
@@ -162,7 +164,7 @@ Mediation adapters should be added to Vi Ads where you want mediation to be pres
 ```swift
 
 // Create interstitialAd
-let placement = VIPlacement("Your placement ID", options: nil)
+let placement = VIPlacement("Your placement id from console", options: nil)
 let ad = VISDK.sharedInstance().createInterstitialAd(for: placement)
 ad?.delegate = self
 
@@ -181,12 +183,6 @@ let adapter2 = FacebookVIInterstitialAdapter(placementID: "your Mopub placement 
 ad?.registerMediations([ adapter1, adapter2 ])
 
 ```
-
-### Mediation Samples
-
-Detailed samples with Mediation implementations are provided in [Example](https://github.com/maksymkravchenko/vi/tree/master/Example).
-
-To run the Example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## External tracker: How add external trackers for ViAdsSDK
 
@@ -218,6 +214,14 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 
 ```
+
+## Samples
+
+Detailed samples are provided in [Example](https://github.com/maksymkravchenko/vi/tree/master/Example).
+
+To run the Example project, clone the repo, and run `pod install` from the Example directory first.
+
+**!Important** Before running Examples make sure you have created and setup appropriate Placement, use your placement ID from ad console in Samples source code.
 
 ## Documentation
 
