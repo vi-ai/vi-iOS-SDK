@@ -112,10 +112,8 @@
             
             <h1 id='video-intelligence-ios-sdk-v2-0' class='heading'>video intelligence iOS SDK v2.0</h1>
 
-<!--[![CI Status](http://img.shields.io/travis/Maksym Kravchenko/VISDK.svg?style=flat)](https://travis-ci.org/Maksym Kravchenko/VISDK)-->
-
 <p><a href="https://cocoapods.org/pods/VISDK"><img src="https://img.shields.io/cocoapods/v/VISDK.svg?style=flat" alt="Version"></a>
-<a href="https://github.com/maksymkravchenko/vi/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/VISDK.svg?style=flat" alt="License"></a>
+<a href="https://github.com/vi-ai/vi-iOS-SDK/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/VISDK.svg?style=flat" alt="License"></a>
 <a href="https://cocoapods.org/pods/VISDK"><img src="https://img.shields.io/cocoapods/p/VISDK.svg?style=flat" alt="Platform"></a></p>
 <h2 id='requirements' class='heading'>Requirements</h2>
 
@@ -141,7 +139,7 @@ Include vi IOS SDK wherever you need it with <code>import VISDK</code>.</p>
 
 <p>You can also add the vi iOS SDK as a dynamic framework to your project or workspace.</p>
 
-<p>Get the latest version of <a href="https://github.com/maksymkravchenko/vi/tree/master/VISDK/VISDK.framework">VISDK.framework</a> , copy it to your project’s working directory
+<p>Get the latest version of <a href="https://github.com/vi-ai/vi-iOS-SDK/tree/master/VISDK/VISDK.framework">VISDK.framework</a> , copy it to your project’s working directory
 Open Xcode, select your target, go to General tab. Add <code>VISDK.framework</code> as Embedded Binary.
 Include VISDK wherever you need it with <code>import VISDK</code>.</p>
 <h2 id='usage' class='heading'>Usage</h2>
@@ -164,7 +162,7 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
     <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
     <span class="c1">// Get PlacementId from ad console</span>
 
-    <span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your_placement_Id"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">);</span>
+    <span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your placement id from console"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">);</span>
     <span class="n">inStreamAd</span> <span class="o">=</span> <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">createVideoAd</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="n">placement</span><span class="p">,</span> <span class="nv">inContainer</span><span class="p">:</span> <span class="n">adContainer</span><span class="p">)</span>
     <span class="n">inStreamAd</span><span class="o">.</span><span class="n">startsWhenReady</span> <span class="o">=</span> <span class="kc">true</span>
     <span class="n">inStreamAd</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
@@ -213,7 +211,9 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
 <h3 id='setting-up-an-interstitial-ad' class='heading'>Setting up an Interstitial ad</h3>
 
 <p>Interstitial ads are cached locally which could take time depending on existing network conditions. Therefore, we recommend that you initiate the ad load process in advance to enhance the user experience.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your_placement_Id"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<pre class="highlight swift"><code><span class="c1">// Get PlacementId from ad console</span>
+
+<span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your placement id from console"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
 <span class="n">interstitialAd</span> <span class="o">=</span> <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">createInterstitialAd</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="n">placement</span><span class="p">)</span>
 <span class="n">interstitialAd</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
 <span class="n">interstitialAd</span><span class="o">.</span><span class="nf">load</span><span class="p">()</span>
@@ -237,9 +237,9 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
 <p>vi IOS SDK supports 3 ad providers:</p>
 
 <ul>
-<li><a href="https://github.com/maksymkravchenko/vi/tree/master/Mediation/AdMobVIMediation">AdMob</a></li>
-<li><a href="https://github.com/maksymkravchenko/vi/tree/master/Mediation/FacebookVIMediation">MoPub</a></li>
-<li><a href="https://github.com/maksymkravchenko/vi/tree/master/Mediation/MopubVIMediation">Facebook</a></li>
+<li><a href="https://github.com/vi-ai/vi-iOS-SDK/tree/master/Mediation/AdMobVIMediation">AdMob</a></li>
+<li><a href="https://github.com/vi-ai/vi-iOS-SDK/tree/master/Mediation/FacebookVIMediation">MoPub</a></li>
+<li><a href="https://github.com/vi-ai/vi-iOS-SDK/tree/master/Mediation/MopubVIMediation">Facebook</a></li>
 </ul>
 <h3 id='installation' class='heading'>Installation</h3>
 
@@ -248,7 +248,7 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
 <p>Mediation adapters should be added to Vi Ads where you want mediation to be present. Here is simple Mopub example:</p>
 <pre class="highlight swift"><code>
 <span class="c1">// Create interstitialAd</span>
-<span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your placement ID"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">placement</span> <span class="o">=</span> <span class="nf">VIPlacement</span><span class="p">(</span><span class="s">"Your placement id from console"</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
 <span class="k">let</span> <span class="nv">ad</span> <span class="o">=</span> <span class="kt">VISDK</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">createInterstitialAd</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="n">placement</span><span class="p">)</span>
 <span class="n">ad</span><span class="p">?</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
 
@@ -266,11 +266,6 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
 <span class="n">ad</span><span class="p">?</span><span class="o">.</span><span class="nf">registerMediations</span><span class="p">([</span> <span class="n">adapter1</span><span class="p">,</span> <span class="n">adapter2</span> <span class="p">])</span>
 
 </code></pre>
-<h3 id='mediation-samples' class='heading'>Mediation Samples</h3>
-
-<p>Detailed samples with Mediation implementations are provided in <a href="https://github.com/maksymkravchenko/vi/tree/master/Example">Example</a>.</p>
-
-<p>To run the Example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
 <h2 id='external-tracker-how-add-external-trackers-for-viadssdk' class='heading'>External tracker: How add external trackers for ViAdsSDK</h2>
 
 <p>ViAdSDK provides ability to add global trackers on all events that happens within the SDK. This tracking should be registered just after SDK initialization. This can be achieved with implementation of VIExternalTracker protocol.</p>
@@ -280,7 +275,7 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
 <p>Apart from custom events, the vi SDK also includes a pre-built adapter for <code>count.ly</code> analytics.</p>
 <h3 id='count-ly-adapter-usage' class='heading'>count.ly adapter usage</h3>
 
-<p>Copy source files from Folder link: <a href="https://github.com/maksymkravchenko/vi/tree/master/ExternalAnalytics/Countly">Countly</a> to your project. And register  <code>CountlyExternalTracker</code> at start of your App e.g. in <code>AppDelegate</code>:</p>
+<p>Copy source files from Folder link: <a href="https://github.com/vi-ai/vi-iOS-SDK/tree/master/ExternalAnalytics/Countly">Countly</a> to your project. And register  <code>CountlyExternalTracker</code> at start of your App e.g. in <code>AppDelegate</code>:</p>
 <pre class="highlight swift"><code>
 <span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplicationLaunchOptionsKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="nf">Bool</span> <span class="p">{</span>
 
@@ -298,6 +293,16 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
 <span class="p">}</span>
 
 </code></pre>
+<h2 id='samples' class='heading'>Samples</h2>
+
+<p>Detailed samples are provided in <a href="https://github.com/vi-ai/vi-iOS-SDK/tree/master/Example">Example</a>.</p>
+
+<p>To run the Example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+
+<p><strong>!Important</strong> Before running Examples make sure you have created and setup appropriate Placement, use your placement ID from ad console in Samples source code.</p>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p>Detailed documentation is <a href="https://cdn.rawgit.com/vi-ai/vi-iOS-SDK/918c6c92/docs/index.html">here</a>.</p>
 <h2 id='need-help' class='heading'>Need help?</h2>
 
 <p>Get in touch with as at <a href="mailto:pubdev@vi.ai">pubdev@vi.ai</a> so we can help you get started!</p>
@@ -312,7 +317,7 @@ Make sure you hold the reference on the instance of ViAd while the ad is being r
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/vi-ai/vi-iOS-SDK" target="_blank" rel="external">‘video</a>. All rights reserved. (Last updated: 2018-01-17)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/vi-ai/vi-iOS-SDK" target="_blank" rel="external">‘video</a>. All rights reserved. (Last updated: 2018-01-19)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
