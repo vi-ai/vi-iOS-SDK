@@ -36,7 +36,7 @@ Include vi IOS SDK wherever you need it with `import VISDK`.
 
 You can also add the vi iOS SDK as a dynamic framework to your project or workspace.
 
-Get the latest version of [VISDK.framework](https://github.com/maksymkravchenko/vi/tree/master/VISDK/VISDK.framework) , copy it to your project’s working directory
+Get the latest version of [VISDK.framework](https://github.com/vi-ai/vi-iOS-SDK/tree/master/VISDK/VISDK.framework) , copy it to your project’s working directory
 Open Xcode, select your target, go to General tab. Add `VISDK.framework` as Embedded Binary.
 Include VISDK wherever you need it with `import VISDK`.
 
