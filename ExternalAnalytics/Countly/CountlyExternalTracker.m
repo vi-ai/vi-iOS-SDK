@@ -8,7 +8,13 @@
 
 #import "CountlyExternalTracker.h"
 
+#if __has_include(<Countly/Countly.h>)
 #import <Countly/Countly.h>
+#elif __has_include(“Countly.h”)
+#import “Countly.h”
+#else
+#error “Countly iOS SDK not available”
+#endif
 
 static NSString * const kDefaultEventId = @"VISDK";
 

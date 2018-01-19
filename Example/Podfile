@@ -60,6 +60,15 @@ end
 target 'VIADSample' do
 	use_frameworks!
 	project 'VIADSample/VIADSample.xcodeproj'
+	
+	pod 'VISDK'
+end
+
+target 'VIExternalTrackerSample' do
+	use_frameworks!
+	project 'VIExternalTrackerSample/VIExternalTrackerSample.xcodeproj'
+	
+	pod 'Countly'
 	pod 'VISDK'
 end
 
