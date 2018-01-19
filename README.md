@@ -217,7 +217,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Samples
 
-Detailed samples are provided in [Example](https://github.com/maksymkravchenko/vi/tree/master/Example).
+Detailed samples are provided in [Example](https://github.com/vi-ai/vi-iOS-SDK/tree/master/Example).
 
 To run the Example project, clone the repo, and run `pod install` from the Example directory first.
 
