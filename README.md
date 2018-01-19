@@ -1,6 +1,5 @@
 # video intelligence iOS SDK v2.0
 
-<!--[![CI Status](http://img.shields.io/travis/Maksym Kravchenko/VISDK.svg?style=flat)](https://travis-ci.org/Maksym Kravchenko/VISDK)-->
 [![Version](https://img.shields.io/cocoapods/v/VISDK.svg?style=flat)](https://cocoapods.org/pods/VISDK)
 [![License](https://img.shields.io/cocoapods/l/VISDK.svg?style=flat)](https://github.com/vi-ai/vi-iOS-SDK/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/VISDK.svg?style=flat)](https://cocoapods.org/pods/VISDK)
@@ -149,9 +148,9 @@ All callbacks are fired from the main queue. You will not be required to perform
 
 vi IOS SDK supports 3 ad providers:
 
-* [AdMob](https://github.com/maksymkravchenko/vi/tree/master/Mediation/AdMobVIMediation)
-* [MoPub](https://github.com/maksymkravchenko/vi/tree/master/Mediation/FacebookVIMediation)
-* [Facebook](https://github.com/maksymkravchenko/vi/tree/master/Mediation/MopubVIMediation)
+* [AdMob](https://github.com/vi-ai/vi-iOS-SDK/tree/master/Mediation/AdMobVIMediation)
+* [MoPub](https://github.com/vi-ai/vi-iOS-SDK/tree/master/Mediation/FacebookVIMediation)
+* [Facebook](https://github.com/vi-ai/vi-iOS-SDK/tree/master/Mediation/MopubVIMediation)
 
 
 ### Installation
@@ -194,7 +193,7 @@ Apart from custom events, the vi SDK also includes a pre-built adapter for `coun
 
 ### count.ly adapter usage
 
-Copy source files from Folder link: [Countly](https://github.com/maksymkravchenko/vi/tree/master/ExternalAnalytics/Countly) to your project. And register  `CountlyExternalTracker` at start of your App e.g. in `AppDelegate`:
+Copy source files from Folder link: [Countly](https://github.com/vi-ai/vi-iOS-SDK/tree/master/ExternalAnalytics/Countly) to your project. And register  `CountlyExternalTracker` at start of your App e.g. in `AppDelegate`:
 
 ```swift
 
