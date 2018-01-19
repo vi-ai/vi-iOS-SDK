@@ -13,7 +13,7 @@ class FBInlineMediationControllerSwift: UIViewController {
 
     fileprivate lazy var ad:VIVideoAd? = {
 		// FIXME: use your placementId.
-        let placement = VIPlacement("your placementID", options: nil)
+        let placement = VIPlacement("plt1ninabcbq6l3cjtr", options: nil)
         let result = VISDK.sharedInstance().createVideoAd(for: placement, inContainer: self.containerView ?? self.view, useCahe: true)
         result?.delegate = self
 		

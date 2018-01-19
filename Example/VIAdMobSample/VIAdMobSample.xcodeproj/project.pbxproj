@@ -577,7 +577,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VIAdMobSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vi.VIAdMobSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.vi.samples.mediationadmob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VIAdMobSample/VIAdMobSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -596,7 +596,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VIAdMobSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vi.VIAdMobSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.vi.samples.mediationadmob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VIAdMobSample/VIAdMobSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

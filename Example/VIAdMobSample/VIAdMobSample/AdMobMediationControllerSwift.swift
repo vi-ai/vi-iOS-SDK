@@ -15,7 +15,7 @@ class AdMobMediationControllerSwift: UIViewController {
     fileprivate lazy var ad:VIInterstitialAd? = {
 		
 		// FIXME: use your placementId.
-		let placement = VIPlacement("plt59gczn8crjr99us7", options: nil)
+		let placement = VIPlacement("pltjncfuej9qng5jpuz", options: nil)
         let result = VISDK.sharedInstance().createInterstitialAd(for: placement)
         result?.delegate = self
 		

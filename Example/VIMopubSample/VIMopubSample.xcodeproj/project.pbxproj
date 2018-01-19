@@ -579,7 +579,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VIMopubSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vi.VIMopubSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.vi.samples.mediationmopub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VIMopubSample/VIMopubSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -598,7 +598,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VIMopubSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vi.VIMopubSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.vi.samples.mediationmopub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VIMopubSample/VIMopubSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

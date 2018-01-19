@@ -33,7 +33,7 @@
 - (void)prepareAD
 {
 #warning Use your placementID here!
-    VIPlacement* placement = [[VIPlacement alloc] initWith:@"plt59gczn8crjr99us7" options:nil];
+    VIPlacement* placement = [[VIPlacement alloc] initWith:@"plt1ninabcbq6l3cjtr" options:nil];
     self.ad = [[VISDK sharedInstance] createVideoAdFor:placement inContainer:self.containerView useCahe:YES];
     self.ad.delegate = self;
 	

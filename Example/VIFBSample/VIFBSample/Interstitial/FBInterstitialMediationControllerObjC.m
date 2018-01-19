@@ -32,7 +32,7 @@
 - (void)prepareAD
 {
 #warning Configure with your placementID!
-    VIPlacement* placement = [[VIPlacement alloc] initWith:@"pltsn8iz6zueb3wl7hm" options:nil];
+    VIPlacement* placement = [[VIPlacement alloc] initWith:@"pltr1zx2wwwrr71n824" options:nil];
     self.ad = [[VISDK sharedInstance] createInterstitialAdFor:placement];
     self.ad.delegate = self;
 	
