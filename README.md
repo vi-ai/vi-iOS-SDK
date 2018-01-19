@@ -224,7 +224,7 @@ To run the Example project, clone the repo, and run `pod install` from the Examp
 
 ## Documentation
 
-Detailed documentation is [here](https://cdn.rawgit.com/vi-ai/vi-iOS-SDK/918c6c92/docs/index.html).
+Detailed documentation is [here](https://cdn.rawgit.com/vi-ai/vi-iOS-SDK/bfa7ebac/docs/index.html).
 
 ## Need help?
 
