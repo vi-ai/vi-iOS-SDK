@@ -1,399 +1,399 @@
 {
   "warnings": [
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 23,
       "symbol": "VIAd.delegate",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 25,
       "symbol": "VIAd.cacheMediaContent",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 28,
       "symbol": "VIAd.isReady",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 30,
       "symbol": "VIAd.isLoading",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 32,
       "symbol": "VIAd.isPaused",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 34,
       "symbol": "VIAd.isPlaying",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 53,
       "symbol": "VIAd.-registerMediations:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 54,
       "symbol": "VIAd.-registerMediation:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAd.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAd.h",
       "line": 55,
       "symbol": "VIAd.-clearMediators",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIAdEvent.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIAdEvent.h",
       "line": 21,
       "symbol": "VIAdEvent.type",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 13,
       "symbol": "MediatorState",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 13,
       "symbol": "MediatorState",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 15,
       "symbol": "MediatorState.MediatorStateIdle",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 16,
       "symbol": "MediatorState.MediatorStateReady",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 17,
       "symbol": "MediatorState.MediatorStateLoading",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 20,
       "symbol": "VIAdEventType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 20,
       "symbol": "VIAdEventType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 21,
       "symbol": "VIAdEventType.VIAdEventLoaded",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 22,
       "symbol": "VIAdEventType.VIAdEventStarted",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 23,
       "symbol": "VIAdEventType.VIAdEventCompleted",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 24,
       "symbol": "VIAdEventType.VIAdEventPaused",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 25,
       "symbol": "VIAdEventType.VIAdEventResumed",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 26,
       "symbol": "VIAdEventType.VIAdEventExpired",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 27,
       "symbol": "VIAdEventType.VIAdEventClicked",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIEnums.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIEnums.h",
       "line": 28,
       "symbol": "VIAdEventType.VIAdEventClosed",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 20,
       "symbol": "VIExternalTracker.-adStart:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 21,
       "symbol": "VIExternalTracker.-adComplete:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 22,
       "symbol": "VIExternalTracker.-adPaused:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 23,
       "symbol": "VIExternalTracker.-adResumed:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 24,
       "symbol": "VIExternalTracker.-adSkiped:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 25,
       "symbol": "VIExternalTracker.-adError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 26,
       "symbol": "VIExternalTracker.-adClicked:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIExternalTracker.h",
       "line": 27,
       "symbol": "VIExternalTracker.-adVolumeChanged:isMute:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 15,
       "symbol": "kFBMediationKey",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 16,
       "symbol": "kAdMobKey",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 17,
       "symbol": "kMopubKey",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 19,
       "symbol": "VIMediator",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 21,
       "symbol": "VIMediator.status",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 23,
       "symbol": "VIMediator.-title",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 25,
       "symbol": "VIMediator.-load",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 27,
       "symbol": "VIMediator.-close",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 29,
       "symbol": "VIMediator.-didReceiveError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 30,
       "symbol": "VIMediator.-didReceiveLoadError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 31,
       "symbol": "VIMediator.-didReceiveEventWithType:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 38,
       "symbol": "VIInterstitialMediator",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 40,
       "symbol": "VIInterstitialMediator.-showFromViewController:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 46,
       "symbol": "VIInlineMediator",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIMediator.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIMediator.h",
       "line": 66,
       "symbol": "VIInlineMediator.-setContainerView:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIOptions.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIOptions.h",
       "line": 19,
       "symbol": "VIOptions.userAge",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIOptions.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIOptions.h",
       "line": 20,
       "symbol": "VIOptions.userGender",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VIPlacement.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VIPlacement.h",
       "line": 21,
       "symbol": "VIPlacement.options",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VISDK.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VISDK.h",
       "line": 24,
       "symbol": "VISDKVersionNumber",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VISDK.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VISDK.h",
       "line": 27,
       "symbol": "VISDKVersionString",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VISDK.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VISDK.h",
       "line": 44,
       "symbol": "VISDK.options",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VISDK.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VISDK.h",
       "line": 46,
       "symbol": "VISDK.+createWithOptions:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VISDK.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VISDK.h",
       "line": 48,
       "symbol": "VISDK.+sharedInstance",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK.framework/Headers/VISDK.h",
+      "file": "/Users/maksymkravchenko/viadsios/VISDK_POD/VISDK/VISDK/VISDK.framework/Headers/VISDK.h",
       "line": 59,
       "symbol": "VISDK.-createVideoAdFor:inContainer:useCahe:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
