@@ -96,7 +96,7 @@
         <!--Swift-->
         <scene sceneID="WLh-op-Dej">
             <objects>
-                <viewController title="Swift" id="EKa-kD-QrP" customClass="InterstitialMediationControllerSwift" customModule="VIADSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Swift" id="EKa-kD-QrP" customClass="InterstitialMediationControllerSwift" customModule="VIExternalTrackerSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dTu-Oh-s2m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,17 +270,24 @@
                                 <rect key="frame" x="20" y="538" width="335" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJo-so-8qn">
-                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98.5" height="30"/>
                                         <state key="normal" title="Load"/>
                                         <connections>
                                             <action selector="loadButtonTouched:" destination="fsV-Lx-iFg" eventType="touchUpInside" id="mRN-iy-bOx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMI-Wt-mJF">
-                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="118.5" y="0.0" width="98" height="30"/>
                                         <state key="normal" title="Play"/>
                                         <connections>
                                             <action selector="playButtonTouched:" destination="fsV-Lx-iFg" eventType="touchUpInside" id="zee-Mz-Eee"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bi2-Vh-khV">
+                                        <rect key="frame" x="236.5" y="0.0" width="98.5" height="30"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closeButtonTouched:" destination="fsV-Lx-iFg" eventType="touchUpInside" id="yTk-z3-DAI"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -312,6 +319,7 @@
                         <viewLayoutGuide key="safeArea" id="B4X-Ph-66T"/>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="bi2-Vh-khV" id="bM8-M5-DMi"/>
                         <outlet property="containerView" destination="EBF-50-VMZ" id="i0z-Ii-X2l"/>
                         <outlet property="playButton" destination="iMI-Wt-mJF" id="A4i-Vp-Tpz"/>
                         <outlet property="statusLabel" destination="NYN-Ib-Ngc" id="HZX-tR-UJP"/>
@@ -319,12 +327,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zeU-ko-hBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204" y="1296"/>
+            <point key="canvasLocation" x="218" y="1513"/>
         </scene>
         <!--Swift-->
         <scene sceneID="69j-Us-EA3">
             <objects>
-                <viewController title="Swift" id="BgA-hm-lCr" customClass="InlineMediationControllerSwift" customModule="VIADSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Swift" id="BgA-hm-lCr" customClass="InlineMediationControllerSwift" customModule="VIExternalTrackerSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wVA-mN-jSx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -333,17 +341,24 @@
                                 <rect key="frame" x="20" y="538" width="335" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGQ-n7-0xG">
-                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98.5" height="30"/>
                                         <state key="normal" title="Load"/>
                                         <connections>
                                             <action selector="loadButtonTouched:" destination="BgA-hm-lCr" eventType="touchUpInside" id="Zn0-xN-pIQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jw-hj-76U">
-                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="118.5" y="0.0" width="98" height="30"/>
                                         <state key="normal" title="Play"/>
                                         <connections>
                                             <action selector="playButtonTouched:" destination="BgA-hm-lCr" eventType="touchUpInside" id="yFT-fH-wCM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DL-8w-dBt">
+                                        <rect key="frame" x="236.5" y="0.0" width="98.5" height="30"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closeButtonTouched:" destination="BgA-hm-lCr" eventType="touchUpInside" id="1sZ-tP-4vF"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -375,6 +390,7 @@
                         <viewLayoutGuide key="safeArea" id="87p-ZD-2zm"/>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="7DL-8w-dBt" id="QkT-Gc-a3O"/>
                         <outlet property="containerView" destination="hW9-Ci-ioY" id="Eue-Ll-pkM"/>
                         <outlet property="playButton" destination="1Jw-hj-76U" id="hgr-D0-hQY"/>
                         <outlet property="statusLabel" destination="IrJ-B7-b7q" id="Vfl-Y9-MuS"/>
@@ -382,7 +398,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X6o-pI-bB2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="183" y="1982"/>
+            <point key="canvasLocation" x="196" y="2313"/>
         </scene>
     </scenes>
 </document>

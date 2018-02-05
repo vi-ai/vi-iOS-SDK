@@ -1,9 +1,9 @@
 PODS:
-  - Countly (17.09):
-    - Countly/NotificationService (= 17.09)
-  - Countly/NotificationService (17.09)
+  - Countly (18.01):
+    - Countly/NotificationService (= 18.01)
+  - Countly/NotificationService (18.01)
   - FBAudienceNetwork (4.25.0)
-  - Google-Mobile-Ads-SDK (7.27.0)
+  - Google-Mobile-Ads-SDK (7.28.0)
   - mopub-ios-sdk (4.19.0):
     - mopub-ios-sdk/MoPubSDK (= 4.19.0)
   - mopub-ios-sdk/Avid (4.19.0):
@@ -17,7 +17,7 @@ PODS:
     - mopub-ios-sdk/Moat
   - Nimble (7.0.3)
   - Quick (1.2.0)
-  - VISDK (2.0.2)
+  - VISDK (2.0.3)
 
 DEPENDENCIES:
   - Countly
@@ -29,13 +29,13 @@ DEPENDENCIES:
   - VISDK
 
 SPEC CHECKSUMS:
-  Countly: b2e051be5826a45ca7d93f6ed3e63a86be864460
+  Countly: 0110f4e8661b3b963268ee58fe73e17d96309af0
   FBAudienceNetwork: b0e2a46cca38ca0d17d8aebcc4765d628203ee9b
-  Google-Mobile-Ads-SDK: 83f7f890e638ce8f1debd440ea363338c9f6be3b
+  Google-Mobile-Ads-SDK: 7f9bc0011df363ae5616449de3682a14c4701612
   mopub-ios-sdk: ffbe414adf2fb7717d999020a3ff51d908da599f
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  VISDK: 0d742bdd6ed6ef37d427bc6018f40d2a5d02fb8f
+  VISDK: a0936752817364988c0a0b1d4252209a33697491
 
 PODFILE CHECKSUM: 68ec94484765b1bbdc17f58c9115352df849a97f
 

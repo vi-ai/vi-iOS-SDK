@@ -270,17 +270,24 @@
                                 <rect key="frame" x="20" y="538" width="335" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJo-so-8qn">
-                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98.5" height="30"/>
                                         <state key="normal" title="Load"/>
                                         <connections>
                                             <action selector="loadButtonTouched:" destination="fsV-Lx-iFg" eventType="touchUpInside" id="mRN-iy-bOx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMI-Wt-mJF">
-                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="118.5" y="0.0" width="98" height="30"/>
                                         <state key="normal" title="Play"/>
                                         <connections>
                                             <action selector="playButtonTouched:" destination="fsV-Lx-iFg" eventType="touchUpInside" id="zee-Mz-Eee"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc0-CU-Ony">
+                                        <rect key="frame" x="236.5" y="0.0" width="98.5" height="30"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closeButtonTouched:" destination="fsV-Lx-iFg" eventType="touchUpInside" id="aNr-gs-reE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -312,6 +319,7 @@
                         <viewLayoutGuide key="safeArea" id="B4X-Ph-66T"/>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="sc0-CU-Ony" id="8OB-C5-srk"/>
                         <outlet property="containerView" destination="EBF-50-VMZ" id="i0z-Ii-X2l"/>
                         <outlet property="playButton" destination="iMI-Wt-mJF" id="A4i-Vp-Tpz"/>
                         <outlet property="statusLabel" destination="NYN-Ib-Ngc" id="HZX-tR-UJP"/>
@@ -333,17 +341,24 @@
                                 <rect key="frame" x="20" y="538" width="335" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGQ-n7-0xG">
-                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98.5" height="30"/>
                                         <state key="normal" title="Load"/>
                                         <connections>
                                             <action selector="loadButtonTouched:" destination="BgA-hm-lCr" eventType="touchUpInside" id="Zn0-xN-pIQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jw-hj-76U">
-                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="30"/>
+                                        <rect key="frame" x="118.5" y="0.0" width="98" height="30"/>
                                         <state key="normal" title="Play"/>
                                         <connections>
                                             <action selector="playButtonTouched:" destination="BgA-hm-lCr" eventType="touchUpInside" id="yFT-fH-wCM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykg-Ud-fho">
+                                        <rect key="frame" x="236.5" y="0.0" width="98.5" height="30"/>
+                                        <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closeButtonTouched:" destination="BgA-hm-lCr" eventType="touchUpInside" id="NyH-Oa-Vt3"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -375,6 +390,7 @@
                         <viewLayoutGuide key="safeArea" id="87p-ZD-2zm"/>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="ykg-Ud-fho" id="D9A-QW-IjE"/>
                         <outlet property="containerView" destination="hW9-Ci-ioY" id="Eue-Ll-pkM"/>
                         <outlet property="playButton" destination="1Jw-hj-76U" id="hgr-D0-hQY"/>
                         <outlet property="statusLabel" destination="IrJ-B7-b7q" id="Vfl-Y9-MuS"/>

@@ -22,19 +22,28 @@ class InlineMediationControllerSwift: UIViewController {
     @IBOutlet var containerView:UIView?
     @IBOutlet var statusLabel:UILabel?
     @IBOutlet var playButton:UIButton?
-    
+	@IBOutlet var closeButton:UIButton?
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.playButton?.isEnabled = false
-        self.statusLabel?.text = "Idling"
-    }
+
+		resetView()
+	}
     
     
     @IBAction func playButtonTouched(_ sender:UIButton)
     {
-        ad?.start()
-        ad?.startsWhenReady = true
+		guard let ad = self.ad else { return }
+		
+		if ad.isPlaying {
+			ad.pause()
+		} else if ad.isPaused {
+			ad.resume()
+		} else {
+			ad.start()
+			ad.startsWhenReady = true
+		}
     }
     
     @IBAction func loadButtonTouched(_ sender:UIButton)
@@ -42,6 +51,18 @@ class InlineMediationControllerSwift: UIViewController {
         ad?.load()
         statusLabel?.text = "Loading..."
     }
+
+	@IBAction func closeButtonTouched(_ sender:UIButton)
+	{
+		ad?.close()
+	}
+
+	fileprivate func resetView() {
+		playButton?.isEnabled = false
+		statusLabel?.text = "Idling"
+		closeButton?.isEnabled = false
+		playButton?.setTitle("Play", for: .normal)
+	}
 
 }
 
@@ -59,32 +80,37 @@ extension InlineMediationControllerSwift : VIAdDelegate
         self.present(controller, animated: true, completion: nil)
     }
     
-    func adDidReceive(_ event: VIAdEvent)
-    {
-        switch event.type {
-        case .loaded:
-            self.playButton?.isEnabled = true
-            self.statusLabel?.text = "Loaded"
-            print("Ad loaded")
-        case .started:
-            print("Ad started")
-        case .closed:
-            print("Ad closed")
-            playButton?.isEnabled = false;
-            statusLabel?.text = "Idling";
-        case .clicked:
-            print("Ad clicked")
-        case .paused:
-            print("Ad paused")
-        case .resumed:
-            print("Ad resumed")
-        case .expired:
-            print("Ad expired")
-        case .completed:
-            print("Ad completed")
-            playButton?.isEnabled = false;
-            statusLabel?.text = "Idling";
-            ad = nil;
-        }
-    }
+	func adDidReceive(_ event: VIAdEvent)
+	{
+		switch event.type {
+		case .loaded:
+			playButton?.isEnabled = true
+			statusLabel?.text = "Loaded"
+			closeButton?.isEnabled = true
+			playButton?.setTitle("Play", for: .normal)
+			print("Ad loaded")
+		case .started:
+			playButton?.setTitle("Pause", for: .normal)
+			print("Ad started")
+		case .closed:
+			resetView()
+			print("Ad closed")
+		case .clicked:
+			print("Ad clicked")
+		case .paused:
+			statusLabel?.text = "Paused";
+			playButton?.setTitle("Resume", for: .normal)
+			print("Ad paused")
+		case .resumed:
+			statusLabel?.text = "Resumed";
+			playButton?.setTitle("Pause", for: .normal)
+			print("Ad resumed")
+		case .expired:
+			print("Ad expired")
+		case .completed:
+			print("Ad completed")
+			resetView()
+			ad = nil;
+		}
+	}
 }
